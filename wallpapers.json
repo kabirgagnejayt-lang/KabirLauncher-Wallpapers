@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "aspectRatio": "9:16",
+  "wallpapers": [
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "preview": "/wallpapers/aurora/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "url": "/wallpapers/aurora/720p.webp",
+          "bytes": 232152
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "url": "/wallpapers/aurora/1080p.webp",
+          "bytes": 431866
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "url": "/wallpapers/aurora/2k.webp",
+          "bytes": 590750
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "url": "/wallpapers/aurora/4k.webp",
+          "bytes": 1025344
+        }
+      }
+    },
+    {
+      "id": "dune",
+      "name": "Dune",
+      "preview": "/wallpapers/dune/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "url": "/wallpapers/dune/720p.webp",
+          "bytes": 148958
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "url": "/wallpapers/dune/1080p.webp",
+          "bytes": 267172
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "url": "/wallpapers/dune/2k.webp",
+          "bytes": 404278
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "url": "/wallpapers/dune/4k.webp",
+          "bytes": 720950
+        }
+      }
+    },
+    {
+      "id": "botanical",
+      "name": "Botanical",
+      "preview": "/wallpapers/botanical/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "url": "/wallpapers/botanical/720p.webp",
+          "bytes": 206362
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "url": "/wallpapers/botanical/1080p.webp",
+          "bytes": 364844
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "url": "/wallpapers/botanical/2k.webp",
+          "bytes": 520164
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "url": "/wallpapers/botanical/4k.webp",
+          "bytes": 884136
+        }
+      }
+    },
+    {
+      "id": "glass-tide",
+      "name": "Glass Tide",
+      "preview": "/wallpapers/glass-tide/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "url": "/wallpapers/glass-tide/720p.webp",
+          "bytes": 155750
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "url": "/wallpapers/glass-tide/1080p.webp",
+          "bytes": 276166
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "url": "/wallpapers/glass-tide/2k.webp",
+          "bytes": 394694
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "url": "/wallpapers/glass-tide/4k.webp",
+          "bytes": 688890
+        }
+      }
+    },
+    {
+      "id": "nebula",
+      "name": "Nebula",
+      "preview": "/wallpapers/nebula/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "url": "/wallpapers/nebula/720p.webp",
+          "bytes": 256854
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "url": "/wallpapers/nebula/1080p.webp",
+          "bytes": 467126
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "url": "/wallpapers/nebula/2k.webp",
+          "bytes": 641656
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "url": "/wallpapers/nebula/4k.webp",
+          "bytes": 1139528
+        }
+      }
+    },
+    {
+      "id": "moonlit",
+      "name": "Moonlit",
+      "preview": "/wallpapers/moonlit/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "url": "/wallpapers/moonlit/720p.webp",
+          "bytes": 196462
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "url": "/wallpapers/moonlit/1080p.webp",
+          "bytes": 361024
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "url": "/wallpapers/moonlit/2k.webp",
+          "bytes": 491692
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "url": "/wallpapers/moonlit/4k.webp",
+          "bytes": 883104
+        }
+      }
+    }
+  ]
+}
