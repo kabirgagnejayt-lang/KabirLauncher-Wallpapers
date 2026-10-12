@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "Color",
+      "name": "Color"
+    },
+    {
+      "id": "AMOLED",
+      "name": "AMOLED"
+    },
+    {
+      "id": "Nature",
+      "name": "Nature"
+    },
+    {
+      "id": "Abstract",
+      "name": "Abstract"
+    },
+    {
+      "id": "Space",
+      "name": "Space"
+    }
+  ]
+}
