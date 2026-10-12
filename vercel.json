@@ -5,6 +5,10 @@
       "destination": "/wallpapers.json"
     },
     {
+      "source": "/api/version",
+      "destination": "/version.json"
+    },
+    {
       "source": "/api/categories",
       "destination": "/categories.json"
     }
