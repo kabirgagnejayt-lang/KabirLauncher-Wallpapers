@@ -57,39 +57,39 @@
       "category": "Color",
       "description": "Soft blue hour",
       "bundled": true,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/dusk/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/dusk/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 9092,
           "mb": 0.009,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/dusk/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/dusk/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/dusk/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/dusk/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 17696,
           "mb": 0.018,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/dusk/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/dusk/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/dusk/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/dusk/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 28252,
           "mb": 0.028,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/dusk/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/dusk/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/dusk/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/dusk/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 53400,
           "mb": 0.053,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/dusk/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/dusk/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/dusk/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/dusk/4k.webp"
         }
       }
     },
@@ -100,39 +100,39 @@
       "category": "Color",
       "description": "Quiet garden tones",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/sage/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/sage/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 9818,
           "mb": 0.01,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/sage/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/sage/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/sage/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/sage/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 19196,
           "mb": 0.019,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/sage/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/sage/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/sage/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/sage/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 30696,
           "mb": 0.031,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/sage/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/sage/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/sage/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/sage/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 58866,
           "mb": 0.059,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/sage/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/sage/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/sage/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/sage/4k.webp"
         }
       }
     },
@@ -143,39 +143,39 @@
       "category": "Color",
       "description": "Deep sea blue",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/ocean/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/ocean/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 10232,
           "mb": 0.01,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/ocean/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/ocean/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/ocean/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/ocean/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 19854,
           "mb": 0.02,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/ocean/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/ocean/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/ocean/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/ocean/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 31232,
           "mb": 0.031,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/ocean/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/ocean/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/ocean/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/ocean/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 59690,
           "mb": 0.06,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/ocean/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/ocean/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/ocean/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/ocean/4k.webp"
         }
       }
     },
@@ -186,39 +186,39 @@
       "category": "Color",
       "description": "Muted rose dusk",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/rose/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/rose/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 10094,
           "mb": 0.01,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/rose/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/rose/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/rose/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/rose/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 19560,
           "mb": 0.02,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/rose/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/rose/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/rose/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/rose/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 31050,
           "mb": 0.031,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/rose/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/rose/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/rose/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/rose/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 59344,
           "mb": 0.059,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/rose/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/rose/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/rose/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/rose/4k.webp"
         }
       }
     },
@@ -229,39 +229,39 @@
       "category": "Color",
       "description": "Warm neutral curves",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/sand/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/sand/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 9452,
           "mb": 0.009,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/sand/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/sand/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/sand/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/sand/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 18668,
           "mb": 0.019,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/sand/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/sand/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/sand/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/sand/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 30310,
           "mb": 0.03,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/sand/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/sand/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/sand/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/sand/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 58234,
           "mb": 0.058,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/sand/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/sand/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/sand/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/sand/4k.webp"
         }
       }
     },
@@ -272,39 +272,39 @@
       "category": "AMOLED",
       "description": "Low light abstract",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/midnight/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/midnight/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 8366,
           "mb": 0.008,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/midnight/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/midnight/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/midnight/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/midnight/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 15970,
           "mb": 0.016,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/midnight/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/midnight/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/midnight/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/midnight/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 24666,
           "mb": 0.025,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/midnight/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/midnight/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/midnight/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/midnight/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 45846,
           "mb": 0.046,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/midnight/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/midnight/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/midnight/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/midnight/4k.webp"
         }
       }
     },
@@ -315,39 +315,39 @@
       "category": "AMOLED",
       "description": "Near-black orbital lines",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/orbit/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/orbit/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 34610,
           "mb": 0.035,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/orbit/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/orbit/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/orbit/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/orbit/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 56602,
           "mb": 0.057,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/orbit/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/orbit/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/orbit/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/orbit/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 80054,
           "mb": 0.08,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/orbit/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/orbit/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/orbit/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/orbit/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 125684,
           "mb": 0.126,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/orbit/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/orbit/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/orbit/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/orbit/4k.webp"
         }
       }
     },
@@ -358,39 +358,39 @@
       "category": "AMOLED",
       "description": "Minimal luminous halo",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/halo/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/halo/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 13806,
           "mb": 0.014,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/halo/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/halo/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/halo/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/halo/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 22842,
           "mb": 0.023,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/halo/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/halo/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/halo/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/halo/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 33702,
           "mb": 0.034,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/halo/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/halo/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/halo/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/halo/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 57086,
           "mb": 0.057,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/halo/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/halo/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/halo/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/halo/4k.webp"
         }
       }
     },
@@ -401,39 +401,39 @@
       "category": "AMOLED",
       "description": "Black contour curves",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/contour/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/contour/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 15002,
           "mb": 0.015,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/contour/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/contour/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/contour/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/contour/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 24658,
           "mb": 0.025,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/contour/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/contour/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/contour/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/contour/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 34960,
           "mb": 0.035,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/contour/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/contour/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/contour/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/contour/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 60878,
           "mb": 0.061,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/contour/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/contour/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/contour/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/contour/4k.webp"
         }
       }
     },
@@ -444,39 +444,39 @@
       "category": "Nature",
       "description": "Mountain aurora",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/aurora/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/aurora/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 232152,
           "mb": 0.232,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/aurora/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/aurora/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/aurora/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/aurora/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 431866,
           "mb": 0.432,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/aurora/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/aurora/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/aurora/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/aurora/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 590750,
           "mb": 0.591,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/aurora/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/aurora/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/aurora/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/aurora/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 1025344,
           "mb": 1.025,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/aurora/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/aurora/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/aurora/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/aurora/4k.webp"
         }
       }
     },
@@ -487,39 +487,39 @@
       "category": "Nature",
       "description": "Blue-hour desert",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/dune/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/dune/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 148958,
           "mb": 0.149,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/dune/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/dune/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/dune/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/dune/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 267172,
           "mb": 0.267,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/dune/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/dune/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/dune/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/dune/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 404278,
           "mb": 0.404,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/dune/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/dune/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/dune/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/dune/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 720950,
           "mb": 0.721,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/dune/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/dune/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/dune/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/dune/4k.webp"
         }
       }
     },
@@ -530,39 +530,39 @@
       "category": "AMOLED",
       "description": "Moonlit leaves on black",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/botanical/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/botanical/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 206362,
           "mb": 0.206,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/botanical/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/botanical/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/botanical/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/botanical/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 364844,
           "mb": 0.365,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/botanical/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/botanical/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/botanical/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/botanical/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 520164,
           "mb": 0.52,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/botanical/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/botanical/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/botanical/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/botanical/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 884136,
           "mb": 0.884,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/botanical/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/botanical/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/botanical/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/botanical/4k.webp"
         }
       }
     },
@@ -573,39 +573,39 @@
       "category": "Abstract",
       "description": "Flowing teal glass",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/glass-tide/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/glass-tide/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 155750,
           "mb": 0.156,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/glass-tide/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/glass-tide/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/glass-tide/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/glass-tide/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 276166,
           "mb": 0.276,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/glass-tide/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/glass-tide/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/glass-tide/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/glass-tide/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 394694,
           "mb": 0.395,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/glass-tide/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/glass-tide/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/glass-tide/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/glass-tide/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 688890,
           "mb": 0.689,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/glass-tide/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/glass-tide/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/glass-tide/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/glass-tide/4k.webp"
         }
       }
     },
@@ -616,39 +616,39 @@
       "category": "Space",
       "description": "Indigo and plum clouds",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/nebula/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/nebula/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 256854,
           "mb": 0.257,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/nebula/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/nebula/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/nebula/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/nebula/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 467126,
           "mb": 0.467,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/nebula/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/nebula/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/nebula/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/nebula/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 641656,
           "mb": 0.642,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/nebula/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/nebula/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/nebula/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/nebula/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 1139528,
           "mb": 1.14,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/nebula/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/nebula/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/nebula/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/nebula/4k.webp"
         }
       }
     },
@@ -659,39 +659,39 @@
       "category": "Space",
       "description": "Quiet lunar sky",
       "bundled": false,
-      "preview": "https://kabirlauncher.vercel.app/wallpapers/moonlit/720p.webp",
+      "preview": "https://kabirlauncher.kabirinvents.com/wallpapers/moonlit/720p.webp",
       "variants": {
         "720p": {
           "width": 720,
           "height": 1280,
           "bytes": 196462,
           "mb": 0.196,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/moonlit/720p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/moonlit/720p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/moonlit/720p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/moonlit/720p.webp"
         },
         "1080p": {
           "width": 1080,
           "height": 1920,
           "bytes": 361024,
           "mb": 0.361,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/moonlit/1080p.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/moonlit/1080p.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/moonlit/1080p.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/moonlit/1080p.webp"
         },
         "2k": {
           "width": 1440,
           "height": 2560,
           "bytes": 491692,
           "mb": 0.492,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/moonlit/2k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/moonlit/2k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/moonlit/2k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/moonlit/2k.webp"
         },
         "4k": {
           "width": 2160,
           "height": 3840,
           "bytes": 883104,
           "mb": 0.883,
-          "url": "https://kabirlauncher.vercel.app/wallpapers/moonlit/4k.webp",
-          "downloadUrl": "https://kabirlauncher.vercel.app/wallpapers/moonlit/4k.webp"
+          "url": "https://kabirlauncher.kabirinvents.com/wallpapers/moonlit/4k.webp",
+          "downloadUrl": "https://kabirlauncher.kabirinvents.com/wallpapers/moonlit/4k.webp"
         }
       }
     }
