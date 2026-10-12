@@ -23,3 +23,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Robot
 .real-phone{padding:4px;background:linear-gradient(140deg,#62697b,#282d3a 60%,#515765);box-shadow:0 18px 45px #0004}
 .screens-grid{gap:36px}.screen-label{color:#cbd0dc}.hero-device .real-phone{max-width:300px}
 @media(min-width:900px){.screens-grid .real-phone{max-width:310px}}
+
+/* KabirLauncher version header mobile layout */
+@media(max-width:640px){nav{gap:9px;font-size:11px}.brand{font-size:15px;gap:6px}.brand img{width:28px}.beta-label{display:inline-flex;white-space:nowrap;font-size:10px;padding:1px 6px}}
+@media(max-width:360px){header{padding-left:12px;padding-right:12px}nav{gap:6px;font-size:10px}.brand{font-size:13px}.beta-label{font-size:9px;padding:1px 4px}}
