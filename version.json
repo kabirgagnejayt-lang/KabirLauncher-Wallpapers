@@ -1,8 +1,8 @@
 {
-  "versionName": "2.0",
-  "versionCode": 2,
+  "versionName": "1.0",
+  "versionCode": 3,
   "channel": "beta",
-  "publishedAtMillis": 1791808412955,
+  "publishedAtMillis": 1791809824451,
   "importance": "normal",
   "popupAfterDays": 14,
   "popupReminderDays": 7,
