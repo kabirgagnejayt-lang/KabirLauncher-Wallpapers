@@ -1,4 +1,4 @@
-# KabirLauncher
+# KabirUI
 
 Launcher landing page and wallpaper API on one Vercel site.
 
