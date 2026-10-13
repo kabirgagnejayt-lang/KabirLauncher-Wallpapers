@@ -1,11 +1,42 @@
 {
-  "versionName": "1.0",
-  "versionCode": 3,
+  "versionName": "2.1.0-beta",
+  "versionCode": 5,
   "channel": "beta",
-  "publishedAtMillis": 1791809824451,
+  "publishedAtMillis": 1791874229000,
   "importance": "normal",
   "popupAfterDays": 14,
   "popupReminderDays": 7,
-  "releaseNotes": "",
+  "releaseNotes": "A version-aware What’s New experience, a new changelog widget, and built-in widget improvements.",
+  "changes": [
+    {
+      "title": "What’s New widget",
+      "detail": "See the current KabirUI version on your home screen. Tap the widget to read the full changelog."
+    },
+    {
+      "title": "A changelog for every release",
+      "detail": "Release notes and individual changes come from the version API, so each published version can show its own changelog."
+    },
+    {
+      "title": "Update banner on first launch",
+      "detail": "After installing a new app version, a small What’s New banner appears once and can open the full release notes."
+    },
+    {
+      "title": "Liquid glass music widget",
+      "detail": "See the active track, artwork and progress, with playback controls that adapt to the widget size."
+    },
+    {
+      "title": "Settings for each music widget",
+      "detail": "Choose whether a widget follows the active player or stays with one player, and adjust its artwork, progress and glass tint."
+    },
+    {
+      "title": "Weather and widget layout fixes",
+      "detail": "Compact weather cards and built-in widgets adapt to their real grid size, helping their details stay visible."
+    },
+    {
+      "title": "Universal font",
+      "detail": "Use one typeface across KabirUI screens, built-in widgets and home-screen app labels."
+    }
+  ],
   "updateUrl": ""
 }
+
