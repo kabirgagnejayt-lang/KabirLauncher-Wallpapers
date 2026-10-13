@@ -15,7 +15,7 @@
   ],
   "headers": [
     {
-      "source": "/api/(.*)",
+      "source": "/api/:endpoint(wallpapers|version|categories)",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
