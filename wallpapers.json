@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T12:21:17.639Z",
+  "updatedAt": "2026-10-14T13:01:30.082Z",
   "categories": [
     {
       "id": "Color",
@@ -692,6 +692,221 @@
           "mb": 0.883,
           "url": "https://kabirui.kabirinvents.com/wallpapers/moonlit/4k.webp",
           "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/moonlit/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "slug": "mist-stone",
+      "name": "Mist & Stone",
+      "category": "Nature",
+      "description": "Quiet monochrome mountain mist",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/mist-stone/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 81564,
+          "mb": 0.082,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/mist-stone/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/mist-stone/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 136166,
+          "mb": 0.136,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/mist-stone/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/mist-stone/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 195922,
+          "mb": 0.196,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/mist-stone/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/mist-stone/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 320990,
+          "mb": 0.321,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/mist-stone/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/mist-stone/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "slug": "cobalt-glass",
+      "name": "Cobalt Glass",
+      "category": "Abstract",
+      "description": "Flowing cobalt glass",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/cobalt-glass/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 63538,
+          "mb": 0.064,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/cobalt-glass/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/cobalt-glass/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 105202,
+          "mb": 0.105,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/cobalt-glass/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/cobalt-glass/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 146684,
+          "mb": 0.147,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/cobalt-glass/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/cobalt-glass/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 235076,
+          "mb": 0.235,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/cobalt-glass/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/cobalt-glass/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "slug": "desert-dusk",
+      "name": "Desert Dusk",
+      "category": "Nature",
+      "description": "Warm dunes at sunset",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/desert-dusk/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 42528,
+          "mb": 0.043,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/desert-dusk/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/desert-dusk/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 73388,
+          "mb": 0.073,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/desert-dusk/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/desert-dusk/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 107210,
+          "mb": 0.107,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/desert-dusk/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/desert-dusk/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 185220,
+          "mb": 0.185,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/desert-dusk/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/desert-dusk/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 18,
+      "slug": "emerald-fern",
+      "name": "Emerald Fern",
+      "category": "AMOLED",
+      "description": "Dew-covered emerald fern",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/emerald-fern/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 146702,
+          "mb": 0.147,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/emerald-fern/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/emerald-fern/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 237986,
+          "mb": 0.238,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/emerald-fern/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/emerald-fern/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 322588,
+          "mb": 0.323,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/emerald-fern/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/emerald-fern/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 492104,
+          "mb": 0.492,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/emerald-fern/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/emerald-fern/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "slug": "soft-dawn",
+      "name": "Soft Dawn",
+      "category": "Color",
+      "description": "Pastel sunrise waves",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 31044,
+          "mb": 0.031,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 51210,
+          "mb": 0.051,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 74064,
+          "mb": 0.074,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 127402,
+          "mb": 0.127,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/4k.webp"
         }
       }
     }
