@@ -3,10 +3,10 @@
   "versionCode": 9,
   "channel": "stable",
   "publishedAtMillis": 1793318400000,
-  "importance": "high",
+  "importance": "important",
   "popupAfterDays": 14,
   "popupReminderDays": 7,
-  "releaseNotes": "KabirUI 3.0: Full 3D visual overhaul, 10 clock & battery styles, glassmorphic folders, live search, and fluid performance.",
+  "releaseNotes": "KabirUI 3.0: Full 3D visual overhaul, 10 clock & battery styles, glassmorphic folders, live search, Adaptive Home, Free placement, and Home Modes.",
   "changes": [
     {
       "title": "Major 3.0 Release",
@@ -18,7 +18,7 @@
     },
     {
       "title": "Interactive App Drawer",
-      "detail": "Custom vector glyphs, category icon indicators, and a floating A–Z alphabet scrubber bubble."
+      "detail": "Browse swipeable categories, jump A–Z with a floating preview bubble, search apps, and organize your drawer with custom categories and optional usage shelves."
     },
     {
       "title": "Live Settings Search",
@@ -27,6 +27,22 @@
     {
       "title": "Glassmorphic Folders & Quick Dock",
       "detail": "Redesigned folder surfaces with live app filtering and interactive dock slot editing."
+    },
+    {
+      "title": "Adaptive Home",
+      "detail": "Get local, time-aware app suggestions and supported shortcuts on your home screen, with a clear reason for each pick."
+    },
+    {
+      "title": "Free placement",
+      "detail": "Place apps and widgets anywhere on your home screen with grid-free dragging."
+    },
+    {
+      "title": "Home Modes",
+      "detail": "Save separate home setups and switch manually or on an automatic weekly schedule."
+    },
+    {
+      "title": "Backup & transfer",
+      "detail": "Save Home Modes, layouts, wallpapers, custom icons and selected settings to a single file to move to another device."
     }
   ],
   "updateUrl": "https://play.google.com/store/apps/details?id=com.kabirinvents.kabirlauncher"
