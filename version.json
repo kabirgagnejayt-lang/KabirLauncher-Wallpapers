@@ -1,40 +1,32 @@
 {
-  "versionName": "2.1.0-beta",
-  "versionCode": 5,
-  "channel": "beta",
-  "publishedAtMillis": 1791874229000,
-  "importance": "normal",
+  "versionName": "3.0.0",
+  "versionCode": 9,
+  "channel": "stable",
+  "publishedAtMillis": 1793318400000,
+  "importance": "high",
   "popupAfterDays": 14,
   "popupReminderDays": 7,
-  "releaseNotes": "A version-aware What’s New experience, a new changelog widget, and built-in widget improvements.",
+  "releaseNotes": "KabirUI 3.0: Full 3D visual overhaul, 10 clock & battery styles, glassmorphic folders, live search, and fluid performance.",
   "changes": [
     {
-      "title": "What’s New widget",
-      "detail": "See the current KabirUI version on your home screen. Tap the widget to read the full changelog."
+      "title": "Major 3.0 Release",
+      "detail": "KabirUI 3.0 brings a complete UI overhaul, full-screen polish, glassmorphic folders, and fluid animations."
     },
     {
-      "title": "A changelog for every release",
-      "detail": "Release notes and individual changes come from the version API, so each published version can show its own changelog."
+      "title": "10 Clock & Battery Styles",
+      "detail": "All 10 handcrafted clock styles and 10 battery meters are restored with height-aware geometry and zero text clipping."
     },
     {
-      "title": "Update banner on first launch",
-      "detail": "After installing a new app version, a small What’s New banner appears once and can open the full release notes."
+      "title": "Interactive App Drawer",
+      "detail": "Custom vector glyphs, category icon indicators, and a floating A–Z alphabet scrubber bubble."
     },
     {
-      "title": "Liquid glass music widget",
-      "detail": "See the active track, artwork and progress, with playback controls that adapt to the widget size."
+      "title": "Live Settings Search",
+      "detail": "Find any customization option instantly with real-time settings filtering and high contrast support."
     },
     {
-      "title": "Settings for each music widget",
-      "detail": "Choose whether a widget follows the active player or stays with one player, and adjust its artwork, progress and glass tint."
-    },
-    {
-      "title": "Weather and widget layout fixes",
-      "detail": "Compact weather cards and built-in widgets adapt to their real grid size, helping their details stay visible."
-    },
-    {
-      "title": "Universal font",
-      "detail": "Use one typeface across KabirUI screens, built-in widgets and home-screen app labels."
+      "title": "Glassmorphic Folders & Quick Dock",
+      "detail": "Redesigned folder surfaces with live app filtering and interactive dock slot editing."
     }
   ],
   "updateUrl": "https://play.google.com/store/apps/details?id=com.kabirinvents.kabirlauncher"
