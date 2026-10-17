@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1280" viewBox="0 0 720 1280">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="180" y2="1280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#080D1A"/><stop offset="1" stop-color="#171A35"/>
+    </linearGradient>
+
+    <radialGradient id="planet" cx="334.22400000000005" cy="619.1800000000001" r="253.79999999999998" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9AA8E5"/><stop offset=".5" stop-color="#455A99"/><stop offset="1" stop-color="#151A39"/>
+    </radialGradient>
+    <filter id="orbiter-glow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="11.844000000000001" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="720" height="1280" fill="#080D1A"/>
+  <rect width="720" height="1280" fill="url(#background)"/>
+  <circle cx="385.863" cy="327.708" r="1.8" fill="#DCE7FF" fill-opacity="0.09"/>
+<circle cx="363.028" cy="132.953" r="1.1" fill="#DCE7FF" fill-opacity="0.163"/>
+<circle cx="635.188" cy="411.67" r="1.1" fill="#DCE7FF" fill-opacity="0.199"/>
+<circle cx="395.519" cy="991.126" r="1.1" fill="#DCE7FF" fill-opacity="0.18"/>
+<circle cx="628.855" cy="552.945" r="1.1" fill="#DCE7FF" fill-opacity="0.114"/>
+<circle cx="297.365" cy="703.333" r="1.8" fill="#DCE7FF" fill-opacity="0.036"/>
+<circle cx="203.591" cy="726.857" r="1.1" fill="#DCE7FF" fill-opacity="0.03"/>
+<circle cx="91.309" cy="569.936" r="1.1" fill="#DCE7FF" fill-opacity="0.03"/>
+<circle cx="67.05" cy="682.329" r="1.1" fill="#DCE7FF" fill-opacity="0.043"/>
+<circle cx="484.007" cy="913.404" r="1.1" fill="#DCE7FF" fill-opacity="0.121"/>
+<circle cx="556.536" cy="588.072" r="1.8" fill="#DCE7FF" fill-opacity="0.184"/>
+<circle cx="229.798" cy="1159.341" r="1.1" fill="#DCE7FF" fill-opacity="0.198"/>
+<circle cx="209.929" cy="806.381" r="1.1" fill="#DCE7FF" fill-opacity="0.158"/>
+<circle cx="124.577" cy="162.379" r="1.1" fill="#DCE7FF" fill-opacity="0.083"/>
+<circle cx="122.274" cy="949.376" r="1.1" fill="#DCE7FF" fill-opacity="0.03"/>
+<circle cx="530.063" cy="43.701" r="1.8" fill="#DCE7FF" fill-opacity="0.03"/>
+<circle cx="445.856" cy="1216.742" r="1.1" fill="#DCE7FF" fill-opacity="0.03"/>
+<circle cx="396.751" cy="639.877" r="1.1" fill="#DCE7FF" fill-opacity="0.073"/>
+<circle cx="694.08" cy="1217.63" r="1.1" fill="#DCE7FF" fill-opacity="0.15"/>
+<circle cx="299.642" cy="117.317" r="1.1" fill="#DCE7FF" fill-opacity="0.196"/>
+<circle cx="20.551" cy="649.072" r="1.8" fill="#DCE7FF" fill-opacity="0.188"/>
+<circle cx="0.498" cy="281.74" r="1.1" fill="#DCE7FF" fill-opacity="0.131"/>
+<circle cx="704.227" cy="744.413" r="1.1" fill="#DCE7FF" fill-opacity="0.052"/>
+<circle cx="577.503" cy="291.741" r="1.1" fill="#DCE7FF" fill-opacity="0.03"/><ellipse cx="381.6" cy="678.4000000000001" rx="262.26" ry="93.06" transform="rotate(-24 381.6 678.4000000000001)" fill="none" stroke="#5DAEE8" stroke-opacity=".4" stroke-width="2.538"/>
+<ellipse cx="381.6" cy="678.4000000000001" rx="304.56" ry="106.59599999999999" transform="rotate(13 381.6 678.4000000000001)" fill="none" stroke="#8B78E8" stroke-opacity=".4" stroke-width="2.538"/>
+<ellipse cx="381.6" cy="678.4000000000001" rx="346.85999999999996" ry="120.132" transform="rotate(50 381.6 678.4000000000001)" fill="none" stroke="#6ADAC7" stroke-opacity=".333" stroke-width="2.538"/>
+    <circle cx="381.6" cy="678.4000000000001" r="169.2" fill="url(#planet)"/>
+    <circle cx="708.8713923891052" cy="729.1349793093403" r="11.844000000000001" fill="#9DE9E2" filter="url(#orbiter-glow)"/>
+    <circle cx="17.82000000000005" cy="641.176" r="5.922000000000001" fill="#B6A5FF"/>
+</svg>

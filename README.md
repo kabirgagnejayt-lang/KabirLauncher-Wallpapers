@@ -9,4 +9,6 @@ GET /api/wallpapers returns the complete catalog, categories, available resoluti
 
 GET /api/version returns the current launcher release from `version.json`. The Android launcher compares the numeric `versionCode` with its installed build, shows a dismissible banner for a newer release, and can show an important-update popup after `popupAfterDays`. A postponed popup returns after `popupReminderDays`.
 
+The catalog includes `live-aurora`, `live-orbit` and `live-flow` as downloadable still exports at each supported resolution. These files capture the live scenes at one point in their animation; the moving wallpapers themselves are rendered locally by the Android app and do not download artwork from this site.
+
 For a release, set `versionName`, increase `versionCode`, and update `publishedAtMillis` in `version.json`. Use `importance: "normal"` for the banner or `"important"` for the delayed popup. Add release details to `releaseNotes`. Set `updateUrl` to the official HTTPS download page when it exists; while it is blank, the app shows the update notice without an Update button. Also update the Android app's `versionName` and `versionCode` in `app/build.gradle.kts` and publish the signed app build. For example, `0.10` to `0.11` should use a larger numeric `versionCode` (such as 10 to 11); the app compares codes rather than version text.

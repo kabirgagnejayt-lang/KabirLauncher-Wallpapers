@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T13:01:30.082Z",
+  "updatedAt": "2026-10-17T05:58:34.610Z",
   "categories": [
     {
       "id": "Color",
@@ -907,6 +907,135 @@
           "mb": 0.127,
           "url": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/4k.webp",
           "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "slug": "live-aurora",
+      "name": "Aurora Live",
+      "category": "Space",
+      "description": "A still export of the KabirUI Aurora live wallpaper scene.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/live-aurora/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 11272,
+          "mb": 0.011,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/live-aurora/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/live-aurora/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 13848,
+          "mb": 0.014,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/live-aurora/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/live-aurora/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 16544,
+          "mb": 0.017,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/live-aurora/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/live-aurora/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 24850,
+          "mb": 0.025,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/live-aurora/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/live-aurora/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 21,
+      "slug": "live-orbit",
+      "name": "Orbit Live",
+      "category": "Space",
+      "description": "A still export of the KabirUI Orbit live wallpaper scene.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/live-orbit/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 10796,
+          "mb": 0.011,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/live-orbit/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/live-orbit/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 13298,
+          "mb": 0.013,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/live-orbit/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/live-orbit/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 16194,
+          "mb": 0.016,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/live-orbit/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/live-orbit/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 24382,
+          "mb": 0.024,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/live-orbit/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/live-orbit/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "slug": "live-flow",
+      "name": "Flow Live",
+      "category": "Abstract",
+      "description": "A still export of the KabirUI Flow live wallpaper scene.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/live-flow/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 15182,
+          "mb": 0.015,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/live-flow/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/live-flow/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 17792,
+          "mb": 0.018,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/live-flow/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/live-flow/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 20780,
+          "mb": 0.021,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/live-flow/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/live-flow/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 28836,
+          "mb": 0.029,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/live-flow/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/live-flow/4k.webp"
         }
       }
     }
