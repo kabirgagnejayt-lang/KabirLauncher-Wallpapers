@@ -7,28 +7,28 @@
       "title": "Today Page",
       "subtitle": "Your day, one swipe away",
       "description": "Build a personal side page with the things you care about: weather, calendar, headlines, tasks, photos, and quick information. Choose the cards and layout that work for you.",
-      "preview": "/assets/launcher_real_home.png"
+      "preview": "/assets/kabirui-market/today.png"
     },
     {
       "id": "home_modes",
       "title": "Home Modes",
       "subtitle": "A home for every part of your day",
       "description": "Save separate layouts, wallpapers, and visual choices for work, home, or focus. Switch modes yourself or let a schedule do it. Existing modes stay saved until you choose to uninstall this app.",
-      "preview": "/assets/home-screen.png"
+      "preview": "/assets/kabirui-market/home-modes.png"
     },
     {
       "id": "universal_font",
       "title": "Universal Font",
       "subtitle": "One typeface across KabirUI",
       "description": "Choose a typeface that carries through KabirUI screens, widgets, and app labels. Your current choice stays saved while this app is opted out, and uninstalling resets it to the default.",
-      "preview": "/assets/launcher_live_search.png"
+      "preview": "/assets/kabirui-market/universal-font.png"
     },
     {
       "id": "adaptive_home",
       "title": "Adaptive Home",
       "subtitle": "Useful apps, right when you need them",
       "description": "Show a small row of useful apps based on launches through KabirUI. Optional Usage Access can improve suggestions using activity stored on this phone; Android asks separately, and the data stays on-device.",
-      "preview": "/assets/launcher_live_drawer.png"
+      "preview": "/assets/kabirui-market/adaptive-home.png"
     }
   ]
 }
