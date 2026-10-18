@@ -3,25 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="KabirUI 3.0: Next-generation personal Android home screen with 3D aesthetic, 10 clock & battery styles, glassmorphic folders and intelligent privacy-first search. Launching October 30.">
+  <meta name="theme-color" content="#0a0f0d">
+  <meta name="description" content="KabirUI: a privacy-first Android launcher with 48 clock and 48 battery widget styles, customizable icons, local search, optional Google suggestions, and 63 wallpapers.">
   <title>KabirUI 3.0 — The Future of Android Home Screens</title>
-  <link rel="icon" href="assets/kabirui-icon.png">
-  <link rel="apple-touch-icon" href="assets/kabirui-icon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/kabirui-mark.png">
+  <link rel="apple-touch-icon" href="assets/kabirui-mark.png">
+  <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Ambient Interactive Background -->
-  <canvas id="bg-canvas"></canvas>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
   <div class="aurora-bg"></div>
 
   <!-- Floating Navigation Island -->
   <header>
     <div class="nav-island">
-      <a class="brand" href="#">
-        <img class="brand-icon" src="assets/kabirui-icon.png" alt="KabirUI Icon">
+      <a class="brand" href="/">
+        <img class="brand-icon" src="assets/kabirui-mark.png" alt="">
         <span>KabirUI</span>
         <span class="version-pill" id="version-badge">v3.0.0</span>
       </a>
@@ -47,7 +47,7 @@
           Reimagined in <span class="gradient-text">KabirUI 3.0</span>.
         </h1>
         <p class="hero-sub">
-          An ultra-fluid, privacy-first Android launcher featuring 10 handcrafted clock & battery styles, glassmorphic folders, live search, and full-screen aesthetic perfection.
+          A privacy-first Android launcher with 48 clock and 48 battery widget designs, glassmorphic folders, customizable icons, local search, optional web suggestions, and 63 wallpapers.
         </p>
 
         <!-- Dynamic Live Countdown -->
@@ -87,7 +87,7 @@
           <!-- Floating 3D Micro Cards -->
           <div class="floating-badge badge-top-left">
             <span class="badge-icon">✓</span>
-            <span>10 Custom Clock Styles</span>
+            <span>96 Widget Styles</span>
           </div>
           <div class="floating-badge badge-bottom-right">
             <span class="badge-icon">⚡</span>
@@ -123,8 +123,8 @@
             <img src="assets/launcher_real_home.png" loading="lazy" alt="KabirUI 3.0 Home Screen with Clock and Battery Widgets">
           </div>
           <div class="ui-card-desc">
-            <h3>10 Restored Widget Looks</h3>
-            <p>From minimal glass and analog dials to 20-tick battery segments and split stacks. Never clipped, always sharp.</p>
+            <h3>96 Widget Looks</h3>
+            <p>Choose from 48 clock faces and 48 battery designs, filter styles by look, then tune clock typeface and seconds, color, scale, alignment, detail, battery labels, charging icon, accents, and per-widget surface opacity.</p>
           </div>
         </article>
 
@@ -154,7 +154,7 @@
           </div>
           <div class="ui-card-desc">
             <h3>Frosted Live Search</h3>
-            <p>Search apps, contacts, settings, and files with one swipe. Completely private and computed entirely on-device.</p>
+            <p>Find apps, contacts, settings, and files in one swipe. Local results stay on-device; web suggestions are on by default, can be turned off, and send your query to Google.</p>
           </div>
         </article>
       </div>
@@ -165,77 +165,520 @@
       <div class="section-head" style="margin-bottom: 30px;">
         <span class="tag-label">Curated Aesthetics</span>
         <h2>A Change of Scenery</h2>
-        <p>Ultra high-resolution curated wallpapers designed specifically to complement KabirUI's frosted glass layers.</p>
+        <p>Browse 63 curated scenes across color, nature, floral, architecture, abstract, space, and AMOLED styles.</p>
       </div>
 
-      <div class="marquee-container">
-        <div class="marquee-track">
-          <!-- Set 1 -->
-          <div class="wp-figure">
-            <img src="assets/aurora-preview.webp" loading="lazy" alt="Aurora Wallpaper">
-            <div class="wp-caption">Aurora Borealis</div>
-          </div>
-          <div class="wp-figure">
-            <img src="assets/botanical-preview.webp" loading="lazy" alt="Botanical Wallpaper">
-            <div class="wp-caption">Botanical Glass</div>
-          </div>
-          <div class="wp-figure">
-            <img src="assets/dunes-preview.webp" loading="lazy" alt="Dunes Wallpaper">
-            <div class="wp-caption">Dune Shadows</div>
-          </div>
-          <div class="wp-figure">
-            <img src="assets/glass-preview.webp" loading="lazy" alt="Glass Tide Wallpaper">
-            <div class="wp-caption">Glass Tide</div>
-          </div>
-          <div class="wp-figure">
-            <img src="assets/moon-preview.webp" loading="lazy" alt="Moonlit Wallpaper">
-            <div class="wp-caption">Moonlit Orbit</div>
-          </div>
-          <div class="wp-figure">
-            <img src="assets/nebula-preview.webp" loading="lazy" alt="Nebula Wallpaper">
-            <div class="wp-caption">Deep Nebula</div>
-          </div>
-          <div class="wp-figure">
-            <img src="assets/cobalt-glass-preview.webp" loading="lazy" alt="Cobalt Glass Wallpaper">
-            <div class="wp-caption">Cobalt Glass</div>
-          </div>
-          <div class="wp-figure">
-            <img src="assets/emerald-fern-preview.webp" loading="lazy" alt="Emerald Fern Wallpaper">
-            <div class="wp-caption">Emerald Fern</div>
-          </div>
+      <div class="wallpaper-controls">
+        <button class="wallpaper-motion-toggle" id="wallpaper-motion-toggle" type="button" aria-controls="wallpaper-carousel" aria-pressed="false">Pause wallpaper motion</button>
+      </div>
 
-          <!-- Duplicate Set for Seamless Loop -->
+      <div class="marquee-container" id="wallpaper-carousel">
+        <div class="marquee-track">
+          <!-- Catalog scenes -->
+          <div class="wp-figure">
+            <img src="wallpapers/dusk/720p.webp" loading="lazy" alt="Dusk wallpaper">
+            <div class="wp-caption">Dusk</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/sage/720p.webp" loading="lazy" alt="Sage wallpaper">
+            <div class="wp-caption">Sage</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/ocean/720p.webp" loading="lazy" alt="Ocean wallpaper">
+            <div class="wp-caption">Ocean</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/rose/720p.webp" loading="lazy" alt="Rose wallpaper">
+            <div class="wp-caption">Rose</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/sand/720p.webp" loading="lazy" alt="Sand wallpaper">
+            <div class="wp-caption">Sand</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/midnight/720p.webp" loading="lazy" alt="Midnight wallpaper">
+            <div class="wp-caption">Midnight</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/orbit/720p.webp" loading="lazy" alt="Orbit wallpaper">
+            <div class="wp-caption">Orbit</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/halo/720p.webp" loading="lazy" alt="Halo wallpaper">
+            <div class="wp-caption">Halo</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/contour/720p.webp" loading="lazy" alt="Contour wallpaper">
+            <div class="wp-caption">Contour</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/aurora/720p.webp" loading="lazy" alt="Aurora wallpaper">
+            <div class="wp-caption">Aurora</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/dune/720p.webp" loading="lazy" alt="Dune wallpaper">
+            <div class="wp-caption">Dune</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/botanical/720p.webp" loading="lazy" alt="Botanical wallpaper">
+            <div class="wp-caption">Botanical</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/glass-tide/720p.webp" loading="lazy" alt="Glass Tide wallpaper">
+            <div class="wp-caption">Glass Tide</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/nebula/720p.webp" loading="lazy" alt="Nebula wallpaper">
+            <div class="wp-caption">Nebula</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/moonlit/720p.webp" loading="lazy" alt="Moonlit wallpaper">
+            <div class="wp-caption">Moonlit</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/mist-stone/720p.webp" loading="lazy" alt="Mist &amp; Stone wallpaper">
+            <div class="wp-caption">Mist &amp; Stone</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/cobalt-glass/720p.webp" loading="lazy" alt="Cobalt Glass wallpaper">
+            <div class="wp-caption">Cobalt Glass</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/desert-dusk/720p.webp" loading="lazy" alt="Desert Dusk wallpaper">
+            <div class="wp-caption">Desert Dusk</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/emerald-fern/720p.webp" loading="lazy" alt="Emerald Fern wallpaper">
+            <div class="wp-caption">Emerald Fern</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/soft-dawn/720p.webp" loading="lazy" alt="Soft Dawn wallpaper">
+            <div class="wp-caption">Soft Dawn</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/quiet-arch/720p.webp" loading="lazy" alt="Quiet Arch wallpaper">
+            <div class="wp-caption">Quiet Arch</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/silkfold/720p.webp" loading="lazy" alt="Silk Fold wallpaper">
+            <div class="wp-caption">Silk Fold</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/eclipse-bloom/720p.webp" loading="lazy" alt="Eclipse Bloom wallpaper">
+            <div class="wp-caption">Eclipse Bloom</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/boreal-quiet/720p.webp" loading="lazy" alt="Boreal Quiet wallpaper">
+            <div class="wp-caption">Boreal Quiet</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/citrine-haze/720p.webp" loading="lazy" alt="Citrine Haze wallpaper">
+            <div class="wp-caption">Citrine Haze</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/greenhouse-after-rain/720p.webp" loading="lazy" alt="Greenhouse After Rain wallpaper">
+            <div class="wp-caption">Greenhouse After Rain</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/midnight-geometry/720p.webp" loading="lazy" alt="Midnight Geometry wallpaper">
+            <div class="wp-caption">Midnight Geometry</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/sandstone-monolith/720p.webp" loading="lazy" alt="Sandstone Monolith wallpaper">
+            <div class="wp-caption">Sandstone Monolith</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/monsoon-glass/720p.webp" loading="lazy" alt="Monsoon Glass wallpaper">
+            <div class="wp-caption">Monsoon Glass</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/amethyst-current/720p.webp" loading="lazy" alt="Amethyst Current wallpaper">
+            <div class="wp-caption">Amethyst Current</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/petal-sundown/720p.webp" loading="lazy" alt="Petal Sundown wallpaper">
+            <div class="wp-caption">Petal Sundown</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/saffron-strata/720p.webp" loading="lazy" alt="Saffron Strata wallpaper">
+            <div class="wp-caption">Saffron Strata</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/rainlight/720p.webp" loading="lazy" alt="Rainlight wallpaper">
+            <div class="wp-caption">Rainlight</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/salt-bloom/720p.webp" loading="lazy" alt="Salt Bloom wallpaper">
+            <div class="wp-caption">Salt Bloom</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/prismatic-current/720p.webp" loading="lazy" alt="Prismatic Current wallpaper">
+            <div class="wp-caption">Prismatic Current</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/cloud-garden/720p.webp" loading="lazy" alt="Cloud Garden wallpaper">
+            <div class="wp-caption">Cloud Garden</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/emberline/720p.webp" loading="lazy" alt="Emberline wallpaper">
+            <div class="wp-caption">Emberline</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/nocturne-circuit/720p.webp" loading="lazy" alt="Nocturne Circuit wallpaper">
+            <div class="wp-caption">Nocturne Circuit</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/cosmic-bloom/720p.webp" loading="lazy" alt="Cosmic Bloom wallpaper">
+            <div class="wp-caption">Cosmic Bloom</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/city-glass/720p.webp" loading="lazy" alt="City Glass wallpaper">
+            <div class="wp-caption">City Glass</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/lotus-afterglow/720p.webp" loading="lazy" alt="Lotus Afterglow wallpaper">
+            <div class="wp-caption">Lotus Afterglow</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/tidal-glass/720p.webp" loading="lazy" alt="Tidal Glass wallpaper">
+            <div class="wp-caption">Tidal Glass</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/solar-loom/720p.webp" loading="lazy" alt="Solar Loom wallpaper">
+            <div class="wp-caption">Solar Loom</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/mosslight/720p.webp" loading="lazy" alt="Mosslight wallpaper">
+            <div class="wp-caption">Mosslight</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/porcelain-sky/720p.webp" loading="lazy" alt="Porcelain Sky wallpaper">
+            <div class="wp-caption">Porcelain Sky</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/prismfall/720p.webp" loading="lazy" alt="Prismfall wallpaper">
+            <div class="wp-caption">Prismfall</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/velvet-skyline/720p.webp" loading="lazy" alt="Velvet Skyline wallpaper">
+            <div class="wp-caption">Velvet Skyline</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/perigee/720p.webp" loading="lazy" alt="Perigee wallpaper">
+            <div class="wp-caption">Perigee</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/glacier-bloom/720p.webp" loading="lazy" alt="Glacier Bloom wallpaper">
+            <div class="wp-caption">Glacier Bloom</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/copper-atlas/720p.webp" loading="lazy" alt="Copper Atlas wallpaper">
+            <div class="wp-caption">Copper Atlas</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/glass-orchid/720p.webp" loading="lazy" alt="Glass Orchid wallpaper">
+            <div class="wp-caption">Glass Orchid</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/orchard-light/720p.webp" loading="lazy" alt="Orchard Light wallpaper">
+            <div class="wp-caption">Orchard Light</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/lunar-library/720p.webp" loading="lazy" alt="Lunar Library wallpaper">
+            <div class="wp-caption">Lunar Library</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/coral-tide/720p.webp" loading="lazy" alt="Coral Tide wallpaper">
+            <div class="wp-caption">Coral Tide</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/dune-script/720p.webp" loading="lazy" alt="Dune Script wallpaper">
+            <div class="wp-caption">Dune Script</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/ink-current/720p.webp" loading="lazy" alt="Ink Current wallpaper">
+            <div class="wp-caption">Ink Current</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/tideglass/720p.webp" loading="lazy" alt="Tideglass wallpaper">
+            <div class="wp-caption">Tideglass</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/verdant-afterglow/720p.webp" loading="lazy" alt="Verdant Afterglow wallpaper">
+            <div class="wp-caption">Verdant Afterglow</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/opal-veil/720p.webp" loading="lazy" alt="Opal Veil wallpaper">
+            <div class="wp-caption">Opal Veil</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/ember-dunes/720p.webp" loading="lazy" alt="Ember Dunes wallpaper">
+            <div class="wp-caption">Ember Dunes</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/polar-silence/720p.webp" loading="lazy" alt="Polar Silence wallpaper">
+            <div class="wp-caption">Polar Silence</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/orchid-halo/720p.webp" loading="lazy" alt="Orchid Halo wallpaper">
+            <div class="wp-caption">Orchid Halo</div>
+          </div>
+          <div class="wp-figure">
+            <img src="wallpapers/copper-rain/720p.webp" loading="lazy" alt="Copper Rain wallpaper">
+            <div class="wp-caption">Copper Rain</div>
+          </div>
+          <!-- Seamless loop copy, hidden from assistive technology -->
           <div class="wp-figure" aria-hidden="true">
-            <img src="assets/aurora-preview.webp" loading="lazy" alt="Aurora Wallpaper">
-            <div class="wp-caption">Aurora Borealis</div>
+            <img src="wallpapers/dusk/720p.webp" loading="lazy" alt="Dusk wallpaper">
+            <div class="wp-caption">Dusk</div>
           </div>
           <div class="wp-figure" aria-hidden="true">
-            <img src="assets/botanical-preview.webp" loading="lazy" alt="Botanical Wallpaper">
-            <div class="wp-caption">Botanical Glass</div>
+            <img src="wallpapers/sage/720p.webp" loading="lazy" alt="Sage wallpaper">
+            <div class="wp-caption">Sage</div>
           </div>
           <div class="wp-figure" aria-hidden="true">
-            <img src="assets/dunes-preview.webp" loading="lazy" alt="Dunes Wallpaper">
-            <div class="wp-caption">Dune Shadows</div>
+            <img src="wallpapers/ocean/720p.webp" loading="lazy" alt="Ocean wallpaper">
+            <div class="wp-caption">Ocean</div>
           </div>
           <div class="wp-figure" aria-hidden="true">
-            <img src="assets/glass-preview.webp" loading="lazy" alt="Glass Tide Wallpaper">
+            <img src="wallpapers/rose/720p.webp" loading="lazy" alt="Rose wallpaper">
+            <div class="wp-caption">Rose</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/sand/720p.webp" loading="lazy" alt="Sand wallpaper">
+            <div class="wp-caption">Sand</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/midnight/720p.webp" loading="lazy" alt="Midnight wallpaper">
+            <div class="wp-caption">Midnight</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/orbit/720p.webp" loading="lazy" alt="Orbit wallpaper">
+            <div class="wp-caption">Orbit</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/halo/720p.webp" loading="lazy" alt="Halo wallpaper">
+            <div class="wp-caption">Halo</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/contour/720p.webp" loading="lazy" alt="Contour wallpaper">
+            <div class="wp-caption">Contour</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/aurora/720p.webp" loading="lazy" alt="Aurora wallpaper">
+            <div class="wp-caption">Aurora</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/dune/720p.webp" loading="lazy" alt="Dune wallpaper">
+            <div class="wp-caption">Dune</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/botanical/720p.webp" loading="lazy" alt="Botanical wallpaper">
+            <div class="wp-caption">Botanical</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/glass-tide/720p.webp" loading="lazy" alt="Glass Tide wallpaper">
             <div class="wp-caption">Glass Tide</div>
           </div>
           <div class="wp-figure" aria-hidden="true">
-            <img src="assets/moon-preview.webp" loading="lazy" alt="Moonlit Wallpaper">
-            <div class="wp-caption">Moonlit Orbit</div>
+            <img src="wallpapers/nebula/720p.webp" loading="lazy" alt="Nebula wallpaper">
+            <div class="wp-caption">Nebula</div>
           </div>
           <div class="wp-figure" aria-hidden="true">
-            <img src="assets/nebula-preview.webp" loading="lazy" alt="Nebula Wallpaper">
-            <div class="wp-caption">Deep Nebula</div>
+            <img src="wallpapers/moonlit/720p.webp" loading="lazy" alt="Moonlit wallpaper">
+            <div class="wp-caption">Moonlit</div>
           </div>
           <div class="wp-figure" aria-hidden="true">
-            <img src="assets/cobalt-glass-preview.webp" loading="lazy" alt="Cobalt Glass Wallpaper">
+            <img src="wallpapers/mist-stone/720p.webp" loading="lazy" alt="Mist &amp; Stone wallpaper">
+            <div class="wp-caption">Mist &amp; Stone</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/cobalt-glass/720p.webp" loading="lazy" alt="Cobalt Glass wallpaper">
             <div class="wp-caption">Cobalt Glass</div>
           </div>
           <div class="wp-figure" aria-hidden="true">
-            <img src="assets/emerald-fern-preview.webp" loading="lazy" alt="Emerald Fern Wallpaper">
+            <img src="wallpapers/desert-dusk/720p.webp" loading="lazy" alt="Desert Dusk wallpaper">
+            <div class="wp-caption">Desert Dusk</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/emerald-fern/720p.webp" loading="lazy" alt="Emerald Fern wallpaper">
             <div class="wp-caption">Emerald Fern</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/soft-dawn/720p.webp" loading="lazy" alt="Soft Dawn wallpaper">
+            <div class="wp-caption">Soft Dawn</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/quiet-arch/720p.webp" loading="lazy" alt="Quiet Arch wallpaper">
+            <div class="wp-caption">Quiet Arch</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/silkfold/720p.webp" loading="lazy" alt="Silk Fold wallpaper">
+            <div class="wp-caption">Silk Fold</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/eclipse-bloom/720p.webp" loading="lazy" alt="Eclipse Bloom wallpaper">
+            <div class="wp-caption">Eclipse Bloom</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/boreal-quiet/720p.webp" loading="lazy" alt="Boreal Quiet wallpaper">
+            <div class="wp-caption">Boreal Quiet</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/citrine-haze/720p.webp" loading="lazy" alt="Citrine Haze wallpaper">
+            <div class="wp-caption">Citrine Haze</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/greenhouse-after-rain/720p.webp" loading="lazy" alt="Greenhouse After Rain wallpaper">
+            <div class="wp-caption">Greenhouse After Rain</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/midnight-geometry/720p.webp" loading="lazy" alt="Midnight Geometry wallpaper">
+            <div class="wp-caption">Midnight Geometry</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/sandstone-monolith/720p.webp" loading="lazy" alt="Sandstone Monolith wallpaper">
+            <div class="wp-caption">Sandstone Monolith</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/monsoon-glass/720p.webp" loading="lazy" alt="Monsoon Glass wallpaper">
+            <div class="wp-caption">Monsoon Glass</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/amethyst-current/720p.webp" loading="lazy" alt="Amethyst Current wallpaper">
+            <div class="wp-caption">Amethyst Current</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/petal-sundown/720p.webp" loading="lazy" alt="Petal Sundown wallpaper">
+            <div class="wp-caption">Petal Sundown</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/saffron-strata/720p.webp" loading="lazy" alt="Saffron Strata wallpaper">
+            <div class="wp-caption">Saffron Strata</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/rainlight/720p.webp" loading="lazy" alt="Rainlight wallpaper">
+            <div class="wp-caption">Rainlight</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/salt-bloom/720p.webp" loading="lazy" alt="Salt Bloom wallpaper">
+            <div class="wp-caption">Salt Bloom</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/prismatic-current/720p.webp" loading="lazy" alt="Prismatic Current wallpaper">
+            <div class="wp-caption">Prismatic Current</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/cloud-garden/720p.webp" loading="lazy" alt="Cloud Garden wallpaper">
+            <div class="wp-caption">Cloud Garden</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/emberline/720p.webp" loading="lazy" alt="Emberline wallpaper">
+            <div class="wp-caption">Emberline</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/nocturne-circuit/720p.webp" loading="lazy" alt="Nocturne Circuit wallpaper">
+            <div class="wp-caption">Nocturne Circuit</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/cosmic-bloom/720p.webp" loading="lazy" alt="Cosmic Bloom wallpaper">
+            <div class="wp-caption">Cosmic Bloom</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/city-glass/720p.webp" loading="lazy" alt="City Glass wallpaper">
+            <div class="wp-caption">City Glass</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/lotus-afterglow/720p.webp" loading="lazy" alt="Lotus Afterglow wallpaper">
+            <div class="wp-caption">Lotus Afterglow</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/tidal-glass/720p.webp" loading="lazy" alt="Tidal Glass wallpaper">
+            <div class="wp-caption">Tidal Glass</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/solar-loom/720p.webp" loading="lazy" alt="Solar Loom wallpaper">
+            <div class="wp-caption">Solar Loom</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/mosslight/720p.webp" loading="lazy" alt="Mosslight wallpaper">
+            <div class="wp-caption">Mosslight</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/porcelain-sky/720p.webp" loading="lazy" alt="Porcelain Sky wallpaper">
+            <div class="wp-caption">Porcelain Sky</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/prismfall/720p.webp" loading="lazy" alt="Prismfall wallpaper">
+            <div class="wp-caption">Prismfall</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/velvet-skyline/720p.webp" loading="lazy" alt="Velvet Skyline wallpaper">
+            <div class="wp-caption">Velvet Skyline</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/perigee/720p.webp" loading="lazy" alt="Perigee wallpaper">
+            <div class="wp-caption">Perigee</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/glacier-bloom/720p.webp" loading="lazy" alt="Glacier Bloom wallpaper">
+            <div class="wp-caption">Glacier Bloom</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/copper-atlas/720p.webp" loading="lazy" alt="Copper Atlas wallpaper">
+            <div class="wp-caption">Copper Atlas</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/glass-orchid/720p.webp" loading="lazy" alt="Glass Orchid wallpaper">
+            <div class="wp-caption">Glass Orchid</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/orchard-light/720p.webp" loading="lazy" alt="Orchard Light wallpaper">
+            <div class="wp-caption">Orchard Light</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/lunar-library/720p.webp" loading="lazy" alt="Lunar Library wallpaper">
+            <div class="wp-caption">Lunar Library</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/coral-tide/720p.webp" loading="lazy" alt="Coral Tide wallpaper">
+            <div class="wp-caption">Coral Tide</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/dune-script/720p.webp" loading="lazy" alt="Dune Script wallpaper">
+            <div class="wp-caption">Dune Script</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/ink-current/720p.webp" loading="lazy" alt="Ink Current wallpaper">
+            <div class="wp-caption">Ink Current</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/tideglass/720p.webp" loading="lazy" alt="Tideglass wallpaper">
+            <div class="wp-caption">Tideglass</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/verdant-afterglow/720p.webp" loading="lazy" alt="Verdant Afterglow wallpaper">
+            <div class="wp-caption">Verdant Afterglow</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/opal-veil/720p.webp" loading="lazy" alt="Opal Veil wallpaper">
+            <div class="wp-caption">Opal Veil</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/ember-dunes/720p.webp" loading="lazy" alt="Ember Dunes wallpaper">
+            <div class="wp-caption">Ember Dunes</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/polar-silence/720p.webp" loading="lazy" alt="Polar Silence wallpaper">
+            <div class="wp-caption">Polar Silence</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/orchid-halo/720p.webp" loading="lazy" alt="Orchid Halo wallpaper">
+            <div class="wp-caption">Orchid Halo</div>
+          </div>
+          <div class="wp-figure" aria-hidden="true">
+            <img src="wallpapers/copper-rain/720p.webp" loading="lazy" alt="Copper Rain wallpaper">
+            <div class="wp-caption">Copper Rain</div>
           </div>
         </div>
       </div>
@@ -249,19 +692,25 @@
         <p>
           KabirUI is crafted with care, free from advertisements or telemetry trackers. If you appreciate refined mobile software and personal home screens, your support helps keep our development thriving.
         </p>
-        <div style="display: flex; gap: 14px; flex-wrap: wrap;">
-          <a class="btn-primary" href="https://ko-fi.com/kabirinvents" target="_blank" rel="noopener noreferrer">
-            <span>Support on Ko-fi</span>
-            <span>↗</span>
-          </a>
+        <div class="support-links">
           <a class="btn-glass" href="https://instagram.com/kabir_invents" target="_blank" rel="noopener noreferrer">
             <span>Follow @kabir_invents</span>
           </a>
         </div>
       </div>
 
-      <div class="kofi-box">
-        <iframe id='kofiframe' src='https://ko-fi.com/kabirinvents/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#0d1117;' height='680' title='kabirinvents' loading='lazy'></iframe>
+      <div class="support-card" aria-labelledby="support-card-title">
+        <div class="support-card-brand">
+          <img src="assets/kabirui-mark.png" alt="" width="42" height="42">
+          <span>Independent development</span>
+        </div>
+        <h3 id="support-card-title">Help keep KabirUI growing.</h3>
+        <p>Optional contributions support ongoing development. Ko-fi handles any donation on its own site; this website never processes payments.</p>
+        <a class="btn-primary support-card-button" href="https://ko-fi.com/kabirinvents" target="_blank" rel="noopener noreferrer">
+          <span>Open Kabir Invents on Ko-fi</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+        <span class="support-card-note">Opens Ko-fi in a new tab.</span>
       </div>
     </section>
   </main>
@@ -271,7 +720,7 @@
     <div>
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms of Service</a>
-      <a href="https://kabirinvents.com" target="_blank">kabirinvents.com</a>
+      <a href="https://kabirinvents.com" target="_blank" rel="noopener noreferrer">kabirinvents.com</a>
     </div>
   </footer>
 

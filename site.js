@@ -4,10 +4,64 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   initCountdown();
-  init3DPhoneTilt();
-  initParticleMesh();
+  const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let stopMotion = () => {};
+  const syncMotionPreference = () => {
+    stopMotion();
+    stopMotion = () => {};
+    if (motionPreference.matches) return;
+
+    const cleanups = [init3DPhoneTilt(), initParticleMesh()].filter(Boolean);
+    stopMotion = () => cleanups.forEach(cleanup => cleanup());
+  };
+  syncMotionPreference();
+  if (motionPreference.addEventListener) motionPreference.addEventListener('change', syncMotionPreference);
+  else motionPreference.addListener(syncMotionPreference);
+  initWallpaperMotionControl();
   initVersionBadge();
 });
+
+function initWallpaperMotionControl() {
+  const button = document.getElementById('wallpaper-motion-toggle');
+  const track = document.querySelector('.marquee-track');
+  if (!button || !track) return;
+
+  button.addEventListener('click', () => {
+    const paused = track.classList.toggle('is-paused');
+    button.setAttribute('aria-pressed', String(paused));
+    button.textContent = paused ? 'Resume wallpaper motion' : 'Pause wallpaper motion';
+  });
+}
+
+function startVisibleAnimation(drawFrame) {
+  let frameId = null;
+  let stopped = false;
+
+  function renderFrame() {
+    frameId = null;
+    if (stopped || document.hidden) return;
+    drawFrame();
+    frameId = window.requestAnimationFrame(renderFrame);
+  }
+
+  function syncVisibility() {
+    if (document.hidden) {
+      if (frameId !== null) window.cancelAnimationFrame(frameId);
+      frameId = null;
+    } else if (!stopped && frameId === null) {
+      frameId = window.requestAnimationFrame(renderFrame);
+    }
+  }
+
+  document.addEventListener('visibilitychange', syncVisibility);
+  syncVisibility();
+
+  return () => {
+    stopped = true;
+    document.removeEventListener('visibilitychange', syncVisibility);
+    if (frameId !== null) window.cancelAnimationFrame(frameId);
+  };
+}
 
 /**
  * 1. Countdown to Launch (30 OCT 2026)
@@ -45,7 +99,7 @@ function initCountdown() {
 function init3DPhoneTilt() {
   const wrapper = document.querySelector('.phone-3d-wrapper');
   const stage = document.querySelector('.hero-stage');
-  if (!wrapper || !stage) return;
+  if (!wrapper || !stage) return null;
 
   let currentX = 0, currentY = 0;
   let targetX = 0, targetY = 0;
@@ -68,14 +122,15 @@ function init3DPhoneTilt() {
     targetY = 0;
   }
 
+  const onPointerUp = (e) => {
+    if (e.pointerType === 'touch') resetTilt();
+  };
   stage.addEventListener('pointermove', updateTilt, { passive: true });
   stage.addEventListener('pointerleave', resetTilt);
   stage.addEventListener('pointercancel', resetTilt);
-  stage.addEventListener('pointerup', (e) => {
-    if (e.pointerType === 'touch') resetTilt();
-  });
+  stage.addEventListener('pointerup', onPointerUp);
 
-  function renderTilt() {
+  const stopRender = startVisibleAnimation(() => {
     currentX += (targetX - currentX) * 0.08;
     currentY += (targetY - currentY) * 0.08;
 
@@ -85,11 +140,16 @@ function init3DPhoneTilt() {
     const idleRotY = isHovered ? 0 : Math.cos(idleTime) * 6;
 
     wrapper.style.transform = `rotateX(${currentX + idleRotX}deg) rotateY(${currentY + idleRotY}deg) translateZ(10px)`;
+  });
 
-    requestAnimationFrame(renderTilt);
-  }
-
-  renderTilt();
+  return () => {
+    stopRender();
+    stage.removeEventListener('pointermove', updateTilt);
+    stage.removeEventListener('pointerleave', resetTilt);
+    stage.removeEventListener('pointercancel', resetTilt);
+    stage.removeEventListener('pointerup', onPointerUp);
+    wrapper.style.removeProperty('transform');
+  };
 }
 
 /**
@@ -97,9 +157,10 @@ function init3DPhoneTilt() {
  */
 function initParticleMesh() {
   const canvas = document.getElementById('bg-canvas');
-  if (!canvas) return;
+  if (!canvas) return null;
 
   const ctx = canvas.getContext('2d');
+  if (!ctx) return null;
   let width, height;
   let particles = [];
 
@@ -123,7 +184,7 @@ function initParticleMesh() {
     });
   }
 
-  function loop() {
+  function drawFrame() {
     ctx.clearRect(0, 0, width, height);
 
     for (let i = 0; i < particles.length; i++) {
@@ -158,10 +219,14 @@ function initParticleMesh() {
       }
     }
 
-    requestAnimationFrame(loop);
   }
 
-  loop();
+  const stopRender = startVisibleAnimation(drawFrame);
+  return () => {
+    stopRender();
+    window.removeEventListener('resize', resize);
+    ctx.clearRect(0, 0, width, height);
+  };
 }
 
 /**

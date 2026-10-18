@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T13:01:30.082Z",
+  "updatedAt": "2026-10-17T22:33:52.017Z",
   "categories": [
     {
       "id": "Color",
@@ -21,6 +21,14 @@
     {
       "id": "Space",
       "name": "Space"
+    },
+    {
+      "id": "Architecture",
+      "name": "Architecture"
+    },
+    {
+      "id": "Floral",
+      "name": "Floral"
     }
   ],
   "resolutions": [
@@ -907,6 +915,1855 @@
           "mb": 0.127,
           "url": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/4k.webp",
           "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/soft-dawn/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "slug": "quiet-arch",
+      "name": "Quiet Arch",
+      "category": "Architecture",
+      "description": "Limestone and still water at dawn",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/quiet-arch/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 107210,
+          "mb": 0.107,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/quiet-arch/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/quiet-arch/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 194834,
+          "mb": 0.195,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/quiet-arch/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/quiet-arch/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 270782,
+          "mb": 0.271,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/quiet-arch/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/quiet-arch/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 449454,
+          "mb": 0.449,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/quiet-arch/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/quiet-arch/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 21,
+      "slug": "silkfold",
+      "name": "Silk Fold",
+      "category": "Abstract",
+      "description": "Sculpted copper on warm stone",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/silkfold/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 69460,
+          "mb": 0.069,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/silkfold/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/silkfold/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 148906,
+          "mb": 0.149,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/silkfold/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/silkfold/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 233962,
+          "mb": 0.234,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/silkfold/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/silkfold/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 426348,
+          "mb": 0.426,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/silkfold/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/silkfold/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "slug": "eclipse-bloom",
+      "name": "Eclipse Bloom",
+      "category": "AMOLED",
+      "description": "A violet flower on midnight water",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/eclipse-bloom/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 58204,
+          "mb": 0.058,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/eclipse-bloom/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/eclipse-bloom/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 99026,
+          "mb": 0.099,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/eclipse-bloom/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/eclipse-bloom/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 136736,
+          "mb": 0.137,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/eclipse-bloom/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/eclipse-bloom/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 246588,
+          "mb": 0.247,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/eclipse-bloom/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/eclipse-bloom/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 23,
+      "slug": "boreal-quiet",
+      "name": "Boreal Quiet",
+      "category": "Nature",
+      "description": "Fir trees in blue-green mist",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/boreal-quiet/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 55916,
+          "mb": 0.056,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/boreal-quiet/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/boreal-quiet/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 99822,
+          "mb": 0.1,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/boreal-quiet/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/boreal-quiet/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 140750,
+          "mb": 0.141,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/boreal-quiet/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/boreal-quiet/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 238110,
+          "mb": 0.238,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/boreal-quiet/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/boreal-quiet/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 24,
+      "slug": "citrine-haze",
+      "name": "Citrine Haze",
+      "category": "Abstract",
+      "description": "Glass ribbons across an amber dawn",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/citrine-haze/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 49288,
+          "mb": 0.049,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/citrine-haze/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/citrine-haze/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 84158,
+          "mb": 0.084,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/citrine-haze/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/citrine-haze/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 119636,
+          "mb": 0.12,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/citrine-haze/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/citrine-haze/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 208578,
+          "mb": 0.209,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/citrine-haze/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/citrine-haze/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 25,
+      "slug": "greenhouse-after-rain",
+      "name": "Greenhouse After Rain",
+      "category": "Nature",
+      "description": "Fern leaves in cool morning light",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/greenhouse-after-rain/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 154880,
+          "mb": 0.155,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/greenhouse-after-rain/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/greenhouse-after-rain/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 266224,
+          "mb": 0.266,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/greenhouse-after-rain/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/greenhouse-after-rain/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 363578,
+          "mb": 0.364,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/greenhouse-after-rain/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/greenhouse-after-rain/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 574768,
+          "mb": 0.575,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/greenhouse-after-rain/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/greenhouse-after-rain/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 26,
+      "slug": "midnight-geometry",
+      "name": "Midnight Geometry",
+      "category": "AMOLED",
+      "description": "Cobalt glass curves on near-black",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/midnight-geometry/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 34572,
+          "mb": 0.035,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/midnight-geometry/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/midnight-geometry/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 61918,
+          "mb": 0.062,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/midnight-geometry/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/midnight-geometry/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 91746,
+          "mb": 0.092,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/midnight-geometry/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/midnight-geometry/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 165806,
+          "mb": 0.166,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/midnight-geometry/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/midnight-geometry/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 27,
+      "slug": "sandstone-monolith",
+      "name": "Sandstone Monolith",
+      "category": "Architecture",
+      "description": "A sandstone courtyard at blue hour",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/sandstone-monolith/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 130040,
+          "mb": 0.13,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/sandstone-monolith/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/sandstone-monolith/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 234602,
+          "mb": 0.235,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/sandstone-monolith/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/sandstone-monolith/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 336118,
+          "mb": 0.336,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/sandstone-monolith/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/sandstone-monolith/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 559250,
+          "mb": 0.559,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/sandstone-monolith/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/sandstone-monolith/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 28,
+      "slug": "monsoon-glass",
+      "name": "Monsoon Glass",
+      "category": "Nature",
+      "description": "A still mountain lake under rain-softened dawn light.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/monsoon-glass/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 137026,
+          "mb": 0.137,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/monsoon-glass/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/monsoon-glass/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 234356,
+          "mb": 0.234,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/monsoon-glass/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/monsoon-glass/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 323718,
+          "mb": 0.324,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/monsoon-glass/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/monsoon-glass/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 520112,
+          "mb": 0.52,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/monsoon-glass/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/monsoon-glass/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 29,
+      "slug": "amethyst-current",
+      "name": "Amethyst Current",
+      "category": "AMOLED",
+      "description": "Violet and cyan silk flowing across midnight black.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/amethyst-current/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 63906,
+          "mb": 0.064,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/amethyst-current/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/amethyst-current/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 107344,
+          "mb": 0.107,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/amethyst-current/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/amethyst-current/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 151342,
+          "mb": 0.151,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/amethyst-current/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/amethyst-current/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 252534,
+          "mb": 0.253,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/amethyst-current/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/amethyst-current/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 30,
+      "slug": "petal-sundown",
+      "name": "Petal Sundown",
+      "category": "Floral",
+      "description": "A sculptural poppy glowing against deep burgundy.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/petal-sundown/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 89232,
+          "mb": 0.089,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/petal-sundown/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/petal-sundown/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 159974,
+          "mb": 0.16,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/petal-sundown/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/petal-sundown/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 229618,
+          "mb": 0.23,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/petal-sundown/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/petal-sundown/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 386364,
+          "mb": 0.386,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/petal-sundown/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/petal-sundown/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 31,
+      "slug": "saffron-strata",
+      "name": "Saffron Strata",
+      "category": "Nature",
+      "description": "Warm desert ridges at the first light of day.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/saffron-strata/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 115590,
+          "mb": 0.116,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/saffron-strata/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/saffron-strata/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 212282,
+          "mb": 0.212,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/saffron-strata/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/saffron-strata/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 297850,
+          "mb": 0.298,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/saffron-strata/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/saffron-strata/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 491066,
+          "mb": 0.491,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/saffron-strata/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/saffron-strata/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 32,
+      "slug": "rainlight",
+      "name": "Rainlight",
+      "category": "Architecture",
+      "description": "A quiet lantern-lit street reflected after rain.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/rainlight/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 180474,
+          "mb": 0.18,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/rainlight/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/rainlight/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 312894,
+          "mb": 0.313,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/rainlight/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/rainlight/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 432552,
+          "mb": 0.433,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/rainlight/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/rainlight/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 678482,
+          "mb": 0.678,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/rainlight/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/rainlight/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 33,
+      "slug": "salt-bloom",
+      "name": "Salt Bloom",
+      "category": "Floral",
+      "description": "A sculptural alabaster flower in soft morning light.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/salt-bloom/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 90342,
+          "mb": 0.09,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/salt-bloom/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/salt-bloom/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 154878,
+          "mb": 0.155,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/salt-bloom/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/salt-bloom/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 217310,
+          "mb": 0.217,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/salt-bloom/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/salt-bloom/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 379036,
+          "mb": 0.379,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/salt-bloom/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/salt-bloom/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 34,
+      "slug": "prismatic-current",
+      "name": "Prismatic Current",
+      "category": "Abstract",
+      "description": "Glacier-blue glass ribbons flowing through deep graphite.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/prismatic-current/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 58782,
+          "mb": 0.059,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/prismatic-current/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/prismatic-current/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 96972,
+          "mb": 0.097,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/prismatic-current/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/prismatic-current/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 131672,
+          "mb": 0.132,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/prismatic-current/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/prismatic-current/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 213484,
+          "mb": 0.213,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/prismatic-current/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/prismatic-current/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 35,
+      "slug": "cloud-garden",
+      "name": "Cloud Garden",
+      "category": "Nature",
+      "description": "An alpine lake and pine silhouettes in morning fog.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/cloud-garden/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 63932,
+          "mb": 0.064,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/cloud-garden/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/cloud-garden/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 109500,
+          "mb": 0.11,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/cloud-garden/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/cloud-garden/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 152334,
+          "mb": 0.152,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/cloud-garden/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/cloud-garden/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 247754,
+          "mb": 0.248,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/cloud-garden/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/cloud-garden/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 36,
+      "slug": "emberline",
+      "name": "Emberline",
+      "category": "Color",
+      "description": "Warm glass dunes under a quiet sunrise.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/emberline/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 62232,
+          "mb": 0.062,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/emberline/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/emberline/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 112296,
+          "mb": 0.112,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/emberline/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/emberline/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 160142,
+          "mb": 0.16,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/emberline/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/emberline/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 268712,
+          "mb": 0.269,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/emberline/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/emberline/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 37,
+      "slug": "nocturne-circuit",
+      "name": "Nocturne Circuit",
+      "category": "AMOLED",
+      "description": "Near-black etched contours with delicate silver glints.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/nocturne-circuit/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 62412,
+          "mb": 0.062,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/nocturne-circuit/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/nocturne-circuit/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 115486,
+          "mb": 0.115,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/nocturne-circuit/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/nocturne-circuit/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 166006,
+          "mb": 0.166,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/nocturne-circuit/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/nocturne-circuit/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 278114,
+          "mb": 0.278,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/nocturne-circuit/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/nocturne-circuit/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 38,
+      "slug": "cosmic-bloom",
+      "name": "Cosmic Bloom",
+      "category": "Space",
+      "description": "A soft violet and cyan nebula unfolding in deep space.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/cosmic-bloom/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 67028,
+          "mb": 0.067,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/cosmic-bloom/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/cosmic-bloom/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 116940,
+          "mb": 0.117,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/cosmic-bloom/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/cosmic-bloom/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 168584,
+          "mb": 0.169,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/cosmic-bloom/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/cosmic-bloom/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 292014,
+          "mb": 0.292,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/cosmic-bloom/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/cosmic-bloom/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 39,
+      "slug": "city-glass",
+      "name": "City Glass",
+      "category": "Architecture",
+      "description": "A contemporary glass atrium opening onto a rain garden.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/city-glass/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 200034,
+          "mb": 0.2,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/city-glass/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/city-glass/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 357824,
+          "mb": 0.358,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/city-glass/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/city-glass/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 501584,
+          "mb": 0.502,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/city-glass/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/city-glass/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 804494,
+          "mb": 0.804,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/city-glass/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/city-glass/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 40,
+      "slug": "lotus-afterglow",
+      "name": "Lotus Afterglow",
+      "category": "Floral",
+      "description": "A sculpted lotus catching the last light.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/lotus-afterglow/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 22560,
+          "mb": 0.023,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/lotus-afterglow/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/lotus-afterglow/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 38818,
+          "mb": 0.039,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/lotus-afterglow/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/lotus-afterglow/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 56514,
+          "mb": 0.057,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/lotus-afterglow/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/lotus-afterglow/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 97988,
+          "mb": 0.098,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/lotus-afterglow/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/lotus-afterglow/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 41,
+      "slug": "tidal-glass",
+      "name": "Tidal Glass",
+      "category": "Abstract",
+      "description": "Deep teal ribbons drifting beneath a glassy tide.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/tidal-glass/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 43386,
+          "mb": 0.043,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/tidal-glass/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/tidal-glass/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 82194,
+          "mb": 0.082,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/tidal-glass/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/tidal-glass/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 125502,
+          "mb": 0.126,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/tidal-glass/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/tidal-glass/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 225008,
+          "mb": 0.225,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/tidal-glass/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/tidal-glass/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 42,
+      "slug": "solar-loom",
+      "name": "Solar Loom",
+      "category": "Space",
+      "description": "A warm eclipse wrapped in fine orbital lines.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/solar-loom/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 37002,
+          "mb": 0.037,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/solar-loom/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/solar-loom/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 66826,
+          "mb": 0.067,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/solar-loom/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/solar-loom/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 99590,
+          "mb": 0.1,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/solar-loom/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/solar-loom/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 175764,
+          "mb": 0.176,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/solar-loom/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/solar-loom/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 43,
+      "slug": "mosslight",
+      "name": "Mosslight",
+      "category": "Nature",
+      "description": "Fern silhouettes and soft light in a quiet grove.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/mosslight/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 30246,
+          "mb": 0.03,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/mosslight/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/mosslight/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 53008,
+          "mb": 0.053,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/mosslight/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/mosslight/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 78228,
+          "mb": 0.078,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/mosslight/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/mosslight/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 134092,
+          "mb": 0.134,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/mosslight/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/mosslight/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 44,
+      "slug": "porcelain-sky",
+      "name": "Porcelain Sky",
+      "category": "Color",
+      "description": "Glazed blue forms over a warm porcelain horizon.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/porcelain-sky/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 20206,
+          "mb": 0.02,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/porcelain-sky/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/porcelain-sky/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 35464,
+          "mb": 0.035,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/porcelain-sky/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/porcelain-sky/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 52698,
+          "mb": 0.053,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/porcelain-sky/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/porcelain-sky/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 87224,
+          "mb": 0.087,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/porcelain-sky/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/porcelain-sky/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 45,
+      "slug": "prismfall",
+      "name": "Prismfall",
+      "category": "Abstract",
+      "description": "Layered indigo prisms with a rose-lit edge.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/prismfall/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 27176,
+          "mb": 0.027,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/prismfall/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/prismfall/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 49076,
+          "mb": 0.049,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/prismfall/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/prismfall/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 73108,
+          "mb": 0.073,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/prismfall/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/prismfall/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 123928,
+          "mb": 0.124,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/prismfall/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/prismfall/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 46,
+      "slug": "velvet-skyline",
+      "name": "Velvet Skyline",
+      "category": "Architecture",
+      "description": "A low city silhouette under an amber evening sky.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/velvet-skyline/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 40320,
+          "mb": 0.04,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/velvet-skyline/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/velvet-skyline/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 62210,
+          "mb": 0.062,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/velvet-skyline/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/velvet-skyline/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 82460,
+          "mb": 0.082,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/velvet-skyline/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/velvet-skyline/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 124916,
+          "mb": 0.125,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/velvet-skyline/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/velvet-skyline/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 47,
+      "slug": "perigee",
+      "name": "Perigee",
+      "category": "AMOLED",
+      "description": "A small luminous world crossing a dark orbit.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/perigee/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 25506,
+          "mb": 0.026,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/perigee/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/perigee/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 43344,
+          "mb": 0.043,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/perigee/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/perigee/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 65286,
+          "mb": 0.065,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/perigee/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/perigee/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 113126,
+          "mb": 0.113,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/perigee/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/perigee/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 48,
+      "slug": "glacier-bloom",
+      "name": "Glacier Bloom",
+      "category": "Nature",
+      "description": "Ice-blue aurora ribbons over a quiet glacial basin.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/glacier-bloom/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 38398,
+          "mb": 0.038,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/glacier-bloom/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/glacier-bloom/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 65326,
+          "mb": 0.065,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/glacier-bloom/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/glacier-bloom/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 93978,
+          "mb": 0.094,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/glacier-bloom/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/glacier-bloom/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 143808,
+          "mb": 0.144,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/glacier-bloom/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/glacier-bloom/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 49,
+      "slug": "copper-atlas",
+      "name": "Copper Atlas",
+      "category": "Architecture",
+      "description": "Fine copper orbits map a dark, measured horizon.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/copper-atlas/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 44920,
+          "mb": 0.045,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/copper-atlas/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/copper-atlas/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 86734,
+          "mb": 0.087,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/copper-atlas/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/copper-atlas/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 132186,
+          "mb": 0.132,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/copper-atlas/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/copper-atlas/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 214972,
+          "mb": 0.215,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/copper-atlas/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/copper-atlas/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 50,
+      "slug": "glass-orchid",
+      "name": "Glass Orchid",
+      "category": "Floral",
+      "description": "Translucent orchid petals catch a cool evening glow.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/glass-orchid/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 19374,
+          "mb": 0.019,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/glass-orchid/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/glass-orchid/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 33826,
+          "mb": 0.034,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/glass-orchid/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/glass-orchid/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 50348,
+          "mb": 0.05,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/glass-orchid/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/glass-orchid/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 83130,
+          "mb": 0.083,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/glass-orchid/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/glass-orchid/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 51,
+      "slug": "orchard-light",
+      "name": "Orchard Light",
+      "category": "Nature",
+      "description": "Warm lantern-like fruit hangs among soft branches.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/orchard-light/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 28432,
+          "mb": 0.028,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/orchard-light/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/orchard-light/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 47480,
+          "mb": 0.047,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/orchard-light/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/orchard-light/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 72076,
+          "mb": 0.072,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/orchard-light/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/orchard-light/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 127036,
+          "mb": 0.127,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/orchard-light/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/orchard-light/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 52,
+      "slug": "lunar-library",
+      "name": "Lunar Library",
+      "category": "AMOLED",
+      "description": "A quiet crescent and delicate paper-white orbit lines.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/lunar-library/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 21148,
+          "mb": 0.021,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/lunar-library/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/lunar-library/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 36986,
+          "mb": 0.037,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/lunar-library/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/lunar-library/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 55664,
+          "mb": 0.056,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/lunar-library/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/lunar-library/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 96700,
+          "mb": 0.097,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/lunar-library/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/lunar-library/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 53,
+      "slug": "coral-tide",
+      "name": "Coral Tide",
+      "category": "Abstract",
+      "description": "Coral and rose ribbons fold into a calm evening sea.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/coral-tide/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 33398,
+          "mb": 0.033,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/coral-tide/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/coral-tide/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 62688,
+          "mb": 0.063,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/coral-tide/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/coral-tide/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 96606,
+          "mb": 0.097,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/coral-tide/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/coral-tide/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 173774,
+          "mb": 0.174,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/coral-tide/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/coral-tide/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 54,
+      "slug": "dune-script",
+      "name": "Dune Script",
+      "category": "Color",
+      "description": "Layered sand curves trace a soft desert dusk.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/dune-script/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 32054,
+          "mb": 0.032,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/dune-script/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/dune-script/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 57966,
+          "mb": 0.058,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/dune-script/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/dune-script/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 86984,
+          "mb": 0.087,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/dune-script/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/dune-script/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 139398,
+          "mb": 0.139,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/dune-script/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/dune-script/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 55,
+      "slug": "ink-current",
+      "name": "Ink Current",
+      "category": "Space",
+      "description": "Indigo currents and luminous flecks drift through the dark.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/ink-current/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 35800,
+          "mb": 0.036,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/ink-current/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/ink-current/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 63588,
+          "mb": 0.064,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/ink-current/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/ink-current/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 94610,
+          "mb": 0.095,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/ink-current/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/ink-current/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 166106,
+          "mb": 0.166,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/ink-current/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/ink-current/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 56,
+      "slug": "tideglass",
+      "name": "Tideglass",
+      "category": "Abstract",
+      "description": "Translucent teal currents on a midnight sea.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/tideglass/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 84802,
+          "mb": 0.085,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/tideglass/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/tideglass/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 138162,
+          "mb": 0.138,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/tideglass/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/tideglass/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 200256,
+          "mb": 0.2,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/tideglass/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/tideglass/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 331018,
+          "mb": 0.331,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/tideglass/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/tideglass/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 57,
+      "slug": "verdant-afterglow",
+      "name": "Verdant Afterglow",
+      "category": "Nature",
+      "description": "Rain-lit leaves in a warm greenhouse at dusk.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/verdant-afterglow/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 180898,
+          "mb": 0.181,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/verdant-afterglow/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/verdant-afterglow/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 290008,
+          "mb": 0.29,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/verdant-afterglow/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/verdant-afterglow/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 396422,
+          "mb": 0.396,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/verdant-afterglow/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/verdant-afterglow/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 630478,
+          "mb": 0.63,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/verdant-afterglow/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/verdant-afterglow/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 58,
+      "slug": "opal-veil",
+      "name": "Opal Veil",
+      "category": "Color",
+      "description": "Soft porcelain folds in ivory, peach, and sage.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/opal-veil/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 80402,
+          "mb": 0.08,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/opal-veil/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/opal-veil/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 145794,
+          "mb": 0.146,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/opal-veil/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/opal-veil/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 219740,
+          "mb": 0.22,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/opal-veil/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/opal-veil/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 392908,
+          "mb": 0.393,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/opal-veil/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/opal-veil/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 59,
+      "slug": "ember-dunes",
+      "name": "Ember Dunes",
+      "category": "Nature",
+      "description": "Copper sand ridges under the last light.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/ember-dunes/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 75546,
+          "mb": 0.076,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/ember-dunes/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/ember-dunes/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 128916,
+          "mb": 0.129,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/ember-dunes/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/ember-dunes/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 185936,
+          "mb": 0.186,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/ember-dunes/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/ember-dunes/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 323408,
+          "mb": 0.323,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/ember-dunes/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/ember-dunes/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 60,
+      "slug": "polar-silence",
+      "name": "Polar Silence",
+      "category": "Nature",
+      "description": "A quiet glacier range just before sunrise.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/polar-silence/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 79628,
+          "mb": 0.08,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/polar-silence/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/polar-silence/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 132714,
+          "mb": 0.133,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/polar-silence/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/polar-silence/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 186918,
+          "mb": 0.187,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/polar-silence/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/polar-silence/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 316480,
+          "mb": 0.316,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/polar-silence/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/polar-silence/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 61,
+      "slug": "orchid-halo",
+      "name": "Orchid Halo",
+      "category": "Floral",
+      "description": "A dew-lit orchid framed by a plum-black night.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/orchid-halo/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 78046,
+          "mb": 0.078,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/orchid-halo/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/orchid-halo/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 127814,
+          "mb": 0.128,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/orchid-halo/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/orchid-halo/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 177508,
+          "mb": 0.178,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/orchid-halo/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/orchid-halo/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 301220,
+          "mb": 0.301,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/orchid-halo/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/orchid-halo/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 62,
+      "slug": "copper-rain",
+      "name": "Copper Rain",
+      "category": "AMOLED",
+      "description": "Fine copper light on a brushed charcoal surface.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/copper-rain/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 162374,
+          "mb": 0.162,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/copper-rain/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/copper-rain/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 272602,
+          "mb": 0.273,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/copper-rain/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/copper-rain/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 393522,
+          "mb": 0.394,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/copper-rain/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/copper-rain/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 662102,
+          "mb": 0.662,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/copper-rain/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/copper-rain/4k.webp"
         }
       }
     }

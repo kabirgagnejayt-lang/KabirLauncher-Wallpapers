@@ -20,6 +20,14 @@
     {
       "id": "Space",
       "name": "Space"
+    },
+    {
+      "id": "Architecture",
+      "name": "Architecture"
+    },
+    {
+      "id": "Floral",
+      "name": "Floral"
     }
   ]
 }
