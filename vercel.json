@@ -11,6 +11,10 @@
     {
       "source": "/api/categories",
       "destination": "/categories.json"
+    },
+    {
+      "source": "/api/features",
+      "destination": "/features.json"
     }
   ],
   "headers": [
