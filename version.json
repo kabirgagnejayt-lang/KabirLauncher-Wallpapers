@@ -1,48 +1,96 @@
 {
-  "versionName": "3.0.0",
-  "versionCode": 10,
+  "versionName": "4.0.0",
+  "versionCode": 12,
   "channel": "stable",
-  "publishedAtMillis": 1793318400000,
+  "publishedAtMillis": 1792339610000,
   "importance": "important",
   "popupAfterDays": 14,
   "popupReminderDays": 7,
-  "releaseNotes": "KabirUI 3.0: Full 3D visual overhaul, 10 clock & battery styles, glassmorphic folders, live search, Adaptive Home, Free placement, and Home Modes.",
+  "releaseNotes": "KabirUI 4.0 adds Wallpaper Studio with 20 new wallpapers, KabirUI Market, expanded widget styles and colors, Quick Search app actions, swipe-up shortcuts, and more customization.",
   "changes": [
     {
-      "title": "Major 3.0 Release",
-      "detail": "KabirUI 3.0 brings a complete UI overhaul, full-screen polish, glassmorphic folders, and fluid animations."
+      "title": "Wallpaper Studio",
+      "detail": "Reframe personal photos with a live home preview, zoom, color tones, and readability dimming saved per Home Mode."
     },
     {
-      "title": "10 Clock & Battery Styles",
-      "detail": "All 10 handcrafted clock styles and 10 battery meters are restored with height-aware geometry and zero text clipping."
+      "title": "Twenty new wallpapers",
+      "detail": "Explore twenty original scenes across abstract, nature, AMOLED, floral, and architecture styles."
     },
     {
-      "title": "Interactive App Drawer",
-      "detail": "Browse swipeable categories, jump A–Z with a floating preview bubble, search apps, and organize your drawer with custom categories and optional usage shelves."
+      "title": "Wallpaper search",
+      "detail": "Find wallpapers by name, category, or description."
     },
     {
-      "title": "Live Settings Search",
-      "detail": "Find any customization option instantly with real-time settings filtering and high contrast support."
+      "title": "Wallpaper favorites",
+      "detail": "Save wallpapers to a Favorites filter and keep the list in your backup."
     },
     {
-      "title": "Glassmorphic Folders & Quick Dock",
-      "detail": "Redesigned folder surfaces with live app filtering and interactive dock slot editing."
+      "title": "More widget styles",
+      "detail": "Browse all 58 clock and battery designs during setup, filter to the newest looks, and choose sizes up to 4×4."
     },
     {
-      "title": "Adaptive Home",
-      "detail": "Get local, time-aware app suggestions and supported shortcuts on your home screen, with a clear reason for each pick."
+      "title": "Clock typefaces",
+      "detail": "Set each clock to follow KabirUI, sans serif, serif, monospace, or cursive."
     },
     {
-      "title": "Free placement",
-      "detail": "Place apps and widgets anywhere on your home screen with grid-free dragging."
+      "title": "Clock text colors",
+      "detail": "Choose from fourteen named colors plus the style-matched default, including cobalt, mauve, terracotta, and olive."
     },
     {
-      "title": "Home Modes",
-      "detail": "Save separate home setups and switch manually or on an automatic weekly schedule."
+      "title": "Battery accent colors",
+      "detail": "Choose one of twelve named accents or follow battery status; hide the percentage, charge-state label, or charging icon on each widget."
     },
     {
-      "title": "Backup & transfer",
-      "detail": "Save Home Modes, layouts, wallpapers, custom icons and selected settings to a single file to move to another device."
+      "title": "Quick Search app actions",
+      "detail": "Open app options from the visible menu beside a search result."
+    },
+    {
+      "title": "Swipe-up shortcuts",
+      "detail": "Choose App drawer, Quick search, or Off for swiping up on the home screen."
+    },
+    {
+      "title": "Eight more wallpapers",
+      "detail": "Add Lotus Afterglow, Tidal Glass, Solar Loom, Mosslight, Porcelain Sky, Prismfall, Velvet Skyline, and Perigee to the market."
+    },
+    {
+      "title": "Battery background opacity",
+      "detail": "Tune each battery widget’s surface transparency to show more of your wallpaper."
+    },
+    {
+      "title": "Independent charging icon",
+      "detail": "Show or hide the charging bolt separately from the battery status label."
+    },
+    {
+      "title": "Eight new wallpapers",
+      "detail": "Browse Glacier Bloom, Copper Atlas, Glass Orchid, Orchard Light, Lunar Library, Coral Tide, Dune Script, and Ink Current."
+    },
+    {
+      "title": "Battery reading fallback",
+      "detail": "Use Android’s battery-capacity property when a device sends incomplete battery extras. Thanks to @NicoloM for catching the Galaxy S9 case."
+    },
+    {
+      "title": "Clock seconds display",
+      "detail": "Optionally show seconds across digital clock layouts and a moving second hand on analog designs."
+    },
+    {
+      "title": "Weather widget details",
+      "detail": "Show or hide hourly forecast and humidity, wind, and rain details separately on larger weather widgets."
+    },
+    {
+      "title": "Seven more wallpapers",
+      "detail": "Add Tideglass, Verdant Afterglow, Opal Veil, Ember Dunes, Polar Silence, Orchid Halo, and Copper Rain to Wallpaper Market."
+    },
+    {
+      "title": "KabirUI Market",
+      "detail": "Open KabirUI Market and Wallpaper Market from the drawer by default; add or remove optional apps like Today Page, Home Modes, Universal Font, and Adaptive Home."
+    },
+    {
+      "title": "Ten AMOLED wallpapers",
+      "detail": "Add Pulsar Gate, Moonlit Orbit, Violet Supercluster, Solar Ember, Saturn Shadow, Far Reach, Celestial Current, Graviton, Comet Wake, and Blue Dwarf."
+    },
+    {
+      "title": "Ten new clock and battery styles",
+      "detail": "Add ten new clock looks and ten battery designs, all previewable in setup and responsive from 1×1 through 4×4."
     }
   ],
   "updateUrl": "https://play.google.com/store/apps/details?id=com.kabirinvents.kabirlauncher"
