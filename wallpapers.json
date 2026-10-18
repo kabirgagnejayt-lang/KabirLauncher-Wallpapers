@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-17T22:33:52.017Z",
+  "updatedAt": "2026-10-18T04:19:08.717Z",
   "categories": [
     {
       "id": "Color",
@@ -2764,6 +2764,436 @@
           "mb": 0.662,
           "url": "https://kabirui.kabirinvents.com/wallpapers/copper-rain/4k.webp",
           "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/copper-rain/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 63,
+      "slug": "andromeda-halo",
+      "name": "Andromeda Halo",
+      "category": "Space",
+      "description": "A luminous spiral galaxy arcs through a deep violet star field.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/andromeda-halo/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 105690,
+          "mb": 0.106,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/andromeda-halo/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/andromeda-halo/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 188108,
+          "mb": 0.188,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/andromeda-halo/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/andromeda-halo/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 265266,
+          "mb": 0.265,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/andromeda-halo/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/andromeda-halo/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 438338,
+          "mb": 0.438,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/andromeda-halo/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/andromeda-halo/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 64,
+      "slug": "saturn-glass",
+      "name": "Saturn Glass",
+      "category": "Space",
+      "description": "A ringed gas giant glows against a quiet blue-black cosmos.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/saturn-glass/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 123780,
+          "mb": 0.124,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/saturn-glass/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/saturn-glass/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 221468,
+          "mb": 0.221,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/saturn-glass/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/saturn-glass/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 307146,
+          "mb": 0.307,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/saturn-glass/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/saturn-glass/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 505802,
+          "mb": 0.506,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/saturn-glass/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/saturn-glass/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 65,
+      "slug": "solar-flare",
+      "name": "Solar Flare",
+      "category": "Space",
+      "description": "A blazing gold corona rises over a dark planetary horizon.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/solar-flare/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 116334,
+          "mb": 0.116,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/solar-flare/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/solar-flare/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 205176,
+          "mb": 0.205,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/solar-flare/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/solar-flare/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 296458,
+          "mb": 0.296,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/solar-flare/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/solar-flare/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 480318,
+          "mb": 0.48,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/solar-flare/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/solar-flare/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 66,
+      "slug": "teal-nebula",
+      "name": "Teal Nebula",
+      "category": "Space",
+      "description": "Teal and indigo clouds fold around a field of distant stars.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/teal-nebula/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 110106,
+          "mb": 0.11,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/teal-nebula/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/teal-nebula/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 190518,
+          "mb": 0.191,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/teal-nebula/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/teal-nebula/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 275734,
+          "mb": 0.276,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/teal-nebula/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/teal-nebula/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 458694,
+          "mb": 0.459,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/teal-nebula/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/teal-nebula/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 67,
+      "slug": "eclipse-desert",
+      "name": "Eclipse Desert",
+      "category": "Space",
+      "description": "A quiet desert planet sits beneath a huge copper eclipse.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/eclipse-desert/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 83644,
+          "mb": 0.084,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/eclipse-desert/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/eclipse-desert/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 150852,
+          "mb": 0.151,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/eclipse-desert/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/eclipse-desert/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 207010,
+          "mb": 0.207,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/eclipse-desert/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/eclipse-desert/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 342220,
+          "mb": 0.342,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/eclipse-desert/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/eclipse-desert/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 68,
+      "slug": "deep-field",
+      "name": "Deep Field",
+      "category": "Space",
+      "description": "A dense telescope-like deep field of galaxies across black space.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/deep-field/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 113446,
+          "mb": 0.113,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/deep-field/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/deep-field/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 191252,
+          "mb": 0.191,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/deep-field/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/deep-field/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 264616,
+          "mb": 0.265,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/deep-field/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/deep-field/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 426206,
+          "mb": 0.426,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/deep-field/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/deep-field/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 69,
+      "slug": "rose-nebula",
+      "name": "Rose Nebula",
+      "category": "Space",
+      "description": "Rose-pink interstellar clouds bloom around a bright stellar core.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/rose-nebula/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 121066,
+          "mb": 0.121,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/rose-nebula/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/rose-nebula/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 209808,
+          "mb": 0.21,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/rose-nebula/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/rose-nebula/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 296266,
+          "mb": 0.296,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/rose-nebula/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/rose-nebula/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 493942,
+          "mb": 0.494,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/rose-nebula/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/rose-nebula/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 70,
+      "slug": "blue-supernova",
+      "name": "Blue Supernova",
+      "category": "Space",
+      "description": "An electric blue supernova radiates across a shadowed star field.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/blue-supernova/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 89532,
+          "mb": 0.09,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/blue-supernova/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/blue-supernova/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 155104,
+          "mb": 0.155,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/blue-supernova/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/blue-supernova/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 226950,
+          "mb": 0.227,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/blue-supernova/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/blue-supernova/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 377262,
+          "mb": 0.377,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/blue-supernova/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/blue-supernova/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 71,
+      "slug": "lunar-tide",
+      "name": "Lunar Tide",
+      "category": "Space",
+      "description": "A silver moon casts a long reflection through midnight space.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/lunar-tide/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 145860,
+          "mb": 0.146,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/lunar-tide/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/lunar-tide/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 251392,
+          "mb": 0.251,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/lunar-tide/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/lunar-tide/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 350486,
+          "mb": 0.35,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/lunar-tide/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/lunar-tide/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 546462,
+          "mb": 0.546,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/lunar-tide/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/lunar-tide/4k.webp"
+        }
+      }
+    },
+    {
+      "id": 72,
+      "slug": "event-horizon",
+      "name": "Event Horizon",
+      "category": "Space",
+      "description": "A black hole bends a thin, brilliant ring of light into darkness.",
+      "bundled": false,
+      "preview": "https://kabirui.kabirinvents.com/wallpapers/event-horizon/720p.webp",
+      "variants": {
+        "720p": {
+          "width": 720,
+          "height": 1280,
+          "bytes": 61798,
+          "mb": 0.062,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/event-horizon/720p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/event-horizon/720p.webp"
+        },
+        "1080p": {
+          "width": 1080,
+          "height": 1920,
+          "bytes": 112878,
+          "mb": 0.113,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/event-horizon/1080p.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/event-horizon/1080p.webp"
+        },
+        "2k": {
+          "width": 1440,
+          "height": 2560,
+          "bytes": 161464,
+          "mb": 0.161,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/event-horizon/2k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/event-horizon/2k.webp"
+        },
+        "4k": {
+          "width": 2160,
+          "height": 3840,
+          "bytes": 287476,
+          "mb": 0.287,
+          "url": "https://kabirui.kabirinvents.com/wallpapers/event-horizon/4k.webp",
+          "downloadUrl": "https://kabirui.kabirinvents.com/wallpapers/event-horizon/4k.webp"
         }
       }
     }

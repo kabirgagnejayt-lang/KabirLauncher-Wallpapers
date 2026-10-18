@@ -6,7 +6,7 @@ Website: https://kabirui.kabirinvents.com
 
 GET /api/wallpapers returns the complete catalog, categories, available resolutions, dimensions, exact bytes, MB and download URLs. GET /api/categories returns categories. Dusk is the only built-in app wallpaper; the market fetches the catalog and downloads selected images.
 
-The current catalog contains 63 scenes: Dusk is bundled in the launcher and the other 62 are downloadable from the market. Each scene has 720p, 1080p, 2K and 4K WebP variants. KabirUI 3.1 also includes 48 clock and 48 battery widget designs; keep the Android wallpaper test fixture synchronized with `wallpapers.json` when changing this catalog.
+The current catalog contains 73 scenes: Dusk is bundled in the launcher and the other 72 are downloadable from the market. Each scene has 720p, 1080p, 2K and 4K WebP variants. KabirUI 3.1 also includes 48 clock and 48 battery widget designs; keep the Android wallpaper test fixture synchronized with `wallpapers.json` when changing this catalog.
 
 Use `assets/kabirui-mark.png` for favicon, home-screen, and compact header-icon slots. The adjacent `KabirUI` text is the readable page-header wordmark; retain `assets/kabirui-icon.png` as the original wordmark artwork.
 
