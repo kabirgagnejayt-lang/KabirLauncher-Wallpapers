@@ -68,6 +68,8 @@ test('sends only the selected model and returns sanitized actions', async () => 
   assert.equal(outgoing.options.headers['x-goog-api-key'], 'server-only-key');
   assert.equal(outgoing.url.includes('server-only-key'), false);
   assert.equal(outgoing.body.generationConfig.responseMimeType, 'application/json');
+  assert.equal(outgoing.body.tools, undefined);
+  assert.match(outgoing.body.systemInstruction.parts[0].text, /Live web research is off/);
   assert.deepEqual(res.body.actions.map(action => action.type), ['open_app', 'reminder']);
   assert.deepEqual(res.body.actions[0], { type: 'open_app', label: 'Open Spotify', query: 'Spotify', minutes: 0, repeatMinutes: 0, reminderText: '' });
   assert.equal(res.body.actions[1].repeatMinutes, 20);
@@ -111,6 +113,52 @@ test('streams Gemini reply deltas as they arrive and returns safe actions at the
   const deltas = [...res.output.matchAll(/data: (\{.*?\})\n\n/g)].map(match => JSON.parse(match[1])).filter(event => event.type === 'delta').map(event => event.text);
   assert.deepEqual(deltas, ['Hello ', 'Kabir']);
   assert.match(res.output, /"type":"done"/);
+});
+
+test('enables Google Search and URL Context on request and streams sanitized citations', async () => {
+  const text = JSON.stringify({ reply: 'A grounded answer.', actions: [] });
+  const candidate = {
+    content: { parts: [{ text }] },
+    groundingMetadata: {
+      groundingChunks: [
+        { web: { uri: 'https://news.example/article', title: 'News source' } },
+        { web: { uri: 'javascript:alert(1)', title: 'Invalid source' } },
+        { web: { uri: 'https://user:secret@bad.example/private', title: 'Credential URL' } },
+      ],
+      searchEntryPoint: { renderedContent: '<a href="https://www.google.com/search?q=topic">Search Google</a>' },
+    },
+    urlContextMetadata: { urlMetadata: [
+      { retrievedUrl: 'https://docs.example/guide', urlRetrievalStatus: 'URL_RETRIEVAL_STATUS_SUCCESS' },
+      { retrievedUrl: 'https://docs.example/blocked', urlRetrievalStatus: 'URL_RETRIEVAL_STATUS_UNSAFE' },
+    ] },
+  };
+  let outgoingBody;
+  const handler = createHandler({
+    getApiKey: () => 'server-only-key',
+    fetchImpl: async (_url, options) => {
+      outgoingBody = JSON.parse(options.body);
+      const event = `data: ${JSON.stringify({ candidates: [candidate] })}\n\n`;
+      return { ok: true, status: 200, body: new ReadableStream({ start(controller) { controller.enqueue(new TextEncoder().encode(event)); controller.close(); } }) };
+    },
+  });
+  const res = response();
+  await handler(request('POST', {
+    message: 'Summarize the public web.', stream: true, webSearch: true, urlContext: true,
+    context: { localTime: 'Wednesday, 21 October 2026 13:30 SGT', timeZone: 'Asia/Singapore' },
+  }), res);
+
+  assert.deepEqual(outgoingBody.tools, [{ google_search: {} }, { url_context: {} }]);
+  assert.equal('temperature' in outgoingBody.generationConfig, false);
+  assert.match(outgoingBody.systemInstruction.parts[0].text, /Live web research is enabled/);
+  assert.match(outgoingBody.systemInstruction.parts[0].text, /Asia\/Singapore/);
+  assert.match(res.output, /\"status\":\"searching\"/);
+  assert.match(res.output, /\"status\":\"reading\"/);
+  const done = [...res.output.matchAll(/data: (\{.*?\})\n\n/g)].map(match => JSON.parse(match[1])).find(event => event.type === 'done');
+  assert.deepEqual(done.sources, [
+    { title: 'News source', url: 'https://news.example/article' },
+    { title: 'docs.example', url: 'https://docs.example/guide' },
+  ]);
+  assert.equal(done.searchSuggestionHtml, '<a href="https://www.google.com/search?q=topic">Search Google</a>');
 });
 
 test('rate limits bursts per forwarded client address', async () => {

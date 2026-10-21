@@ -1,4 +1,7 @@
 {
+  "functions": {
+    "api/kabirai.js": { "maxDuration": 60 }
+  },
   "rewrites": [
     {
       "source": "/api/wallpapers",
@@ -19,7 +22,46 @@
   ],
   "headers": [
     {
-      "source": "/api/(.*)",
+      "source": "/api/wallpapers",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300"
+        }
+      ]
+    },
+    {
+      "source": "/api/version",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300"
+        }
+      ]
+    },
+    {
+      "source": "/api/categories",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300"
+        }
+      ]
+    },
+    {
+      "source": "/api/features",
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
