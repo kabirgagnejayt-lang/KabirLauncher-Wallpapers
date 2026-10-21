@@ -30,7 +30,7 @@ Production deployment requires these server-side environment variables:
 - `UPSTASH_REDIS_REST_URL`
 - `UPSTASH_REDIS_REST_TOKEN`
 
-The shared Upstash limiter is required in production. The handler fails closed when the limiter is not configured. Both GPT-OSS choices support Groq's `browser_search` tool when enabled. Keys rotate round-robin; an invalid credential tries the next key. A key that receives HTTP 429 is individually paused for 60 seconds, and other configured keys remain eligible. The cooldown key is a SHA-256 fingerprint, not the secret. After configuring the server environment and confirming provider eligibility, deploy and check a streaming `POST /api/kabirai`. A `GET` request returns HTTP 405 by design.
+The shared Upstash limiter is required in production. The handler fails closed when the limiter is not configured. Both GPT-OSS choices support Groq's `browser_search` tool when enabled. Keys rotate round-robin; an invalid credential tries the next key. A key that receives HTTP 429 is individually paused for 60 seconds, and other configured keys remain eligible. The cooldown key is a SHA-256 fingerprint, not the secret. After configuring the server environment and confirming provider eligibility, check `GET /api/kabirai?health=1` for deployment status and a streaming `POST /api/kabirai` for chat. Other GET requests return HTTP 405.
 
 Run the backend contract checks with `node --test tools/kabirai-api.test.js tools/kabirai-http.test.js` from this website project.
 
