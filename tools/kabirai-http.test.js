@@ -43,9 +43,11 @@ test('serves a complete SSE reply and sanitized app action over HTTP', async () 
     env: {},
     getApiKey: () => 'server-only-test-key',
     fetchImpl: async (url, options) => {
-      assert.match(url, /models\/gemini-3\.5-flash-lite:streamGenerateContent\?alt=sse$/);
-      assert.equal(options.headers['x-goog-api-key'], 'server-only-test-key');
-      const chunks = upstreamChunks.map(text => `data: ${JSON.stringify({ candidates: [{ content: { parts: [{ text }] } }] })}\n\n`);
+      assert.equal(url, 'https://api.groq.com/openai/v1/chat/completions');
+      assert.equal(options.headers.Authorization, 'Bearer server-only-test-key');
+      assert.equal(JSON.parse(options.body).model, 'openai/gpt-oss-20b');
+      const chunks = upstreamChunks.map(content => `data: ${JSON.stringify({ choices: [{ delta: { content } }] })}\n\n`);
+      chunks.push('data: [DONE]\n\n');
       return {
         ok: true,
         status: 200,
@@ -86,6 +88,23 @@ test('returns the real HTTP 405 contract without touching the model', async () =
     assert.equal(response.status, 405);
     assert.equal(response.headers.get('allow'), 'POST');
     assert.equal((await response.json()).error, 'Use POST for KabirAI.');
+    assert.equal(upstreamCalled, false);
+  } finally {
+    await server.close();
+  }
+});
+
+test('reports the deployed cloud provider over a no-prompt health request', async () => {
+  let upstreamCalled = false;
+  const server = await openHandler(createHandler({
+    env: {},
+    getApiKey: () => 'server-only-test-key',
+    fetchImpl: async () => { upstreamCalled = true; throw new Error('unexpected upstream call'); },
+  }));
+  try {
+    const response = await fetch(`${server.url}?health=1`);
+    assert.equal(response.status, 200);
+    assert.deepEqual(await response.json(), { status: 'ready', provider: 'groq', models: ['openai/gpt-oss-20b', 'openai/gpt-oss-120b'] });
     assert.equal(upstreamCalled, false);
   } finally {
     await server.close();
