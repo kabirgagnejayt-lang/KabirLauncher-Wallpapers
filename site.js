@@ -1,5 +1,5 @@
 // ==========================================================================
-// KabirUI 3.0 Interactive 3D Phone Tilt, Particle Mesh & Countdown Script
+// KabirUI 4.2 Interactive 3D Phone Tilt, Particle Mesh & Countdown Script
 // ==========================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -64,10 +64,10 @@ function startVisibleAnimation(drawFrame) {
 }
 
 /**
- * 1. Countdown to Launch (30 OCT 2026)
+ * 1. Countdown to Launch (10 NOV 2026 at 00:00 UTC+8)
  */
 function initCountdown() {
-  const targetDate = new Date('2026-10-30T00:00:00+08:00').getTime();
+  const targetDate = new Date('2026-11-10T00:00:00+08:00').getTime();
 
   function update() {
     const now = new Date().getTime();
@@ -239,11 +239,14 @@ function initVersionBadge() {
   fetch('version.json', { cache: 'no-store' })
     .then(res => res.json())
     .then(release => {
-      if (release && release.versionName) {
-        versionBadge.textContent = `v${release.versionName}`;
+      if (release && /^\d+\.\d+(?:\.\d+)?$/.test(release.versionName)) {
+        const parts = release.versionName.split('.').map(Number);
+        if (parts[0] > 4 || (parts[0] === 4 && parts[1] >= 2)) {
+          versionBadge.textContent = `v${release.versionName}`;
+        }
       }
     })
     .catch(() => {
-      versionBadge.textContent = 'v3.0.0';
+      versionBadge.textContent = 'v4.2';
     });
 }
