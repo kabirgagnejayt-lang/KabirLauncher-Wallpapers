@@ -1,5 +1,5 @@
 /* ==========================================================================
-   KabirUI 4.2 Next-Gen Showcase & 3D Interactive Design System
+   KabirUI 5.0 Next-Gen Showcase & 3D Interactive Design System
    ========================================================================== */
 
 @font-face {
@@ -248,6 +248,10 @@ main {
   align-items: center;
   min-height: calc(90vh - 80px);
   padding: 60px 0 80px;
+}
+
+.launch-timer[hidden] {
+  display: none;
 }
 
 .countdown-banner {
