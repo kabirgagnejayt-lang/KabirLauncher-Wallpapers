@@ -1,5 +1,5 @@
 // ==========================================================================
-// KabirUI 4.2 Interactive 3D Phone Tilt, Particle Mesh & Countdown Script
+// KabirUI 5.0 Interactive 3D Phone Tilt, Particle Mesh & Countdown Script
 // ==========================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -64,19 +64,35 @@ function startVisibleAnimation(drawFrame) {
 }
 
 /**
- * 1. Countdown to Launch (10 NOV 2026 at 00:00 UTC+8)
+ * 1. Countdown to Launch (30 OCT 2026 at 00:00 UTC+8)
  */
 function initCountdown() {
-  const targetDate = new Date('2026-11-10T00:00:00+08:00').getTime();
+  const targetDate = new Date('2026-10-30T00:00:00+08:00').getTime();
+
+  let intervalId = null;
 
   function update() {
-    const now = new Date().getTime();
-    const distance = Math.max(0, targetDate - now);
+    const distance = targetDate - Date.now();
+    if (distance <= 0) {
+      const timer = document.querySelector('.launch-timer');
+      if (timer) timer.hidden = true;
+      document.querySelectorAll('.preregister-cta').forEach(button => {
+        button.textContent = 'Get it on Google Play';
+      });
+      document.querySelectorAll('.nav-cta, .countdown-text').forEach(label => {
+        label.textContent = 'Out now';
+      });
+      if (intervalId !== null) clearInterval(intervalId);
+      return false;
+    }
 
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    // Round up so the last second before launch never displays all zeroes.
+    const remaining = Math.ceil(distance / 1000) * 1000;
+
+    const days = Math.floor(remaining / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((remaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((remaining % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((remaining % (1000 * 60)) / 1000);
 
     const elDays = document.getElementById('days');
     const elHours = document.getElementById('hours');
@@ -89,8 +105,7 @@ function initCountdown() {
     if (elSeconds) elSeconds.textContent = String(seconds).padStart(2, '0');
   }
 
-  update();
-  setInterval(update, 1000);
+  if (update() !== false) intervalId = setInterval(update, 1000);
 }
 
 /**
@@ -236,17 +251,18 @@ function initVersionBadge() {
   const versionBadge = document.querySelector('#version-badge');
   if (!versionBadge) return;
 
+  versionBadge.textContent = 'v5.0';
   fetch('version.json', { cache: 'no-store' })
     .then(res => res.json())
     .then(release => {
       if (release && /^\d+\.\d+(?:\.\d+)?$/.test(release.versionName)) {
         const parts = release.versionName.split('.').map(Number);
-        if (parts[0] > 4 || (parts[0] === 4 && parts[1] >= 2)) {
+        if (parts[0] >= 5) {
           versionBadge.textContent = `v${release.versionName}`;
         }
       }
     })
     .catch(() => {
-      versionBadge.textContent = 'v4.2';
+      versionBadge.textContent = 'v5.0';
     });
 }
