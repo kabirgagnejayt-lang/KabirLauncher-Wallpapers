@@ -1,5 +1,5 @@
 /* ==========================================================================
-   KabirUI 3.0 Next-Gen Showcase & 3D Interactive Design System
+   KabirUI 4.2 Next-Gen Showcase & 3D Interactive Design System
    ========================================================================== */
 
 @font-face {
@@ -362,6 +362,11 @@ main {
   border-radius: 999px;
   box-shadow: 0 10px 30px rgba(var(--accent-mint-rgb), 0.24);
   transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.preregister-cta {
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .btn-primary:hover {
