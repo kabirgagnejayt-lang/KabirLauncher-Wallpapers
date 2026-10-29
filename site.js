@@ -64,10 +64,10 @@ function startVisibleAnimation(drawFrame) {
 }
 
 /**
- * 1. Countdown to Launch (30 OCT 2026 at 00:00 UTC+8)
+ * 1. Countdown to Launch (1 NOV 2026 at 00:00 UTC+8)
  */
 function initCountdown() {
-  const targetDate = new Date('2026-10-30T00:00:00+08:00').getTime();
+  const targetDate = new Date('2026-11-01T00:00:00+08:00').getTime();
 
   let intervalId = null;
 
