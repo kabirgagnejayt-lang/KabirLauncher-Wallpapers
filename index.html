@@ -3,776 +3,548 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0a0f0d">
-  <meta name="description" content="KabirUI: a privacy-first Android launcher with 48 clock and 48 battery widget styles, customizable icons, local search, optional Google suggestions, and 63 wallpapers.">
-  <title>KabirUI 5.0 — The Future of Android Home Screens</title>
-  <link rel="icon" href="assets/kabirui-mark.png">
-  <link rel="apple-touch-icon" href="assets/kabirui-mark.png">
-  <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <meta name="theme-color" content="#05060a">
+  <meta name="description" content="KabirUI: a privacy-first Android launcher with 48 clock and 48 battery widget styles, customizable icons, local search, optional Google suggestions, and 73 wallpapers.">
+  <title>KabirUI — Out now on Google Play</title>
+  <link rel="canonical" href="https://kabirui.kabirinvents.com/">
+  <meta property="og:title" content="KabirUI — Out now on Google Play">
+  <meta property="og:description" content="KabirUI is out now: a privacy-first Android launcher with Nova home screen import, 96 widget styles, Quick Search, and 73 wallpapers.">
+  <meta property="og:image" content="https://kabirui.kabirinvents.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="KabirUI — Out now on Google Play, with launcher home and search screenshots.">
+  <meta property="og:site_name" content="KabirUI">
+  <meta property="og:url" content="https://kabirui.kabirinvents.com/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="KabirUI — Out now on Google Play">
+  <meta name="twitter:description" content="KabirUI is out now: a privacy-first Android launcher with Nova home screen import, 96 widget styles, Quick Search, and 73 wallpapers.">
+  <meta name="twitter:image" content="https://kabirui.kabirinvents.com/assets/og-image.png">
+
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" type="image/x-icon">
+  <link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/assets/favicon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" sizes="180x180">
   <link rel="preload" href="assets/fonts/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <!-- Ambient Interactive Background -->
-  <canvas id="bg-canvas" aria-hidden="true"></canvas>
-  <div class="aurora-bg"></div>
+<body class="landing-page"><a class="skip-link" href="#main-content">Skip to content</a>
 
-  <!-- Floating Navigation Island -->
+
+  <!-- Primary navigation -->
   <header>
     <div class="nav-island">
       <a class="brand" href="/">
-        <img class="brand-icon" src="assets/kabirui-mark.png" alt="">
+        <img class="brand-icon" src="assets/kabirui-icon.png" alt="">
         <span>KabirUI</span>
-        <span class="version-pill" id="version-badge">v5.0</span>
       </a>
-      <nav>
+      <nav aria-label="Primary navigation">
         <a href="#features">Experience</a>
         <a href="#wallpapers">Wallpapers</a>
         <a href="#support">Support</a>
-        <a class="nav-cta" href="https://play.google.com/store/apps/details?id=com.kabirinvents.kabirlauncher" target="_blank" rel="noopener">Coming 1 NOV 2026</a>
+        <a class="nav-cta" href="https://play.google.com/store/apps/details?id=com.kabirinvents.kabirlauncher" target="_blank" rel="noopener">Out now</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <!-- Hero Section with 3D Interactive Phone -->
-    <section class="hero-section" id="launch">
+  <main id="main-content">
+    <!-- Framed hero with animated light columns -->
+    <section class="hero-section" id="launch" aria-labelledby="hero-title">
+      <div class="light-streaks" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="cursor-glow" aria-hidden="true"></div>
       <div class="hero-copy">
-        <div class="countdown-banner">
-          <span class="pulse-dot"></span>
-          <span class="countdown-text" role="status">Official Global Release · November 1, 2026</span>
-        </div>
-        <h1>
-          Your phone.<br>
-          Reimagined in <span class="gradient-text">KabirUI 5.0</span>.
-        </h1>
+        <div class="hero-icon"><img src="assets/kabirui-icon.png" width="80" height="80" alt="KabirUI app icon"></div>
+        <h1 id="hero-title">KabirUI</h1>
         <p class="hero-sub">
-          A privacy-first Android launcher with 48 clock and 48 battery widget designs, glassmorphic folders, customizable icons, local search, optional web suggestions, and 63 wallpapers.
+          A privacy-first Android launcher for a home screen of your own.
         </p>
 
-        <!-- Dynamic Live Countdown -->
-        <div class="launch-timer">
-          <div class="time-box">
-            <span class="time-val" id="days">13</span>
-            <span class="time-lbl">Days</span>
-          </div>
-          <div class="time-box">
-            <span class="time-val" id="hours">00</span>
-            <span class="time-lbl">Hours</span>
-          </div>
-          <div class="time-box">
-            <span class="time-val" id="minutes">00</span>
-            <span class="time-lbl">Minutes</span>
-          </div>
-          <div class="time-box">
-            <span class="time-val" id="seconds">00</span>
-            <span class="time-lbl">Seconds</span>
-          </div>
-        </div>
-
-        <a class="btn-primary preregister-cta" href="https://play.google.com/store/apps/details?id=com.kabirinvents.kabirlauncher" target="_blank" rel="noopener">Pre-register on Google Play</a>
-
         <div class="hero-actions">
-          <a class="btn-primary" href="#features">
-            <span>Explore 5.0 Features</span>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </a>
-          <a class="btn-glass" href="#wallpapers">
-            <span>Browse Wallpapers</span>
-          </a>
+          <a class="btn-primary" href="https://play.google.com/store/apps/details?id=com.kabirinvents.kabirlauncher" target="_blank" rel="noopener">Get it on Google Play <span aria-hidden="true">↗</span></a>
+          <a class="btn-glass" href="#wallpapers">Browse wallpapers <span aria-hidden="true">↓</span></a>
         </div>
+        <a class="hero-explore" href="#features">Explore features <span aria-hidden="true">↓</span></a>
       </div>
 
-      <!-- 3D Gyroscope/Mouse Responsive Stage -->
-      <div class="hero-stage">
-        <div class="phone-3d-wrapper">
-          <!-- Floating 3D Micro Cards -->
-          <div class="floating-badge badge-top-left">
-            <span class="badge-icon">✓</span>
-            <span>96 Widget Styles</span>
-          </div>
-          <div class="floating-badge badge-bottom-right">
-            <span class="badge-icon">⚡</span>
-            <span>Zero-Lag Caching</span>
-          </div>
+    </section>
 
+    <section class="preview-section" aria-label="A closer look at KabirUI">
+      <!-- Launcher preview -->
+      <div class="hero-stage">
+        <img class="preview-side preview-left" src="assets/launcher_live_drawer.png" width="1080" height="2340" alt="KabirUI app drawer" loading="lazy">
+        <img class="preview-side preview-right" src="assets/launcher_live_search.png" width="1080" height="2340" alt="KabirUI Quick Search" loading="lazy">
+        <div class="phone-3d-wrapper">
           <div class="phone-chassis">
             <div class="phone-screen">
-              <img src="assets/launcher_real_home.png" width="1080" height="2340" alt="KabirUI 5.0 Real Running Home Screen on Galaxy A36">
+              <img src="assets/launcher_real_home.png" width="1080" height="2340" alt="KabirUI Real Running Home Screen on Galaxy A36">
               <div class="phone-glare"></div>
             </div>
           </div>
         </div>
       </div>
+      <p class="preview-caption">96 widget styles. Zero-lag caching.</p>
     </section>
 
-    <!-- Interactive UI Feature Showcase -->
+    <!-- Feature showcase -->
     <section class="features-section" id="features">
       <div class="section-head">
-        <span class="tag-label">Engineered for Excellence</span>
-        <h2>Experience the 5.0 Overhaul</h2>
-        <p>Every pixel, curve, and gesture has been tuned for ultimate fluidity on modern high-refresh AMOLED displays.</p>
+        <h2>Features</h2>
+        <p>Glassmorphic folders, customizable icons, local search, and optional web suggestions, tuned for high-refresh AMOLED displays.</p>
       </div>
 
       <div class="ui-showcase-grid">
         <!-- Card 1: Home & Widgets -->
         <article class="ui-card-3d">
-          <div class="ui-card-head">
-            <span class="ui-card-tag">Home &amp; Widgets</span>
-            <span style="font-size: 18px;">✨</span>
-          </div>
           <div class="ui-card-phone">
-            <img src="assets/launcher_real_home.png" loading="lazy" alt="KabirUI 5.0 Home Screen with Clock and Battery Widgets">
+            <img src="assets/launcher_real_home.png" loading="lazy" alt="KabirUI Home Screen with Clock and Battery Widgets">
           </div>
           <div class="ui-card-desc">
-            <h3>96 Widget Looks</h3>
+            <h3>Home &amp; widgets</h3>
             <p>Choose from 48 clock faces and 48 battery designs, filter styles by look, then tune clock typeface and seconds, color, scale, alignment, detail, battery labels, charging icon, accents, and per-widget surface opacity.</p>
           </div>
         </article>
 
         <!-- Card 2: Interactive App Drawer -->
         <article class="ui-card-3d">
-          <div class="ui-card-head">
-            <span class="ui-card-tag">App Drawer</span>
-            <span style="font-size: 18px;">📂</span>
-          </div>
           <div class="ui-card-phone">
-            <img src="assets/launcher_live_drawer.png" loading="lazy" alt="KabirUI 5.0 App Drawer with A-Z Scrubber and Categories">
+            <img src="assets/launcher_live_drawer.png" loading="lazy" alt="KabirUI App Drawer with A-Z Scrubber and Categories">
           </div>
           <div class="ui-card-desc">
-            <h3>A–Z Bubble &amp; Categories</h3>
-            <p>Floating letter preview scrubber, smart category badges, and instant long-press anchor menus right where you tap.</p>
+            <h3>App drawer</h3>
+            <p>Floating A–Z letter preview scrubber, smart category badges, and instant long-press anchor menus right where you tap.</p>
           </div>
         </article>
 
         <!-- Card 3: Quick Search & Privacy -->
         <article class="ui-card-3d">
-          <div class="ui-card-head">
-            <span class="ui-card-tag">Universal Search</span>
-            <span style="font-size: 18px;">⚡</span>
-          </div>
           <div class="ui-card-phone">
-            <img src="assets/launcher_live_search.png" loading="lazy" alt="KabirUI 5.0 Quick Search with Frosted Glass">
+            <img src="assets/launcher_live_search.png" loading="lazy" alt="KabirUI Quick Search with Frosted Glass">
           </div>
           <div class="ui-card-desc">
-            <h3>Frosted Live Search</h3>
-            <p>Find apps, contacts, settings, and files in one swipe. Local results stay on-device; web suggestions are on by default, can be turned off, and send your query to Google.</p>
+            <h3>Quick Search</h3>
+            <p>Find apps, settings, and files in one swipe with frosted-glass search. Call or message a contact through Android’s contact picker, with no contacts permission needed. Local results stay on-device; web suggestions are on by default, can be turned off, and send your query to Google.</p>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- Parallax Wallpapers Carousel -->
+    <!-- Release Highlights -->
+    <section class="features-section" id="whats-new" aria-labelledby="whats-new-title">
+      <div class="section-head">
+        <h2 id="whats-new-title">What's new</h2>
+      </div>
+      <div class="ui-showcase-grid release-grid">
+        <article class="ui-card-3d">
+          <div class="ui-card-desc">
+            <h3>Nova import</h3>
+            <p>Import your home screen from Nova Launcher, with a safety backup and undo.</p>
+          </div>
+        </article>
+        <article class="ui-card-3d">
+          <div class="ui-card-desc">
+            <h3>Fewer permissions</h3>
+            <p>The KabirAI assistant is gone, with fewer permissions.</p>
+          </div>
+        </article>
+        <article class="ui-card-3d">
+          <div class="ui-card-desc">
+            <h3>Contact picker</h3>
+            <p>Call or message a contact using Android’s contact picker. No contacts permission needed.</p>
+          </div>
+        </article>
+        <article class="ui-card-3d">
+          <div class="ui-card-desc">
+            <h3>Stability fixes</h3>
+            <p>Stability and memory fixes for widgets, wallpapers, backups, and downloads.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Complete wallpaper gallery -->
     <section class="wallpaper-section" id="wallpapers">
       <div class="section-head" style="margin-bottom: 30px;">
-        <span class="tag-label">Curated Aesthetics</span>
-        <h2>A Change of Scenery</h2>
+        <h2>Wallpapers</h2>
         <p>Browse 73 curated scenes across color, nature, floral, architecture, abstract, space, and AMOLED styles.</p>
       </div>
 
-      <div class="wallpaper-controls">
-        <button class="wallpaper-motion-toggle" id="wallpaper-motion-toggle" type="button" aria-controls="wallpaper-carousel" aria-pressed="false">Pause wallpaper motion</button>
-      </div>
-
-      <div class="marquee-container" id="wallpaper-carousel">
-        <div class="marquee-track">
-          <!-- Catalog scenes -->
-          <div class="wp-figure">
-            <img src="wallpapers/dusk/720p.webp" loading="lazy" alt="Dusk wallpaper">
-            <div class="wp-caption">Dusk</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/sage/720p.webp" loading="lazy" alt="Sage wallpaper">
-            <div class="wp-caption">Sage</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/ocean/720p.webp" loading="lazy" alt="Ocean wallpaper">
-            <div class="wp-caption">Ocean</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/rose/720p.webp" loading="lazy" alt="Rose wallpaper">
-            <div class="wp-caption">Rose</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/sand/720p.webp" loading="lazy" alt="Sand wallpaper">
-            <div class="wp-caption">Sand</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/midnight/720p.webp" loading="lazy" alt="Midnight wallpaper">
-            <div class="wp-caption">Midnight</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/orbit/720p.webp" loading="lazy" alt="Orbit wallpaper">
-            <div class="wp-caption">Orbit</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/halo/720p.webp" loading="lazy" alt="Halo wallpaper">
-            <div class="wp-caption">Halo</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/contour/720p.webp" loading="lazy" alt="Contour wallpaper">
-            <div class="wp-caption">Contour</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/aurora/720p.webp" loading="lazy" alt="Aurora wallpaper">
-            <div class="wp-caption">Aurora</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/dune/720p.webp" loading="lazy" alt="Dune wallpaper">
-            <div class="wp-caption">Dune</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/botanical/720p.webp" loading="lazy" alt="Botanical wallpaper">
-            <div class="wp-caption">Botanical</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/glass-tide/720p.webp" loading="lazy" alt="Glass Tide wallpaper">
-            <div class="wp-caption">Glass Tide</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/nebula/720p.webp" loading="lazy" alt="Nebula wallpaper">
-            <div class="wp-caption">Nebula</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/moonlit/720p.webp" loading="lazy" alt="Moonlit wallpaper">
-            <div class="wp-caption">Moonlit</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/mist-stone/720p.webp" loading="lazy" alt="Mist &amp; Stone wallpaper">
-            <div class="wp-caption">Mist &amp; Stone</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/cobalt-glass/720p.webp" loading="lazy" alt="Cobalt Glass wallpaper">
-            <div class="wp-caption">Cobalt Glass</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/desert-dusk/720p.webp" loading="lazy" alt="Desert Dusk wallpaper">
-            <div class="wp-caption">Desert Dusk</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/emerald-fern/720p.webp" loading="lazy" alt="Emerald Fern wallpaper">
-            <div class="wp-caption">Emerald Fern</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/soft-dawn/720p.webp" loading="lazy" alt="Soft Dawn wallpaper">
-            <div class="wp-caption">Soft Dawn</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/quiet-arch/720p.webp" loading="lazy" alt="Quiet Arch wallpaper">
-            <div class="wp-caption">Quiet Arch</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/silkfold/720p.webp" loading="lazy" alt="Silk Fold wallpaper">
-            <div class="wp-caption">Silk Fold</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/eclipse-bloom/720p.webp" loading="lazy" alt="Eclipse Bloom wallpaper">
-            <div class="wp-caption">Eclipse Bloom</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/boreal-quiet/720p.webp" loading="lazy" alt="Boreal Quiet wallpaper">
-            <div class="wp-caption">Boreal Quiet</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/citrine-haze/720p.webp" loading="lazy" alt="Citrine Haze wallpaper">
-            <div class="wp-caption">Citrine Haze</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/greenhouse-after-rain/720p.webp" loading="lazy" alt="Greenhouse After Rain wallpaper">
-            <div class="wp-caption">Greenhouse After Rain</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/midnight-geometry/720p.webp" loading="lazy" alt="Midnight Geometry wallpaper">
-            <div class="wp-caption">Midnight Geometry</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/sandstone-monolith/720p.webp" loading="lazy" alt="Sandstone Monolith wallpaper">
-            <div class="wp-caption">Sandstone Monolith</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/monsoon-glass/720p.webp" loading="lazy" alt="Monsoon Glass wallpaper">
-            <div class="wp-caption">Monsoon Glass</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/amethyst-current/720p.webp" loading="lazy" alt="Amethyst Current wallpaper">
-            <div class="wp-caption">Amethyst Current</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/petal-sundown/720p.webp" loading="lazy" alt="Petal Sundown wallpaper">
-            <div class="wp-caption">Petal Sundown</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/saffron-strata/720p.webp" loading="lazy" alt="Saffron Strata wallpaper">
-            <div class="wp-caption">Saffron Strata</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/rainlight/720p.webp" loading="lazy" alt="Rainlight wallpaper">
-            <div class="wp-caption">Rainlight</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/salt-bloom/720p.webp" loading="lazy" alt="Salt Bloom wallpaper">
-            <div class="wp-caption">Salt Bloom</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/prismatic-current/720p.webp" loading="lazy" alt="Prismatic Current wallpaper">
-            <div class="wp-caption">Prismatic Current</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/cloud-garden/720p.webp" loading="lazy" alt="Cloud Garden wallpaper">
-            <div class="wp-caption">Cloud Garden</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/emberline/720p.webp" loading="lazy" alt="Emberline wallpaper">
-            <div class="wp-caption">Emberline</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/nocturne-circuit/720p.webp" loading="lazy" alt="Nocturne Circuit wallpaper">
-            <div class="wp-caption">Nocturne Circuit</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/cosmic-bloom/720p.webp" loading="lazy" alt="Cosmic Bloom wallpaper">
-            <div class="wp-caption">Cosmic Bloom</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/city-glass/720p.webp" loading="lazy" alt="City Glass wallpaper">
-            <div class="wp-caption">City Glass</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/lotus-afterglow/720p.webp" loading="lazy" alt="Lotus Afterglow wallpaper">
-            <div class="wp-caption">Lotus Afterglow</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/tidal-glass/720p.webp" loading="lazy" alt="Tidal Glass wallpaper">
-            <div class="wp-caption">Tidal Glass</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/solar-loom/720p.webp" loading="lazy" alt="Solar Loom wallpaper">
-            <div class="wp-caption">Solar Loom</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/mosslight/720p.webp" loading="lazy" alt="Mosslight wallpaper">
-            <div class="wp-caption">Mosslight</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/porcelain-sky/720p.webp" loading="lazy" alt="Porcelain Sky wallpaper">
-            <div class="wp-caption">Porcelain Sky</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/prismfall/720p.webp" loading="lazy" alt="Prismfall wallpaper">
-            <div class="wp-caption">Prismfall</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/velvet-skyline/720p.webp" loading="lazy" alt="Velvet Skyline wallpaper">
-            <div class="wp-caption">Velvet Skyline</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/perigee/720p.webp" loading="lazy" alt="Perigee wallpaper">
-            <div class="wp-caption">Perigee</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/glacier-bloom/720p.webp" loading="lazy" alt="Glacier Bloom wallpaper">
-            <div class="wp-caption">Glacier Bloom</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/copper-atlas/720p.webp" loading="lazy" alt="Copper Atlas wallpaper">
-            <div class="wp-caption">Copper Atlas</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/glass-orchid/720p.webp" loading="lazy" alt="Glass Orchid wallpaper">
-            <div class="wp-caption">Glass Orchid</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/orchard-light/720p.webp" loading="lazy" alt="Orchard Light wallpaper">
-            <div class="wp-caption">Orchard Light</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/lunar-library/720p.webp" loading="lazy" alt="Lunar Library wallpaper">
-            <div class="wp-caption">Lunar Library</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/coral-tide/720p.webp" loading="lazy" alt="Coral Tide wallpaper">
-            <div class="wp-caption">Coral Tide</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/dune-script/720p.webp" loading="lazy" alt="Dune Script wallpaper">
-            <div class="wp-caption">Dune Script</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/ink-current/720p.webp" loading="lazy" alt="Ink Current wallpaper">
-            <div class="wp-caption">Ink Current</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/tideglass/720p.webp" loading="lazy" alt="Tideglass wallpaper">
-            <div class="wp-caption">Tideglass</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/verdant-afterglow/720p.webp" loading="lazy" alt="Verdant Afterglow wallpaper">
-            <div class="wp-caption">Verdant Afterglow</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/opal-veil/720p.webp" loading="lazy" alt="Opal Veil wallpaper">
-            <div class="wp-caption">Opal Veil</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/ember-dunes/720p.webp" loading="lazy" alt="Ember Dunes wallpaper">
-            <div class="wp-caption">Ember Dunes</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/polar-silence/720p.webp" loading="lazy" alt="Polar Silence wallpaper">
-            <div class="wp-caption">Polar Silence</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/orchid-halo/720p.webp" loading="lazy" alt="Orchid Halo wallpaper">
-            <div class="wp-caption">Orchid Halo</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/copper-rain/720p.webp" loading="lazy" alt="Copper Rain wallpaper">
-            <div class="wp-caption">Copper Rain</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/andromeda-halo/720p.webp" loading="lazy" alt="Andromeda Halo wallpaper">
-            <div class="wp-caption">Andromeda Halo</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/saturn-glass/720p.webp" loading="lazy" alt="Saturn Glass wallpaper">
-            <div class="wp-caption">Saturn Glass</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/solar-flare/720p.webp" loading="lazy" alt="Solar Flare wallpaper">
-            <div class="wp-caption">Solar Flare</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/teal-nebula/720p.webp" loading="lazy" alt="Teal Nebula wallpaper">
-            <div class="wp-caption">Teal Nebula</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/eclipse-desert/720p.webp" loading="lazy" alt="Eclipse Desert wallpaper">
-            <div class="wp-caption">Eclipse Desert</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/deep-field/720p.webp" loading="lazy" alt="Deep Field wallpaper">
-            <div class="wp-caption">Deep Field</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/rose-nebula/720p.webp" loading="lazy" alt="Rose Nebula wallpaper">
-            <div class="wp-caption">Rose Nebula</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/blue-supernova/720p.webp" loading="lazy" alt="Blue Supernova wallpaper">
-            <div class="wp-caption">Blue Supernova</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/lunar-tide/720p.webp" loading="lazy" alt="Lunar Tide wallpaper">
-            <div class="wp-caption">Lunar Tide</div>
-          </div>
-          <div class="wp-figure">
-            <img src="wallpapers/event-horizon/720p.webp" loading="lazy" alt="Event Horizon wallpaper">
-            <div class="wp-caption">Event Horizon</div>
-          </div>
-          <!-- Seamless loop copy, hidden from assistive technology -->
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/dusk/720p.webp" loading="lazy" alt="Dusk wallpaper">
-            <div class="wp-caption">Dusk</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/sage/720p.webp" loading="lazy" alt="Sage wallpaper">
-            <div class="wp-caption">Sage</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/ocean/720p.webp" loading="lazy" alt="Ocean wallpaper">
-            <div class="wp-caption">Ocean</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/rose/720p.webp" loading="lazy" alt="Rose wallpaper">
-            <div class="wp-caption">Rose</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/sand/720p.webp" loading="lazy" alt="Sand wallpaper">
-            <div class="wp-caption">Sand</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/midnight/720p.webp" loading="lazy" alt="Midnight wallpaper">
-            <div class="wp-caption">Midnight</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/orbit/720p.webp" loading="lazy" alt="Orbit wallpaper">
-            <div class="wp-caption">Orbit</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/halo/720p.webp" loading="lazy" alt="Halo wallpaper">
-            <div class="wp-caption">Halo</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/contour/720p.webp" loading="lazy" alt="Contour wallpaper">
-            <div class="wp-caption">Contour</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/aurora/720p.webp" loading="lazy" alt="Aurora wallpaper">
-            <div class="wp-caption">Aurora</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/dune/720p.webp" loading="lazy" alt="Dune wallpaper">
-            <div class="wp-caption">Dune</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/botanical/720p.webp" loading="lazy" alt="Botanical wallpaper">
-            <div class="wp-caption">Botanical</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/glass-tide/720p.webp" loading="lazy" alt="Glass Tide wallpaper">
-            <div class="wp-caption">Glass Tide</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/nebula/720p.webp" loading="lazy" alt="Nebula wallpaper">
-            <div class="wp-caption">Nebula</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/moonlit/720p.webp" loading="lazy" alt="Moonlit wallpaper">
-            <div class="wp-caption">Moonlit</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/mist-stone/720p.webp" loading="lazy" alt="Mist &amp; Stone wallpaper">
-            <div class="wp-caption">Mist &amp; Stone</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/cobalt-glass/720p.webp" loading="lazy" alt="Cobalt Glass wallpaper">
-            <div class="wp-caption">Cobalt Glass</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/desert-dusk/720p.webp" loading="lazy" alt="Desert Dusk wallpaper">
-            <div class="wp-caption">Desert Dusk</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/emerald-fern/720p.webp" loading="lazy" alt="Emerald Fern wallpaper">
-            <div class="wp-caption">Emerald Fern</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/soft-dawn/720p.webp" loading="lazy" alt="Soft Dawn wallpaper">
-            <div class="wp-caption">Soft Dawn</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/quiet-arch/720p.webp" loading="lazy" alt="Quiet Arch wallpaper">
-            <div class="wp-caption">Quiet Arch</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/silkfold/720p.webp" loading="lazy" alt="Silk Fold wallpaper">
-            <div class="wp-caption">Silk Fold</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/eclipse-bloom/720p.webp" loading="lazy" alt="Eclipse Bloom wallpaper">
-            <div class="wp-caption">Eclipse Bloom</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/boreal-quiet/720p.webp" loading="lazy" alt="Boreal Quiet wallpaper">
-            <div class="wp-caption">Boreal Quiet</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/citrine-haze/720p.webp" loading="lazy" alt="Citrine Haze wallpaper">
-            <div class="wp-caption">Citrine Haze</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/greenhouse-after-rain/720p.webp" loading="lazy" alt="Greenhouse After Rain wallpaper">
-            <div class="wp-caption">Greenhouse After Rain</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/midnight-geometry/720p.webp" loading="lazy" alt="Midnight Geometry wallpaper">
-            <div class="wp-caption">Midnight Geometry</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/sandstone-monolith/720p.webp" loading="lazy" alt="Sandstone Monolith wallpaper">
-            <div class="wp-caption">Sandstone Monolith</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/monsoon-glass/720p.webp" loading="lazy" alt="Monsoon Glass wallpaper">
-            <div class="wp-caption">Monsoon Glass</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/amethyst-current/720p.webp" loading="lazy" alt="Amethyst Current wallpaper">
-            <div class="wp-caption">Amethyst Current</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/petal-sundown/720p.webp" loading="lazy" alt="Petal Sundown wallpaper">
-            <div class="wp-caption">Petal Sundown</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/saffron-strata/720p.webp" loading="lazy" alt="Saffron Strata wallpaper">
-            <div class="wp-caption">Saffron Strata</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/rainlight/720p.webp" loading="lazy" alt="Rainlight wallpaper">
-            <div class="wp-caption">Rainlight</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/salt-bloom/720p.webp" loading="lazy" alt="Salt Bloom wallpaper">
-            <div class="wp-caption">Salt Bloom</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/prismatic-current/720p.webp" loading="lazy" alt="Prismatic Current wallpaper">
-            <div class="wp-caption">Prismatic Current</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/cloud-garden/720p.webp" loading="lazy" alt="Cloud Garden wallpaper">
-            <div class="wp-caption">Cloud Garden</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/emberline/720p.webp" loading="lazy" alt="Emberline wallpaper">
-            <div class="wp-caption">Emberline</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/nocturne-circuit/720p.webp" loading="lazy" alt="Nocturne Circuit wallpaper">
-            <div class="wp-caption">Nocturne Circuit</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/cosmic-bloom/720p.webp" loading="lazy" alt="Cosmic Bloom wallpaper">
-            <div class="wp-caption">Cosmic Bloom</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/city-glass/720p.webp" loading="lazy" alt="City Glass wallpaper">
-            <div class="wp-caption">City Glass</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/lotus-afterglow/720p.webp" loading="lazy" alt="Lotus Afterglow wallpaper">
-            <div class="wp-caption">Lotus Afterglow</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/tidal-glass/720p.webp" loading="lazy" alt="Tidal Glass wallpaper">
-            <div class="wp-caption">Tidal Glass</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/solar-loom/720p.webp" loading="lazy" alt="Solar Loom wallpaper">
-            <div class="wp-caption">Solar Loom</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/mosslight/720p.webp" loading="lazy" alt="Mosslight wallpaper">
-            <div class="wp-caption">Mosslight</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/porcelain-sky/720p.webp" loading="lazy" alt="Porcelain Sky wallpaper">
-            <div class="wp-caption">Porcelain Sky</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/prismfall/720p.webp" loading="lazy" alt="Prismfall wallpaper">
-            <div class="wp-caption">Prismfall</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/velvet-skyline/720p.webp" loading="lazy" alt="Velvet Skyline wallpaper">
-            <div class="wp-caption">Velvet Skyline</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/perigee/720p.webp" loading="lazy" alt="Perigee wallpaper">
-            <div class="wp-caption">Perigee</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/glacier-bloom/720p.webp" loading="lazy" alt="Glacier Bloom wallpaper">
-            <div class="wp-caption">Glacier Bloom</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/copper-atlas/720p.webp" loading="lazy" alt="Copper Atlas wallpaper">
-            <div class="wp-caption">Copper Atlas</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/glass-orchid/720p.webp" loading="lazy" alt="Glass Orchid wallpaper">
-            <div class="wp-caption">Glass Orchid</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/orchard-light/720p.webp" loading="lazy" alt="Orchard Light wallpaper">
-            <div class="wp-caption">Orchard Light</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/lunar-library/720p.webp" loading="lazy" alt="Lunar Library wallpaper">
-            <div class="wp-caption">Lunar Library</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/coral-tide/720p.webp" loading="lazy" alt="Coral Tide wallpaper">
-            <div class="wp-caption">Coral Tide</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/dune-script/720p.webp" loading="lazy" alt="Dune Script wallpaper">
-            <div class="wp-caption">Dune Script</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/ink-current/720p.webp" loading="lazy" alt="Ink Current wallpaper">
-            <div class="wp-caption">Ink Current</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/tideglass/720p.webp" loading="lazy" alt="Tideglass wallpaper">
-            <div class="wp-caption">Tideglass</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/verdant-afterglow/720p.webp" loading="lazy" alt="Verdant Afterglow wallpaper">
-            <div class="wp-caption">Verdant Afterglow</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/opal-veil/720p.webp" loading="lazy" alt="Opal Veil wallpaper">
-            <div class="wp-caption">Opal Veil</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/ember-dunes/720p.webp" loading="lazy" alt="Ember Dunes wallpaper">
-            <div class="wp-caption">Ember Dunes</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/polar-silence/720p.webp" loading="lazy" alt="Polar Silence wallpaper">
-            <div class="wp-caption">Polar Silence</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/orchid-halo/720p.webp" loading="lazy" alt="Orchid Halo wallpaper">
-            <div class="wp-caption">Orchid Halo</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/copper-rain/720p.webp" loading="lazy" alt="Copper Rain wallpaper">
-            <div class="wp-caption">Copper Rain</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/andromeda-halo/720p.webp" loading="lazy" alt="Andromeda Halo wallpaper">
-            <div class="wp-caption">Andromeda Halo</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/saturn-glass/720p.webp" loading="lazy" alt="Saturn Glass wallpaper">
-            <div class="wp-caption">Saturn Glass</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/solar-flare/720p.webp" loading="lazy" alt="Solar Flare wallpaper">
-            <div class="wp-caption">Solar Flare</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/teal-nebula/720p.webp" loading="lazy" alt="Teal Nebula wallpaper">
-            <div class="wp-caption">Teal Nebula</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/eclipse-desert/720p.webp" loading="lazy" alt="Eclipse Desert wallpaper">
-            <div class="wp-caption">Eclipse Desert</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/deep-field/720p.webp" loading="lazy" alt="Deep Field wallpaper">
-            <div class="wp-caption">Deep Field</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/rose-nebula/720p.webp" loading="lazy" alt="Rose Nebula wallpaper">
-            <div class="wp-caption">Rose Nebula</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/blue-supernova/720p.webp" loading="lazy" alt="Blue Supernova wallpaper">
-            <div class="wp-caption">Blue Supernova</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/lunar-tide/720p.webp" loading="lazy" alt="Lunar Tide wallpaper">
-            <div class="wp-caption">Lunar Tide</div>
-          </div>
-          <div class="wp-figure" aria-hidden="true">
-            <img src="wallpapers/event-horizon/720p.webp" loading="lazy" alt="Event Horizon wallpaper">
-            <div class="wp-caption">Event Horizon</div>
-          </div>
-        </div>
+      <div class="gallery-toolbar"><p><span class="gallery-count" aria-live="polite">73 wallpapers</span></p><label>Collection <select id="wallpaper-filter"><option value="all">All collections</option><option value="Color">Color</option><option value="AMOLED">AMOLED</option><option value="Nature">Nature</option><option value="Abstract">Abstract</option><option value="Space">Space</option><option value="Architecture">Architecture</option><option value="Floral">Floral</option></select></label></div>
+      <div class="wallpaper-grid">
+        <article class="wp-figure" data-category="Color">
+          <a class="wp-preview" href="wallpapers/dusk/4k.webp" aria-label="View Dusk wallpaper in 4K"><img src="wallpapers/dusk/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Dusk wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Dusk</h3><span>Color</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Dusk"><a href="wallpapers/dusk/720p.webp" download="kabirui-dusk-720p.webp" aria-label="Download Dusk in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/dusk/1080p.webp" download="kabirui-dusk-1080p.webp" aria-label="Download Dusk in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/dusk/2k.webp" download="kabirui-dusk-2k.webp" aria-label="Download Dusk in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/dusk/4k.webp" download="kabirui-dusk-4k.webp" aria-label="Download Dusk in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Color">
+          <a class="wp-preview" href="wallpapers/sage/4k.webp" aria-label="View Sage wallpaper in 4K"><img src="wallpapers/sage/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Sage wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Sage</h3><span>Color</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Sage"><a href="wallpapers/sage/720p.webp" download="kabirui-sage-720p.webp" aria-label="Download Sage in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/sage/1080p.webp" download="kabirui-sage-1080p.webp" aria-label="Download Sage in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/sage/2k.webp" download="kabirui-sage-2k.webp" aria-label="Download Sage in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/sage/4k.webp" download="kabirui-sage-4k.webp" aria-label="Download Sage in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Color">
+          <a class="wp-preview" href="wallpapers/ocean/4k.webp" aria-label="View Ocean wallpaper in 4K"><img src="wallpapers/ocean/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Ocean wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Ocean</h3><span>Color</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Ocean"><a href="wallpapers/ocean/720p.webp" download="kabirui-ocean-720p.webp" aria-label="Download Ocean in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/ocean/1080p.webp" download="kabirui-ocean-1080p.webp" aria-label="Download Ocean in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/ocean/2k.webp" download="kabirui-ocean-2k.webp" aria-label="Download Ocean in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/ocean/4k.webp" download="kabirui-ocean-4k.webp" aria-label="Download Ocean in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Color">
+          <a class="wp-preview" href="wallpapers/rose/4k.webp" aria-label="View Rose wallpaper in 4K"><img src="wallpapers/rose/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Rose wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Rose</h3><span>Color</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Rose"><a href="wallpapers/rose/720p.webp" download="kabirui-rose-720p.webp" aria-label="Download Rose in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/rose/1080p.webp" download="kabirui-rose-1080p.webp" aria-label="Download Rose in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/rose/2k.webp" download="kabirui-rose-2k.webp" aria-label="Download Rose in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/rose/4k.webp" download="kabirui-rose-4k.webp" aria-label="Download Rose in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Color">
+          <a class="wp-preview" href="wallpapers/sand/4k.webp" aria-label="View Sand wallpaper in 4K"><img src="wallpapers/sand/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Sand wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Sand</h3><span>Color</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Sand"><a href="wallpapers/sand/720p.webp" download="kabirui-sand-720p.webp" aria-label="Download Sand in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/sand/1080p.webp" download="kabirui-sand-1080p.webp" aria-label="Download Sand in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/sand/2k.webp" download="kabirui-sand-2k.webp" aria-label="Download Sand in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/sand/4k.webp" download="kabirui-sand-4k.webp" aria-label="Download Sand in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/midnight/4k.webp" aria-label="View Midnight wallpaper in 4K"><img src="wallpapers/midnight/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Midnight wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Midnight</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Midnight"><a href="wallpapers/midnight/720p.webp" download="kabirui-midnight-720p.webp" aria-label="Download Midnight in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/midnight/1080p.webp" download="kabirui-midnight-1080p.webp" aria-label="Download Midnight in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/midnight/2k.webp" download="kabirui-midnight-2k.webp" aria-label="Download Midnight in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/midnight/4k.webp" download="kabirui-midnight-4k.webp" aria-label="Download Midnight in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/orbit/4k.webp" aria-label="View Orbit wallpaper in 4K"><img src="wallpapers/orbit/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Orbit wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Orbit</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Orbit"><a href="wallpapers/orbit/720p.webp" download="kabirui-orbit-720p.webp" aria-label="Download Orbit in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/orbit/1080p.webp" download="kabirui-orbit-1080p.webp" aria-label="Download Orbit in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/orbit/2k.webp" download="kabirui-orbit-2k.webp" aria-label="Download Orbit in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/orbit/4k.webp" download="kabirui-orbit-4k.webp" aria-label="Download Orbit in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/halo/4k.webp" aria-label="View Halo wallpaper in 4K"><img src="wallpapers/halo/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Halo wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Halo</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Halo"><a href="wallpapers/halo/720p.webp" download="kabirui-halo-720p.webp" aria-label="Download Halo in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/halo/1080p.webp" download="kabirui-halo-1080p.webp" aria-label="Download Halo in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/halo/2k.webp" download="kabirui-halo-2k.webp" aria-label="Download Halo in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/halo/4k.webp" download="kabirui-halo-4k.webp" aria-label="Download Halo in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/contour/4k.webp" aria-label="View Contour wallpaper in 4K"><img src="wallpapers/contour/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Contour wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Contour</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Contour"><a href="wallpapers/contour/720p.webp" download="kabirui-contour-720p.webp" aria-label="Download Contour in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/contour/1080p.webp" download="kabirui-contour-1080p.webp" aria-label="Download Contour in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/contour/2k.webp" download="kabirui-contour-2k.webp" aria-label="Download Contour in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/contour/4k.webp" download="kabirui-contour-4k.webp" aria-label="Download Contour in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/aurora/4k.webp" aria-label="View Aurora wallpaper in 4K"><img src="wallpapers/aurora/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Aurora wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Aurora</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Aurora"><a href="wallpapers/aurora/720p.webp" download="kabirui-aurora-720p.webp" aria-label="Download Aurora in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/aurora/1080p.webp" download="kabirui-aurora-1080p.webp" aria-label="Download Aurora in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/aurora/2k.webp" download="kabirui-aurora-2k.webp" aria-label="Download Aurora in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/aurora/4k.webp" download="kabirui-aurora-4k.webp" aria-label="Download Aurora in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/dune/4k.webp" aria-label="View Dune wallpaper in 4K"><img src="wallpapers/dune/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Dune wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Dune</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Dune"><a href="wallpapers/dune/720p.webp" download="kabirui-dune-720p.webp" aria-label="Download Dune in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/dune/1080p.webp" download="kabirui-dune-1080p.webp" aria-label="Download Dune in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/dune/2k.webp" download="kabirui-dune-2k.webp" aria-label="Download Dune in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/dune/4k.webp" download="kabirui-dune-4k.webp" aria-label="Download Dune in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/botanical/4k.webp" aria-label="View Botanical wallpaper in 4K"><img src="wallpapers/botanical/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Botanical wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Botanical</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Botanical"><a href="wallpapers/botanical/720p.webp" download="kabirui-botanical-720p.webp" aria-label="Download Botanical in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/botanical/1080p.webp" download="kabirui-botanical-1080p.webp" aria-label="Download Botanical in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/botanical/2k.webp" download="kabirui-botanical-2k.webp" aria-label="Download Botanical in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/botanical/4k.webp" download="kabirui-botanical-4k.webp" aria-label="Download Botanical in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Abstract">
+          <a class="wp-preview" href="wallpapers/glass-tide/4k.webp" aria-label="View Glass Tide wallpaper in 4K"><img src="wallpapers/glass-tide/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Glass Tide wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Glass Tide</h3><span>Abstract</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Glass Tide"><a href="wallpapers/glass-tide/720p.webp" download="kabirui-glass-tide-720p.webp" aria-label="Download Glass Tide in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/glass-tide/1080p.webp" download="kabirui-glass-tide-1080p.webp" aria-label="Download Glass Tide in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/glass-tide/2k.webp" download="kabirui-glass-tide-2k.webp" aria-label="Download Glass Tide in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/glass-tide/4k.webp" download="kabirui-glass-tide-4k.webp" aria-label="Download Glass Tide in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/nebula/4k.webp" aria-label="View Nebula wallpaper in 4K"><img src="wallpapers/nebula/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Nebula wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Nebula</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Nebula"><a href="wallpapers/nebula/720p.webp" download="kabirui-nebula-720p.webp" aria-label="Download Nebula in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/nebula/1080p.webp" download="kabirui-nebula-1080p.webp" aria-label="Download Nebula in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/nebula/2k.webp" download="kabirui-nebula-2k.webp" aria-label="Download Nebula in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/nebula/4k.webp" download="kabirui-nebula-4k.webp" aria-label="Download Nebula in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/moonlit/4k.webp" aria-label="View Moonlit wallpaper in 4K"><img src="wallpapers/moonlit/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Moonlit wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Moonlit</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Moonlit"><a href="wallpapers/moonlit/720p.webp" download="kabirui-moonlit-720p.webp" aria-label="Download Moonlit in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/moonlit/1080p.webp" download="kabirui-moonlit-1080p.webp" aria-label="Download Moonlit in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/moonlit/2k.webp" download="kabirui-moonlit-2k.webp" aria-label="Download Moonlit in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/moonlit/4k.webp" download="kabirui-moonlit-4k.webp" aria-label="Download Moonlit in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/mist-stone/4k.webp" aria-label="View Mist & Stone wallpaper in 4K"><img src="wallpapers/mist-stone/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Mist & Stone wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Mist & Stone</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Mist & Stone"><a href="wallpapers/mist-stone/720p.webp" download="kabirui-mist-stone-720p.webp" aria-label="Download Mist & Stone in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/mist-stone/1080p.webp" download="kabirui-mist-stone-1080p.webp" aria-label="Download Mist & Stone in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/mist-stone/2k.webp" download="kabirui-mist-stone-2k.webp" aria-label="Download Mist & Stone in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/mist-stone/4k.webp" download="kabirui-mist-stone-4k.webp" aria-label="Download Mist & Stone in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Abstract">
+          <a class="wp-preview" href="wallpapers/cobalt-glass/4k.webp" aria-label="View Cobalt Glass wallpaper in 4K"><img src="wallpapers/cobalt-glass/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Cobalt Glass wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Cobalt Glass</h3><span>Abstract</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Cobalt Glass"><a href="wallpapers/cobalt-glass/720p.webp" download="kabirui-cobalt-glass-720p.webp" aria-label="Download Cobalt Glass in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/cobalt-glass/1080p.webp" download="kabirui-cobalt-glass-1080p.webp" aria-label="Download Cobalt Glass in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/cobalt-glass/2k.webp" download="kabirui-cobalt-glass-2k.webp" aria-label="Download Cobalt Glass in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/cobalt-glass/4k.webp" download="kabirui-cobalt-glass-4k.webp" aria-label="Download Cobalt Glass in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/desert-dusk/4k.webp" aria-label="View Desert Dusk wallpaper in 4K"><img src="wallpapers/desert-dusk/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Desert Dusk wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Desert Dusk</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Desert Dusk"><a href="wallpapers/desert-dusk/720p.webp" download="kabirui-desert-dusk-720p.webp" aria-label="Download Desert Dusk in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/desert-dusk/1080p.webp" download="kabirui-desert-dusk-1080p.webp" aria-label="Download Desert Dusk in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/desert-dusk/2k.webp" download="kabirui-desert-dusk-2k.webp" aria-label="Download Desert Dusk in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/desert-dusk/4k.webp" download="kabirui-desert-dusk-4k.webp" aria-label="Download Desert Dusk in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/emerald-fern/4k.webp" aria-label="View Emerald Fern wallpaper in 4K"><img src="wallpapers/emerald-fern/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Emerald Fern wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Emerald Fern</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Emerald Fern"><a href="wallpapers/emerald-fern/720p.webp" download="kabirui-emerald-fern-720p.webp" aria-label="Download Emerald Fern in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/emerald-fern/1080p.webp" download="kabirui-emerald-fern-1080p.webp" aria-label="Download Emerald Fern in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/emerald-fern/2k.webp" download="kabirui-emerald-fern-2k.webp" aria-label="Download Emerald Fern in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/emerald-fern/4k.webp" download="kabirui-emerald-fern-4k.webp" aria-label="Download Emerald Fern in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Color">
+          <a class="wp-preview" href="wallpapers/soft-dawn/4k.webp" aria-label="View Soft Dawn wallpaper in 4K"><img src="wallpapers/soft-dawn/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Soft Dawn wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Soft Dawn</h3><span>Color</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Soft Dawn"><a href="wallpapers/soft-dawn/720p.webp" download="kabirui-soft-dawn-720p.webp" aria-label="Download Soft Dawn in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/soft-dawn/1080p.webp" download="kabirui-soft-dawn-1080p.webp" aria-label="Download Soft Dawn in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/soft-dawn/2k.webp" download="kabirui-soft-dawn-2k.webp" aria-label="Download Soft Dawn in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/soft-dawn/4k.webp" download="kabirui-soft-dawn-4k.webp" aria-label="Download Soft Dawn in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Architecture">
+          <a class="wp-preview" href="wallpapers/quiet-arch/4k.webp" aria-label="View Quiet Arch wallpaper in 4K"><img src="wallpapers/quiet-arch/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Quiet Arch wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Quiet Arch</h3><span>Architecture</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Quiet Arch"><a href="wallpapers/quiet-arch/720p.webp" download="kabirui-quiet-arch-720p.webp" aria-label="Download Quiet Arch in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/quiet-arch/1080p.webp" download="kabirui-quiet-arch-1080p.webp" aria-label="Download Quiet Arch in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/quiet-arch/2k.webp" download="kabirui-quiet-arch-2k.webp" aria-label="Download Quiet Arch in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/quiet-arch/4k.webp" download="kabirui-quiet-arch-4k.webp" aria-label="Download Quiet Arch in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Abstract">
+          <a class="wp-preview" href="wallpapers/silkfold/4k.webp" aria-label="View Silk Fold wallpaper in 4K"><img src="wallpapers/silkfold/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Silk Fold wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Silk Fold</h3><span>Abstract</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Silk Fold"><a href="wallpapers/silkfold/720p.webp" download="kabirui-silkfold-720p.webp" aria-label="Download Silk Fold in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/silkfold/1080p.webp" download="kabirui-silkfold-1080p.webp" aria-label="Download Silk Fold in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/silkfold/2k.webp" download="kabirui-silkfold-2k.webp" aria-label="Download Silk Fold in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/silkfold/4k.webp" download="kabirui-silkfold-4k.webp" aria-label="Download Silk Fold in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/eclipse-bloom/4k.webp" aria-label="View Eclipse Bloom wallpaper in 4K"><img src="wallpapers/eclipse-bloom/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Eclipse Bloom wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Eclipse Bloom</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Eclipse Bloom"><a href="wallpapers/eclipse-bloom/720p.webp" download="kabirui-eclipse-bloom-720p.webp" aria-label="Download Eclipse Bloom in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/eclipse-bloom/1080p.webp" download="kabirui-eclipse-bloom-1080p.webp" aria-label="Download Eclipse Bloom in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/eclipse-bloom/2k.webp" download="kabirui-eclipse-bloom-2k.webp" aria-label="Download Eclipse Bloom in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/eclipse-bloom/4k.webp" download="kabirui-eclipse-bloom-4k.webp" aria-label="Download Eclipse Bloom in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/boreal-quiet/4k.webp" aria-label="View Boreal Quiet wallpaper in 4K"><img src="wallpapers/boreal-quiet/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Boreal Quiet wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Boreal Quiet</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Boreal Quiet"><a href="wallpapers/boreal-quiet/720p.webp" download="kabirui-boreal-quiet-720p.webp" aria-label="Download Boreal Quiet in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/boreal-quiet/1080p.webp" download="kabirui-boreal-quiet-1080p.webp" aria-label="Download Boreal Quiet in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/boreal-quiet/2k.webp" download="kabirui-boreal-quiet-2k.webp" aria-label="Download Boreal Quiet in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/boreal-quiet/4k.webp" download="kabirui-boreal-quiet-4k.webp" aria-label="Download Boreal Quiet in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Abstract">
+          <a class="wp-preview" href="wallpapers/citrine-haze/4k.webp" aria-label="View Citrine Haze wallpaper in 4K"><img src="wallpapers/citrine-haze/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Citrine Haze wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Citrine Haze</h3><span>Abstract</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Citrine Haze"><a href="wallpapers/citrine-haze/720p.webp" download="kabirui-citrine-haze-720p.webp" aria-label="Download Citrine Haze in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/citrine-haze/1080p.webp" download="kabirui-citrine-haze-1080p.webp" aria-label="Download Citrine Haze in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/citrine-haze/2k.webp" download="kabirui-citrine-haze-2k.webp" aria-label="Download Citrine Haze in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/citrine-haze/4k.webp" download="kabirui-citrine-haze-4k.webp" aria-label="Download Citrine Haze in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/greenhouse-after-rain/4k.webp" aria-label="View Greenhouse After Rain wallpaper in 4K"><img src="wallpapers/greenhouse-after-rain/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Greenhouse After Rain wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Greenhouse After Rain</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Greenhouse After Rain"><a href="wallpapers/greenhouse-after-rain/720p.webp" download="kabirui-greenhouse-after-rain-720p.webp" aria-label="Download Greenhouse After Rain in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/greenhouse-after-rain/1080p.webp" download="kabirui-greenhouse-after-rain-1080p.webp" aria-label="Download Greenhouse After Rain in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/greenhouse-after-rain/2k.webp" download="kabirui-greenhouse-after-rain-2k.webp" aria-label="Download Greenhouse After Rain in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/greenhouse-after-rain/4k.webp" download="kabirui-greenhouse-after-rain-4k.webp" aria-label="Download Greenhouse After Rain in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/midnight-geometry/4k.webp" aria-label="View Midnight Geometry wallpaper in 4K"><img src="wallpapers/midnight-geometry/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Midnight Geometry wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Midnight Geometry</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Midnight Geometry"><a href="wallpapers/midnight-geometry/720p.webp" download="kabirui-midnight-geometry-720p.webp" aria-label="Download Midnight Geometry in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/midnight-geometry/1080p.webp" download="kabirui-midnight-geometry-1080p.webp" aria-label="Download Midnight Geometry in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/midnight-geometry/2k.webp" download="kabirui-midnight-geometry-2k.webp" aria-label="Download Midnight Geometry in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/midnight-geometry/4k.webp" download="kabirui-midnight-geometry-4k.webp" aria-label="Download Midnight Geometry in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Architecture">
+          <a class="wp-preview" href="wallpapers/sandstone-monolith/4k.webp" aria-label="View Sandstone Monolith wallpaper in 4K"><img src="wallpapers/sandstone-monolith/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Sandstone Monolith wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Sandstone Monolith</h3><span>Architecture</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Sandstone Monolith"><a href="wallpapers/sandstone-monolith/720p.webp" download="kabirui-sandstone-monolith-720p.webp" aria-label="Download Sandstone Monolith in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/sandstone-monolith/1080p.webp" download="kabirui-sandstone-monolith-1080p.webp" aria-label="Download Sandstone Monolith in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/sandstone-monolith/2k.webp" download="kabirui-sandstone-monolith-2k.webp" aria-label="Download Sandstone Monolith in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/sandstone-monolith/4k.webp" download="kabirui-sandstone-monolith-4k.webp" aria-label="Download Sandstone Monolith in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/monsoon-glass/4k.webp" aria-label="View Monsoon Glass wallpaper in 4K"><img src="wallpapers/monsoon-glass/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Monsoon Glass wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Monsoon Glass</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Monsoon Glass"><a href="wallpapers/monsoon-glass/720p.webp" download="kabirui-monsoon-glass-720p.webp" aria-label="Download Monsoon Glass in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/monsoon-glass/1080p.webp" download="kabirui-monsoon-glass-1080p.webp" aria-label="Download Monsoon Glass in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/monsoon-glass/2k.webp" download="kabirui-monsoon-glass-2k.webp" aria-label="Download Monsoon Glass in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/monsoon-glass/4k.webp" download="kabirui-monsoon-glass-4k.webp" aria-label="Download Monsoon Glass in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/amethyst-current/4k.webp" aria-label="View Amethyst Current wallpaper in 4K"><img src="wallpapers/amethyst-current/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Amethyst Current wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Amethyst Current</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Amethyst Current"><a href="wallpapers/amethyst-current/720p.webp" download="kabirui-amethyst-current-720p.webp" aria-label="Download Amethyst Current in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/amethyst-current/1080p.webp" download="kabirui-amethyst-current-1080p.webp" aria-label="Download Amethyst Current in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/amethyst-current/2k.webp" download="kabirui-amethyst-current-2k.webp" aria-label="Download Amethyst Current in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/amethyst-current/4k.webp" download="kabirui-amethyst-current-4k.webp" aria-label="Download Amethyst Current in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Floral">
+          <a class="wp-preview" href="wallpapers/petal-sundown/4k.webp" aria-label="View Petal Sundown wallpaper in 4K"><img src="wallpapers/petal-sundown/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Petal Sundown wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Petal Sundown</h3><span>Floral</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Petal Sundown"><a href="wallpapers/petal-sundown/720p.webp" download="kabirui-petal-sundown-720p.webp" aria-label="Download Petal Sundown in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/petal-sundown/1080p.webp" download="kabirui-petal-sundown-1080p.webp" aria-label="Download Petal Sundown in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/petal-sundown/2k.webp" download="kabirui-petal-sundown-2k.webp" aria-label="Download Petal Sundown in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/petal-sundown/4k.webp" download="kabirui-petal-sundown-4k.webp" aria-label="Download Petal Sundown in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/saffron-strata/4k.webp" aria-label="View Saffron Strata wallpaper in 4K"><img src="wallpapers/saffron-strata/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Saffron Strata wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Saffron Strata</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Saffron Strata"><a href="wallpapers/saffron-strata/720p.webp" download="kabirui-saffron-strata-720p.webp" aria-label="Download Saffron Strata in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/saffron-strata/1080p.webp" download="kabirui-saffron-strata-1080p.webp" aria-label="Download Saffron Strata in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/saffron-strata/2k.webp" download="kabirui-saffron-strata-2k.webp" aria-label="Download Saffron Strata in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/saffron-strata/4k.webp" download="kabirui-saffron-strata-4k.webp" aria-label="Download Saffron Strata in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Architecture">
+          <a class="wp-preview" href="wallpapers/rainlight/4k.webp" aria-label="View Rainlight wallpaper in 4K"><img src="wallpapers/rainlight/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Rainlight wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Rainlight</h3><span>Architecture</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Rainlight"><a href="wallpapers/rainlight/720p.webp" download="kabirui-rainlight-720p.webp" aria-label="Download Rainlight in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/rainlight/1080p.webp" download="kabirui-rainlight-1080p.webp" aria-label="Download Rainlight in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/rainlight/2k.webp" download="kabirui-rainlight-2k.webp" aria-label="Download Rainlight in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/rainlight/4k.webp" download="kabirui-rainlight-4k.webp" aria-label="Download Rainlight in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Floral">
+          <a class="wp-preview" href="wallpapers/salt-bloom/4k.webp" aria-label="View Salt Bloom wallpaper in 4K"><img src="wallpapers/salt-bloom/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Salt Bloom wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Salt Bloom</h3><span>Floral</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Salt Bloom"><a href="wallpapers/salt-bloom/720p.webp" download="kabirui-salt-bloom-720p.webp" aria-label="Download Salt Bloom in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/salt-bloom/1080p.webp" download="kabirui-salt-bloom-1080p.webp" aria-label="Download Salt Bloom in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/salt-bloom/2k.webp" download="kabirui-salt-bloom-2k.webp" aria-label="Download Salt Bloom in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/salt-bloom/4k.webp" download="kabirui-salt-bloom-4k.webp" aria-label="Download Salt Bloom in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Abstract">
+          <a class="wp-preview" href="wallpapers/prismatic-current/4k.webp" aria-label="View Prismatic Current wallpaper in 4K"><img src="wallpapers/prismatic-current/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Prismatic Current wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Prismatic Current</h3><span>Abstract</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Prismatic Current"><a href="wallpapers/prismatic-current/720p.webp" download="kabirui-prismatic-current-720p.webp" aria-label="Download Prismatic Current in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/prismatic-current/1080p.webp" download="kabirui-prismatic-current-1080p.webp" aria-label="Download Prismatic Current in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/prismatic-current/2k.webp" download="kabirui-prismatic-current-2k.webp" aria-label="Download Prismatic Current in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/prismatic-current/4k.webp" download="kabirui-prismatic-current-4k.webp" aria-label="Download Prismatic Current in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/cloud-garden/4k.webp" aria-label="View Cloud Garden wallpaper in 4K"><img src="wallpapers/cloud-garden/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Cloud Garden wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Cloud Garden</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Cloud Garden"><a href="wallpapers/cloud-garden/720p.webp" download="kabirui-cloud-garden-720p.webp" aria-label="Download Cloud Garden in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/cloud-garden/1080p.webp" download="kabirui-cloud-garden-1080p.webp" aria-label="Download Cloud Garden in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/cloud-garden/2k.webp" download="kabirui-cloud-garden-2k.webp" aria-label="Download Cloud Garden in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/cloud-garden/4k.webp" download="kabirui-cloud-garden-4k.webp" aria-label="Download Cloud Garden in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Color">
+          <a class="wp-preview" href="wallpapers/emberline/4k.webp" aria-label="View Emberline wallpaper in 4K"><img src="wallpapers/emberline/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Emberline wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Emberline</h3><span>Color</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Emberline"><a href="wallpapers/emberline/720p.webp" download="kabirui-emberline-720p.webp" aria-label="Download Emberline in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/emberline/1080p.webp" download="kabirui-emberline-1080p.webp" aria-label="Download Emberline in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/emberline/2k.webp" download="kabirui-emberline-2k.webp" aria-label="Download Emberline in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/emberline/4k.webp" download="kabirui-emberline-4k.webp" aria-label="Download Emberline in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/nocturne-circuit/4k.webp" aria-label="View Nocturne Circuit wallpaper in 4K"><img src="wallpapers/nocturne-circuit/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Nocturne Circuit wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Nocturne Circuit</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Nocturne Circuit"><a href="wallpapers/nocturne-circuit/720p.webp" download="kabirui-nocturne-circuit-720p.webp" aria-label="Download Nocturne Circuit in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/nocturne-circuit/1080p.webp" download="kabirui-nocturne-circuit-1080p.webp" aria-label="Download Nocturne Circuit in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/nocturne-circuit/2k.webp" download="kabirui-nocturne-circuit-2k.webp" aria-label="Download Nocturne Circuit in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/nocturne-circuit/4k.webp" download="kabirui-nocturne-circuit-4k.webp" aria-label="Download Nocturne Circuit in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/cosmic-bloom/4k.webp" aria-label="View Cosmic Bloom wallpaper in 4K"><img src="wallpapers/cosmic-bloom/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Cosmic Bloom wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Cosmic Bloom</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Cosmic Bloom"><a href="wallpapers/cosmic-bloom/720p.webp" download="kabirui-cosmic-bloom-720p.webp" aria-label="Download Cosmic Bloom in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/cosmic-bloom/1080p.webp" download="kabirui-cosmic-bloom-1080p.webp" aria-label="Download Cosmic Bloom in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/cosmic-bloom/2k.webp" download="kabirui-cosmic-bloom-2k.webp" aria-label="Download Cosmic Bloom in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/cosmic-bloom/4k.webp" download="kabirui-cosmic-bloom-4k.webp" aria-label="Download Cosmic Bloom in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Architecture">
+          <a class="wp-preview" href="wallpapers/city-glass/4k.webp" aria-label="View City Glass wallpaper in 4K"><img src="wallpapers/city-glass/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="City Glass wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>City Glass</h3><span>Architecture</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download City Glass"><a href="wallpapers/city-glass/720p.webp" download="kabirui-city-glass-720p.webp" aria-label="Download City Glass in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/city-glass/1080p.webp" download="kabirui-city-glass-1080p.webp" aria-label="Download City Glass in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/city-glass/2k.webp" download="kabirui-city-glass-2k.webp" aria-label="Download City Glass in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/city-glass/4k.webp" download="kabirui-city-glass-4k.webp" aria-label="Download City Glass in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Floral">
+          <a class="wp-preview" href="wallpapers/lotus-afterglow/4k.webp" aria-label="View Lotus Afterglow wallpaper in 4K"><img src="wallpapers/lotus-afterglow/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Lotus Afterglow wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Lotus Afterglow</h3><span>Floral</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Lotus Afterglow"><a href="wallpapers/lotus-afterglow/720p.webp" download="kabirui-lotus-afterglow-720p.webp" aria-label="Download Lotus Afterglow in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/lotus-afterglow/1080p.webp" download="kabirui-lotus-afterglow-1080p.webp" aria-label="Download Lotus Afterglow in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/lotus-afterglow/2k.webp" download="kabirui-lotus-afterglow-2k.webp" aria-label="Download Lotus Afterglow in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/lotus-afterglow/4k.webp" download="kabirui-lotus-afterglow-4k.webp" aria-label="Download Lotus Afterglow in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Abstract">
+          <a class="wp-preview" href="wallpapers/tidal-glass/4k.webp" aria-label="View Tidal Glass wallpaper in 4K"><img src="wallpapers/tidal-glass/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Tidal Glass wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Tidal Glass</h3><span>Abstract</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Tidal Glass"><a href="wallpapers/tidal-glass/720p.webp" download="kabirui-tidal-glass-720p.webp" aria-label="Download Tidal Glass in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/tidal-glass/1080p.webp" download="kabirui-tidal-glass-1080p.webp" aria-label="Download Tidal Glass in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/tidal-glass/2k.webp" download="kabirui-tidal-glass-2k.webp" aria-label="Download Tidal Glass in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/tidal-glass/4k.webp" download="kabirui-tidal-glass-4k.webp" aria-label="Download Tidal Glass in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/solar-loom/4k.webp" aria-label="View Solar Loom wallpaper in 4K"><img src="wallpapers/solar-loom/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Solar Loom wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Solar Loom</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Solar Loom"><a href="wallpapers/solar-loom/720p.webp" download="kabirui-solar-loom-720p.webp" aria-label="Download Solar Loom in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/solar-loom/1080p.webp" download="kabirui-solar-loom-1080p.webp" aria-label="Download Solar Loom in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/solar-loom/2k.webp" download="kabirui-solar-loom-2k.webp" aria-label="Download Solar Loom in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/solar-loom/4k.webp" download="kabirui-solar-loom-4k.webp" aria-label="Download Solar Loom in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/mosslight/4k.webp" aria-label="View Mosslight wallpaper in 4K"><img src="wallpapers/mosslight/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Mosslight wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Mosslight</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Mosslight"><a href="wallpapers/mosslight/720p.webp" download="kabirui-mosslight-720p.webp" aria-label="Download Mosslight in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/mosslight/1080p.webp" download="kabirui-mosslight-1080p.webp" aria-label="Download Mosslight in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/mosslight/2k.webp" download="kabirui-mosslight-2k.webp" aria-label="Download Mosslight in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/mosslight/4k.webp" download="kabirui-mosslight-4k.webp" aria-label="Download Mosslight in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Color">
+          <a class="wp-preview" href="wallpapers/porcelain-sky/4k.webp" aria-label="View Porcelain Sky wallpaper in 4K"><img src="wallpapers/porcelain-sky/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Porcelain Sky wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Porcelain Sky</h3><span>Color</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Porcelain Sky"><a href="wallpapers/porcelain-sky/720p.webp" download="kabirui-porcelain-sky-720p.webp" aria-label="Download Porcelain Sky in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/porcelain-sky/1080p.webp" download="kabirui-porcelain-sky-1080p.webp" aria-label="Download Porcelain Sky in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/porcelain-sky/2k.webp" download="kabirui-porcelain-sky-2k.webp" aria-label="Download Porcelain Sky in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/porcelain-sky/4k.webp" download="kabirui-porcelain-sky-4k.webp" aria-label="Download Porcelain Sky in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Abstract">
+          <a class="wp-preview" href="wallpapers/prismfall/4k.webp" aria-label="View Prismfall wallpaper in 4K"><img src="wallpapers/prismfall/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Prismfall wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Prismfall</h3><span>Abstract</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Prismfall"><a href="wallpapers/prismfall/720p.webp" download="kabirui-prismfall-720p.webp" aria-label="Download Prismfall in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/prismfall/1080p.webp" download="kabirui-prismfall-1080p.webp" aria-label="Download Prismfall in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/prismfall/2k.webp" download="kabirui-prismfall-2k.webp" aria-label="Download Prismfall in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/prismfall/4k.webp" download="kabirui-prismfall-4k.webp" aria-label="Download Prismfall in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Architecture">
+          <a class="wp-preview" href="wallpapers/velvet-skyline/4k.webp" aria-label="View Velvet Skyline wallpaper in 4K"><img src="wallpapers/velvet-skyline/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Velvet Skyline wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Velvet Skyline</h3><span>Architecture</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Velvet Skyline"><a href="wallpapers/velvet-skyline/720p.webp" download="kabirui-velvet-skyline-720p.webp" aria-label="Download Velvet Skyline in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/velvet-skyline/1080p.webp" download="kabirui-velvet-skyline-1080p.webp" aria-label="Download Velvet Skyline in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/velvet-skyline/2k.webp" download="kabirui-velvet-skyline-2k.webp" aria-label="Download Velvet Skyline in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/velvet-skyline/4k.webp" download="kabirui-velvet-skyline-4k.webp" aria-label="Download Velvet Skyline in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/perigee/4k.webp" aria-label="View Perigee wallpaper in 4K"><img src="wallpapers/perigee/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Perigee wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Perigee</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Perigee"><a href="wallpapers/perigee/720p.webp" download="kabirui-perigee-720p.webp" aria-label="Download Perigee in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/perigee/1080p.webp" download="kabirui-perigee-1080p.webp" aria-label="Download Perigee in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/perigee/2k.webp" download="kabirui-perigee-2k.webp" aria-label="Download Perigee in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/perigee/4k.webp" download="kabirui-perigee-4k.webp" aria-label="Download Perigee in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/glacier-bloom/4k.webp" aria-label="View Glacier Bloom wallpaper in 4K"><img src="wallpapers/glacier-bloom/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Glacier Bloom wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Glacier Bloom</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Glacier Bloom"><a href="wallpapers/glacier-bloom/720p.webp" download="kabirui-glacier-bloom-720p.webp" aria-label="Download Glacier Bloom in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/glacier-bloom/1080p.webp" download="kabirui-glacier-bloom-1080p.webp" aria-label="Download Glacier Bloom in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/glacier-bloom/2k.webp" download="kabirui-glacier-bloom-2k.webp" aria-label="Download Glacier Bloom in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/glacier-bloom/4k.webp" download="kabirui-glacier-bloom-4k.webp" aria-label="Download Glacier Bloom in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Architecture">
+          <a class="wp-preview" href="wallpapers/copper-atlas/4k.webp" aria-label="View Copper Atlas wallpaper in 4K"><img src="wallpapers/copper-atlas/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Copper Atlas wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Copper Atlas</h3><span>Architecture</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Copper Atlas"><a href="wallpapers/copper-atlas/720p.webp" download="kabirui-copper-atlas-720p.webp" aria-label="Download Copper Atlas in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/copper-atlas/1080p.webp" download="kabirui-copper-atlas-1080p.webp" aria-label="Download Copper Atlas in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/copper-atlas/2k.webp" download="kabirui-copper-atlas-2k.webp" aria-label="Download Copper Atlas in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/copper-atlas/4k.webp" download="kabirui-copper-atlas-4k.webp" aria-label="Download Copper Atlas in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Floral">
+          <a class="wp-preview" href="wallpapers/glass-orchid/4k.webp" aria-label="View Glass Orchid wallpaper in 4K"><img src="wallpapers/glass-orchid/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Glass Orchid wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Glass Orchid</h3><span>Floral</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Glass Orchid"><a href="wallpapers/glass-orchid/720p.webp" download="kabirui-glass-orchid-720p.webp" aria-label="Download Glass Orchid in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/glass-orchid/1080p.webp" download="kabirui-glass-orchid-1080p.webp" aria-label="Download Glass Orchid in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/glass-orchid/2k.webp" download="kabirui-glass-orchid-2k.webp" aria-label="Download Glass Orchid in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/glass-orchid/4k.webp" download="kabirui-glass-orchid-4k.webp" aria-label="Download Glass Orchid in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/orchard-light/4k.webp" aria-label="View Orchard Light wallpaper in 4K"><img src="wallpapers/orchard-light/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Orchard Light wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Orchard Light</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Orchard Light"><a href="wallpapers/orchard-light/720p.webp" download="kabirui-orchard-light-720p.webp" aria-label="Download Orchard Light in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/orchard-light/1080p.webp" download="kabirui-orchard-light-1080p.webp" aria-label="Download Orchard Light in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/orchard-light/2k.webp" download="kabirui-orchard-light-2k.webp" aria-label="Download Orchard Light in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/orchard-light/4k.webp" download="kabirui-orchard-light-4k.webp" aria-label="Download Orchard Light in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/lunar-library/4k.webp" aria-label="View Lunar Library wallpaper in 4K"><img src="wallpapers/lunar-library/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Lunar Library wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Lunar Library</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Lunar Library"><a href="wallpapers/lunar-library/720p.webp" download="kabirui-lunar-library-720p.webp" aria-label="Download Lunar Library in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/lunar-library/1080p.webp" download="kabirui-lunar-library-1080p.webp" aria-label="Download Lunar Library in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/lunar-library/2k.webp" download="kabirui-lunar-library-2k.webp" aria-label="Download Lunar Library in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/lunar-library/4k.webp" download="kabirui-lunar-library-4k.webp" aria-label="Download Lunar Library in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Abstract">
+          <a class="wp-preview" href="wallpapers/coral-tide/4k.webp" aria-label="View Coral Tide wallpaper in 4K"><img src="wallpapers/coral-tide/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Coral Tide wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Coral Tide</h3><span>Abstract</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Coral Tide"><a href="wallpapers/coral-tide/720p.webp" download="kabirui-coral-tide-720p.webp" aria-label="Download Coral Tide in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/coral-tide/1080p.webp" download="kabirui-coral-tide-1080p.webp" aria-label="Download Coral Tide in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/coral-tide/2k.webp" download="kabirui-coral-tide-2k.webp" aria-label="Download Coral Tide in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/coral-tide/4k.webp" download="kabirui-coral-tide-4k.webp" aria-label="Download Coral Tide in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Color">
+          <a class="wp-preview" href="wallpapers/dune-script/4k.webp" aria-label="View Dune Script wallpaper in 4K"><img src="wallpapers/dune-script/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Dune Script wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Dune Script</h3><span>Color</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Dune Script"><a href="wallpapers/dune-script/720p.webp" download="kabirui-dune-script-720p.webp" aria-label="Download Dune Script in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/dune-script/1080p.webp" download="kabirui-dune-script-1080p.webp" aria-label="Download Dune Script in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/dune-script/2k.webp" download="kabirui-dune-script-2k.webp" aria-label="Download Dune Script in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/dune-script/4k.webp" download="kabirui-dune-script-4k.webp" aria-label="Download Dune Script in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/ink-current/4k.webp" aria-label="View Ink Current wallpaper in 4K"><img src="wallpapers/ink-current/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Ink Current wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Ink Current</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Ink Current"><a href="wallpapers/ink-current/720p.webp" download="kabirui-ink-current-720p.webp" aria-label="Download Ink Current in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/ink-current/1080p.webp" download="kabirui-ink-current-1080p.webp" aria-label="Download Ink Current in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/ink-current/2k.webp" download="kabirui-ink-current-2k.webp" aria-label="Download Ink Current in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/ink-current/4k.webp" download="kabirui-ink-current-4k.webp" aria-label="Download Ink Current in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Abstract">
+          <a class="wp-preview" href="wallpapers/tideglass/4k.webp" aria-label="View Tideglass wallpaper in 4K"><img src="wallpapers/tideglass/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Tideglass wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Tideglass</h3><span>Abstract</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Tideglass"><a href="wallpapers/tideglass/720p.webp" download="kabirui-tideglass-720p.webp" aria-label="Download Tideglass in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/tideglass/1080p.webp" download="kabirui-tideglass-1080p.webp" aria-label="Download Tideglass in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/tideglass/2k.webp" download="kabirui-tideglass-2k.webp" aria-label="Download Tideglass in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/tideglass/4k.webp" download="kabirui-tideglass-4k.webp" aria-label="Download Tideglass in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/verdant-afterglow/4k.webp" aria-label="View Verdant Afterglow wallpaper in 4K"><img src="wallpapers/verdant-afterglow/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Verdant Afterglow wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Verdant Afterglow</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Verdant Afterglow"><a href="wallpapers/verdant-afterglow/720p.webp" download="kabirui-verdant-afterglow-720p.webp" aria-label="Download Verdant Afterglow in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/verdant-afterglow/1080p.webp" download="kabirui-verdant-afterglow-1080p.webp" aria-label="Download Verdant Afterglow in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/verdant-afterglow/2k.webp" download="kabirui-verdant-afterglow-2k.webp" aria-label="Download Verdant Afterglow in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/verdant-afterglow/4k.webp" download="kabirui-verdant-afterglow-4k.webp" aria-label="Download Verdant Afterglow in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Color">
+          <a class="wp-preview" href="wallpapers/opal-veil/4k.webp" aria-label="View Opal Veil wallpaper in 4K"><img src="wallpapers/opal-veil/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Opal Veil wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Opal Veil</h3><span>Color</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Opal Veil"><a href="wallpapers/opal-veil/720p.webp" download="kabirui-opal-veil-720p.webp" aria-label="Download Opal Veil in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/opal-veil/1080p.webp" download="kabirui-opal-veil-1080p.webp" aria-label="Download Opal Veil in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/opal-veil/2k.webp" download="kabirui-opal-veil-2k.webp" aria-label="Download Opal Veil in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/opal-veil/4k.webp" download="kabirui-opal-veil-4k.webp" aria-label="Download Opal Veil in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/ember-dunes/4k.webp" aria-label="View Ember Dunes wallpaper in 4K"><img src="wallpapers/ember-dunes/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Ember Dunes wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Ember Dunes</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Ember Dunes"><a href="wallpapers/ember-dunes/720p.webp" download="kabirui-ember-dunes-720p.webp" aria-label="Download Ember Dunes in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/ember-dunes/1080p.webp" download="kabirui-ember-dunes-1080p.webp" aria-label="Download Ember Dunes in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/ember-dunes/2k.webp" download="kabirui-ember-dunes-2k.webp" aria-label="Download Ember Dunes in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/ember-dunes/4k.webp" download="kabirui-ember-dunes-4k.webp" aria-label="Download Ember Dunes in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Nature">
+          <a class="wp-preview" href="wallpapers/polar-silence/4k.webp" aria-label="View Polar Silence wallpaper in 4K"><img src="wallpapers/polar-silence/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Polar Silence wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Polar Silence</h3><span>Nature</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Polar Silence"><a href="wallpapers/polar-silence/720p.webp" download="kabirui-polar-silence-720p.webp" aria-label="Download Polar Silence in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/polar-silence/1080p.webp" download="kabirui-polar-silence-1080p.webp" aria-label="Download Polar Silence in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/polar-silence/2k.webp" download="kabirui-polar-silence-2k.webp" aria-label="Download Polar Silence in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/polar-silence/4k.webp" download="kabirui-polar-silence-4k.webp" aria-label="Download Polar Silence in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Floral">
+          <a class="wp-preview" href="wallpapers/orchid-halo/4k.webp" aria-label="View Orchid Halo wallpaper in 4K"><img src="wallpapers/orchid-halo/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Orchid Halo wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Orchid Halo</h3><span>Floral</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Orchid Halo"><a href="wallpapers/orchid-halo/720p.webp" download="kabirui-orchid-halo-720p.webp" aria-label="Download Orchid Halo in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/orchid-halo/1080p.webp" download="kabirui-orchid-halo-1080p.webp" aria-label="Download Orchid Halo in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/orchid-halo/2k.webp" download="kabirui-orchid-halo-2k.webp" aria-label="Download Orchid Halo in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/orchid-halo/4k.webp" download="kabirui-orchid-halo-4k.webp" aria-label="Download Orchid Halo in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="AMOLED">
+          <a class="wp-preview" href="wallpapers/copper-rain/4k.webp" aria-label="View Copper Rain wallpaper in 4K"><img src="wallpapers/copper-rain/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Copper Rain wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Copper Rain</h3><span>AMOLED</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Copper Rain"><a href="wallpapers/copper-rain/720p.webp" download="kabirui-copper-rain-720p.webp" aria-label="Download Copper Rain in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/copper-rain/1080p.webp" download="kabirui-copper-rain-1080p.webp" aria-label="Download Copper Rain in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/copper-rain/2k.webp" download="kabirui-copper-rain-2k.webp" aria-label="Download Copper Rain in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/copper-rain/4k.webp" download="kabirui-copper-rain-4k.webp" aria-label="Download Copper Rain in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/andromeda-halo/4k.webp" aria-label="View Andromeda Halo wallpaper in 4K"><img src="wallpapers/andromeda-halo/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Andromeda Halo wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Andromeda Halo</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Andromeda Halo"><a href="wallpapers/andromeda-halo/720p.webp" download="kabirui-andromeda-halo-720p.webp" aria-label="Download Andromeda Halo in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/andromeda-halo/1080p.webp" download="kabirui-andromeda-halo-1080p.webp" aria-label="Download Andromeda Halo in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/andromeda-halo/2k.webp" download="kabirui-andromeda-halo-2k.webp" aria-label="Download Andromeda Halo in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/andromeda-halo/4k.webp" download="kabirui-andromeda-halo-4k.webp" aria-label="Download Andromeda Halo in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/saturn-glass/4k.webp" aria-label="View Saturn Glass wallpaper in 4K"><img src="wallpapers/saturn-glass/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Saturn Glass wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Saturn Glass</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Saturn Glass"><a href="wallpapers/saturn-glass/720p.webp" download="kabirui-saturn-glass-720p.webp" aria-label="Download Saturn Glass in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/saturn-glass/1080p.webp" download="kabirui-saturn-glass-1080p.webp" aria-label="Download Saturn Glass in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/saturn-glass/2k.webp" download="kabirui-saturn-glass-2k.webp" aria-label="Download Saturn Glass in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/saturn-glass/4k.webp" download="kabirui-saturn-glass-4k.webp" aria-label="Download Saturn Glass in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/solar-flare/4k.webp" aria-label="View Solar Flare wallpaper in 4K"><img src="wallpapers/solar-flare/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Solar Flare wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Solar Flare</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Solar Flare"><a href="wallpapers/solar-flare/720p.webp" download="kabirui-solar-flare-720p.webp" aria-label="Download Solar Flare in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/solar-flare/1080p.webp" download="kabirui-solar-flare-1080p.webp" aria-label="Download Solar Flare in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/solar-flare/2k.webp" download="kabirui-solar-flare-2k.webp" aria-label="Download Solar Flare in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/solar-flare/4k.webp" download="kabirui-solar-flare-4k.webp" aria-label="Download Solar Flare in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/teal-nebula/4k.webp" aria-label="View Teal Nebula wallpaper in 4K"><img src="wallpapers/teal-nebula/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Teal Nebula wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Teal Nebula</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Teal Nebula"><a href="wallpapers/teal-nebula/720p.webp" download="kabirui-teal-nebula-720p.webp" aria-label="Download Teal Nebula in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/teal-nebula/1080p.webp" download="kabirui-teal-nebula-1080p.webp" aria-label="Download Teal Nebula in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/teal-nebula/2k.webp" download="kabirui-teal-nebula-2k.webp" aria-label="Download Teal Nebula in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/teal-nebula/4k.webp" download="kabirui-teal-nebula-4k.webp" aria-label="Download Teal Nebula in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/eclipse-desert/4k.webp" aria-label="View Eclipse Desert wallpaper in 4K"><img src="wallpapers/eclipse-desert/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Eclipse Desert wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Eclipse Desert</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Eclipse Desert"><a href="wallpapers/eclipse-desert/720p.webp" download="kabirui-eclipse-desert-720p.webp" aria-label="Download Eclipse Desert in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/eclipse-desert/1080p.webp" download="kabirui-eclipse-desert-1080p.webp" aria-label="Download Eclipse Desert in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/eclipse-desert/2k.webp" download="kabirui-eclipse-desert-2k.webp" aria-label="Download Eclipse Desert in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/eclipse-desert/4k.webp" download="kabirui-eclipse-desert-4k.webp" aria-label="Download Eclipse Desert in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/deep-field/4k.webp" aria-label="View Deep Field wallpaper in 4K"><img src="wallpapers/deep-field/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Deep Field wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Deep Field</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Deep Field"><a href="wallpapers/deep-field/720p.webp" download="kabirui-deep-field-720p.webp" aria-label="Download Deep Field in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/deep-field/1080p.webp" download="kabirui-deep-field-1080p.webp" aria-label="Download Deep Field in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/deep-field/2k.webp" download="kabirui-deep-field-2k.webp" aria-label="Download Deep Field in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/deep-field/4k.webp" download="kabirui-deep-field-4k.webp" aria-label="Download Deep Field in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/rose-nebula/4k.webp" aria-label="View Rose Nebula wallpaper in 4K"><img src="wallpapers/rose-nebula/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Rose Nebula wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Rose Nebula</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Rose Nebula"><a href="wallpapers/rose-nebula/720p.webp" download="kabirui-rose-nebula-720p.webp" aria-label="Download Rose Nebula in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/rose-nebula/1080p.webp" download="kabirui-rose-nebula-1080p.webp" aria-label="Download Rose Nebula in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/rose-nebula/2k.webp" download="kabirui-rose-nebula-2k.webp" aria-label="Download Rose Nebula in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/rose-nebula/4k.webp" download="kabirui-rose-nebula-4k.webp" aria-label="Download Rose Nebula in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/blue-supernova/4k.webp" aria-label="View Blue Supernova wallpaper in 4K"><img src="wallpapers/blue-supernova/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Blue Supernova wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Blue Supernova</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Blue Supernova"><a href="wallpapers/blue-supernova/720p.webp" download="kabirui-blue-supernova-720p.webp" aria-label="Download Blue Supernova in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/blue-supernova/1080p.webp" download="kabirui-blue-supernova-1080p.webp" aria-label="Download Blue Supernova in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/blue-supernova/2k.webp" download="kabirui-blue-supernova-2k.webp" aria-label="Download Blue Supernova in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/blue-supernova/4k.webp" download="kabirui-blue-supernova-4k.webp" aria-label="Download Blue Supernova in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/lunar-tide/4k.webp" aria-label="View Lunar Tide wallpaper in 4K"><img src="wallpapers/lunar-tide/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Lunar Tide wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Lunar Tide</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Lunar Tide"><a href="wallpapers/lunar-tide/720p.webp" download="kabirui-lunar-tide-720p.webp" aria-label="Download Lunar Tide in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/lunar-tide/1080p.webp" download="kabirui-lunar-tide-1080p.webp" aria-label="Download Lunar Tide in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/lunar-tide/2k.webp" download="kabirui-lunar-tide-2k.webp" aria-label="Download Lunar Tide in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/lunar-tide/4k.webp" download="kabirui-lunar-tide-4k.webp" aria-label="Download Lunar Tide in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
+        <article class="wp-figure" data-category="Space">
+          <a class="wp-preview" href="wallpapers/event-horizon/4k.webp" aria-label="View Event Horizon wallpaper in 4K"><img src="wallpapers/event-horizon/720p.webp" width="720" height="1280" loading="lazy" decoding="async" alt="Event Horizon wallpaper"><span class="preview-link" aria-hidden="true">View original ↗</span></a>
+          <div class="wp-caption"><div><h3>Event Horizon</h3><span>Space</span></div><span aria-hidden="true">↗</span></div>
+          <div class="wp-downloads" aria-label="Download Event Horizon"><a href="wallpapers/event-horizon/720p.webp" download="kabirui-event-horizon-720p.webp" aria-label="Download Event Horizon in 720p">720p <span aria-hidden="true">↓</span></a><a href="wallpapers/event-horizon/1080p.webp" download="kabirui-event-horizon-1080p.webp" aria-label="Download Event Horizon in 1080p">1080p <span aria-hidden="true">↓</span></a><a href="wallpapers/event-horizon/2k.webp" download="kabirui-event-horizon-2k.webp" aria-label="Download Event Horizon in 2K">2K <span aria-hidden="true">↓</span></a><a href="wallpapers/event-horizon/4k.webp" download="kabirui-event-horizon-4k.webp" aria-label="Download Event Horizon in 4K">4K <span aria-hidden="true">↓</span></a></div>
+        </article>
       </div>
     </section>
 
     <!-- Support & Community -->
     <section class="support-section" id="support">
       <div class="support-copy">
-        <span class="tag-label">Independent Development</span>
-        <h2>Crafted by Kabir Invents.<br>Empowered by you.</h2>
+
+        <h2>Support</h2>
         <p>
-          KabirUI is crafted with care, free from advertisements or telemetry trackers. If you appreciate refined mobile software and personal home screens, your support helps keep our development thriving.
+          KabirUI is made by Kabir Invents, without advertisements or telemetry trackers. Your support helps fund development.
         </p>
         <div class="support-links">
           <a class="btn-glass" href="https://instagram.com/kabir_invents" target="_blank" rel="noopener noreferrer">
@@ -783,10 +555,9 @@
 
       <div class="support-card" aria-labelledby="support-card-title">
         <div class="support-card-brand">
-          <img src="assets/kabirui-mark.png" alt="" width="42" height="42">
-          <span>Independent development</span>
+          <img src="assets/kabirui-icon.png" alt="" width="42" height="42">
         </div>
-        <h3 id="support-card-title">Help keep KabirUI growing.</h3>
+        <h3 id="support-card-title">Contribute</h3>
         <p>Optional contributions support ongoing development. Ko-fi handles any donation on its own site; this website never processes payments.</p>
         <a class="btn-primary support-card-button" href="https://ko-fi.com/kabirinvents" target="_blank" rel="noopener noreferrer">
           <span>Open Kabir Invents on Ko-fi</span>
@@ -798,7 +569,7 @@
   </main>
 
   <footer>
-    <span>© 2026 Kabir Invents · KabirUI 5.0</span>
+    <span>© 2026 Kabir Invents · KabirUI</span>
     <div>
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms of Service</a>
