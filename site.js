@@ -1,9 +1,8 @@
 // ==========================================================================
-// KabirUI 5.0 Interactive 3D Phone Tilt, Particle Mesh & Countdown Script
+// KabirUI 5.0 Interactive 3D Phone Tilt & Particle Mesh Script
 // ==========================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
-  initCountdown();
   const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
   let stopMotion = () => {};
   const syncMotionPreference = () => {
@@ -64,52 +63,7 @@ function startVisibleAnimation(drawFrame) {
 }
 
 /**
- * 1. Countdown to Launch (1 NOV 2026 at 00:00 UTC+8)
- */
-function initCountdown() {
-  const targetDate = new Date('2026-11-01T00:00:00+08:00').getTime();
-
-  let intervalId = null;
-
-  function update() {
-    const distance = targetDate - Date.now();
-    if (distance <= 0) {
-      const timer = document.querySelector('.launch-timer');
-      if (timer) timer.hidden = true;
-      document.querySelectorAll('.preregister-cta').forEach(button => {
-        button.textContent = 'Get it on Google Play';
-      });
-      document.querySelectorAll('.nav-cta, .countdown-text').forEach(label => {
-        label.textContent = 'Out now';
-      });
-      if (intervalId !== null) clearInterval(intervalId);
-      return false;
-    }
-
-    // Round up so the last second before launch never displays all zeroes.
-    const remaining = Math.ceil(distance / 1000) * 1000;
-
-    const days = Math.floor(remaining / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((remaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((remaining % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((remaining % (1000 * 60)) / 1000);
-
-    const elDays = document.getElementById('days');
-    const elHours = document.getElementById('hours');
-    const elMinutes = document.getElementById('minutes');
-    const elSeconds = document.getElementById('seconds');
-
-    if (elDays) elDays.textContent = String(days).padStart(2, '0');
-    if (elHours) elHours.textContent = String(hours).padStart(2, '0');
-    if (elMinutes) elMinutes.textContent = String(minutes).padStart(2, '0');
-    if (elSeconds) elSeconds.textContent = String(seconds).padStart(2, '0');
-  }
-
-  if (update() !== false) intervalId = setInterval(update, 1000);
-}
-
-/**
- * 2. Interactive 3D Gyroscope/Mouse Tilt Effect on Hero Phone
+ * 1. Interactive 3D Gyroscope/Mouse Tilt Effect on Hero Phone
  */
 function init3DPhoneTilt() {
   const wrapper = document.querySelector('.phone-3d-wrapper');
@@ -168,7 +122,7 @@ function init3DPhoneTilt() {
 }
 
 /**
- * 3. Cosmic Interactive Particle Canvas
+ * 2. Cosmic Interactive Particle Canvas
  */
 function initParticleMesh() {
   const canvas = document.getElementById('bg-canvas');
@@ -245,7 +199,7 @@ function initParticleMesh() {
 }
 
 /**
- * 4. Version Badge Auto Fetcher
+ * 3. Version Badge Auto Fetcher
  */
 function initVersionBadge() {
   const versionBadge = document.querySelector('#version-badge');

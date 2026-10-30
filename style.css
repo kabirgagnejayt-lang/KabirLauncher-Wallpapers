@@ -250,11 +250,7 @@ main {
   padding: 60px 0 80px;
 }
 
-.launch-timer[hidden] {
-  display: none;
-}
-
-.countdown-banner {
+.release-banner {
   display: inline-flex;
   align-items: center;
   gap: 12px;
@@ -279,7 +275,7 @@ main {
   50% { opacity: 0.4; transform: scale(0.85); }
 }
 
-.countdown-text {
+.release-text {
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -309,43 +305,6 @@ main {
   margin-bottom: 36px;
 }
 
-/* Countdown Clock Component */
-.launch-timer {
-  display: flex;
-  gap: 14px;
-  margin-bottom: 36px;
-}
-
-.time-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-width: 72px;
-  padding: 12px 10px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: var(--radius-md);
-  backdrop-filter: blur(10px);
-}
-
-.time-val {
-  font-size: 26px;
-  font-weight: 700;
-  font-family: var(--font-mono);
-  color: var(--ink-primary);
-  line-height: 1;
-}
-
-.time-lbl {
-  font-size: 10px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: var(--ink-muted);
-  letter-spacing: 1px;
-  margin-top: 6px;
-}
-
 .hero-actions {
   display: flex;
   align-items: center;
@@ -368,7 +327,7 @@ main {
   transition: transform 0.25s, box-shadow 0.25s;
 }
 
-.preregister-cta {
+.play-cta {
   justify-content: center;
   margin-bottom: 20px;
 }
@@ -551,6 +510,10 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
+}
+
+.release-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .ui-card-3d {
@@ -874,9 +837,6 @@ footer a:hover {
     margin-left: auto;
     margin-right: auto;
   }
-  .launch-timer {
-    justify-content: center;
-  }
   .hero-actions {
     justify-content: center;
   }
@@ -983,13 +943,13 @@ footer a:hover {
     padding: 40px 0 56px;
   }
 
-  .countdown-banner {
+  .release-banner {
     max-width: 100%;
     gap: 8px;
     padding: 6px 10px;
   }
 
-  .countdown-text {
+  .release-text {
     font-size: clamp(10px, 2.4vw, 12px);
     letter-spacing: 0.2px;
   }
@@ -1004,25 +964,6 @@ footer a:hover {
     max-width: 36rem;
     padding: 0 4px;
     font-size: 16px;
-  }
-
-  .launch-timer {
-    gap: 8px;
-    margin-bottom: 28px;
-  }
-
-  .time-box {
-    min-width: clamp(56px, 16vw, 68px);
-    padding: 10px 6px;
-  }
-
-  .time-val {
-    font-size: clamp(20px, 6vw, 24px);
-  }
-
-  .time-lbl {
-    font-size: 9px;
-    letter-spacing: 0.7px;
   }
 
   .hero-actions {
