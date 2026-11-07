@@ -1,28 +1,16 @@
 {
-  "versionName": "5.0.0",
-  "versionCode": 20,
+  "versionName": "5.1.0",
+  "versionCode": 21,
   "channel": "stable",
-  "publishedAtMillis": 1793462400000,
+  "publishedAtMillis": 1794031080000,
   "importance": "normal",
   "popupAfterDays": 14,
   "popupReminderDays": 7,
-  "releaseNotes": "KabirUI 5.0: import from Nova Launcher, a simpler launcher with KabirAI removed, a privacy-friendly contact picker in Quick Search, and stability fixes.",
+  "releaseNotes": "KabirUI 5.1.0: web search by default.",
   "changes": [
     {
-      "title": "A simpler launcher",
-      "detail": "KabirAI assistant removed, with fewer permissions: no microphone or notification-posting permission."
-    },
-    {
-      "title": "Quick Search",
-      "detail": "Call or message a contact through Android's picker, with no contacts permission."
-    },
-    {
-      "title": "Stability and memory fixes",
-      "detail": "Fixes for widgets, wallpapers, backups, and downloads."
-    },
-    {
-      "title": "Import from Nova Launcher",
-      "detail": "Import in Settings > Backup & transfer, with a safety backup and undo."
+      "title": "Web search by default",
+      "detail": "Search now defaults to the web, with Google search and web suggestions before apps. You can switch back to apps-first in Settings."
     }
   ],
   "updateUrl": "https://play.google.com/store/apps/details?id=com.kabirinvents.kabirlauncher"
