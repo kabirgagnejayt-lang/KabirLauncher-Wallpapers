@@ -38,6 +38,17 @@ h2{font-size:32px;line-height:1.2;letter-spacing:-.02em}h3{font-size:28px;line-h
 @media(max-width:700px){.shell{padding-inline:24px}.site-header{min-height:80px;gap:16px}.wordmark{font-size:16px}nav{gap:16px;font-size:13px}.nav-support{border:0;padding:12px 0}.hero{grid-template-columns:1fr;gap:32px;padding-top:48px;padding-bottom:48px}h1{font-size:44px}.hero-portrait{display:flex;align-items:center;gap:16px}.hero-portrait img{width:80px;height:88px;border-radius:8px}.hero-portrait figcaption{margin:0;max-width:120px}.intro{margin-bottom:20px}.hero-actions{gap:20px}.work-section{padding-block:48px}.section-heading{margin-bottom:24px}.section-note{font-size:12px}h2{font-size:28px}.featured-project{grid-template-columns:1fr}.kabirui-art{min-height:400px;padding:24px}.project-screen{width:176px;max-height:384px}.project-copy{padding:32px 0}.project-copy>p:not(.project-meta){margin-top:20px}.kabirui-links{margin-top:24px;gap:20px}.archive-project{font-size:13px}.about-section{grid-template-columns:1fr;gap:32px;padding-top:16px;padding-bottom:48px}.about-image{display:none}.support-section{padding-block:48px}.support-grid{grid-template-columns:1fr;gap:32px}.support-copy{padding-top:0}.contact-section{padding-block:48px}.contact-section>div{flex-direction:column;align-items:flex-start;gap:20px}.site-footer{flex-wrap:wrap;gap:16px}}
 @media(max-width:380px){.shell{padding-inline:20px}.site-header{flex-wrap:wrap;justify-content:space-between;gap:0;padding-block:16px}.site-header .wordmark{width:100%;margin-bottom:8px}nav{gap:24px}h1{font-size:40px}.hero-actions{gap:20px}.section-heading{align-items:start}.section-note{max-width:96px;text-align:right}}
 
+/* Image placeholders use the existing image size and shape. */
+img[data-skeleton].is-loading{
+  background-color:#e8e2d7;
+  background-image:linear-gradient(100deg,transparent 35%,rgba(255,253,248,.65) 50%,transparent 65%);
+  background-size:250% 100%;
+  color:transparent;
+  animation:image-shimmer 1.8s ease-in-out infinite;
+}
+@keyframes image-shimmer{from{background-position:100% 0}to{background-position:-100% 0}}
+@media(prefers-reduced-motion:reduce){img[data-skeleton].is-loading{animation:none}}
+
 </style>
 </head>
 <body>
@@ -48,13 +59,13 @@ h2{font-size:32px;line-height:1.2;letter-spacing:-.02em}h3{font-size:28px;line-h
 <header class="site-header shell"><a class="wordmark" href="#" aria-label="KabirInvents home">KabirInvents<span class="wordmark-dot">.</span></a><nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a class="nav-support" href="#support">Support <svg class="link-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a></nav></header>
 <section class="hero shell" aria-labelledby="hero-title">
 <div class="hero-copy"><p class="intro">Kabir Gagneja · Singapore</p><h1 id="hero-title">I build Android apps and backend systems</h1><div class="hero-actions"><a class="button dark" href="#work">View projects <svg class="link-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14m-6-6 6 6 6-6"/></svg></a><a class="text-link" href="https://www.instagram.com/kabir_invents/" target="_blank" rel="noopener noreferrer">Say hello <svg class="link-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div></div>
-<figure class="hero-portrait"><img src="assets/avatar.jpg" alt="Kabir Gagneja" fetchpriority="high" width="320" height="320"><figcaption>The person behind Kabir Invents</figcaption></figure>
+<figure class="hero-portrait"><img data-skeleton src="assets/avatar.jpg" alt="Kabir Gagneja" fetchpriority="high" width="320" height="320"><figcaption>The person behind Kabir Invents</figcaption></figure>
 </section>
 </div>
 
 <section id="work" class="work-section shell" aria-labelledby="work-title"><div class="section-heading"><h2 id="work-title">Projects</h2><p class="section-note">Android apps &amp; systems</p></div>
  <article class="project featured-project kabirui-project">
-<div class="kabirui-art"><img class="project-screen" src="assets/launcher_real_home.png" alt="KabirUI home screen with clock and battery widgets" loading="lazy" width="1080" height="2340"></div>
+<div class="kabirui-art"><img data-skeleton class="project-screen" src="assets/launcher_real_home.png" alt="KabirUI home screen with clock and battery widgets" loading="lazy" width="1080" height="2340"></div>
 <div class="project-copy"><p class="project-meta">Android launcher · Version 5.1.0 · Free</p>
 
 <h3 class="kabirui-title"><img class="kabirui-icon" src="assets/kabirui-icon.png" alt="KabirUI app icon" width="512" height="512">KabirUI</h3>
@@ -69,7 +80,7 @@ h2{font-size:32px;line-height:1.2;letter-spacing:-.02em}h3{font-size:28px;line-h
 </article>
 <article class="project archive-project"><p><span>KabirDNS</span> shut down on 10 Sep 2026; all accounts and user data were permanently deleted.</p></article>
 </section>
-<section id="about" class="about-section shell" aria-labelledby="about-title"><div class="about-image"><div class="portrait-frame"><img src="assets/avatar.jpg" alt="Kabir Gagneja" loading="lazy" width="320" height="320"></div></div><div class="about-copy"><h2 id="about-title">About</h2>
+<section id="about" class="about-section shell" aria-labelledby="about-title"><div class="about-image"><div class="portrait-frame"><img data-skeleton src="assets/avatar.jpg" alt="Kabir Gagneja" loading="lazy" width="320" height="320"></div></div><div class="about-copy"><h2 id="about-title">About</h2>
 <p>I’m Kabir Gagneja, a developer based in Singapore. I build Android apps and backend systems.</p>
 <p>This is where I share my projects and what I’m building next.</p><a class="text-link" href="https://www.instagram.com/kabir_invents/" target="_blank" rel="noopener noreferrer">Follow along on Instagram <svg class="link-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div></section>
 <section id="support" class="support-section" aria-labelledby="support-title"><div class="shell support-grid"><div class="support-copy"><h2 id="support-title">Support</h2>
@@ -81,4 +92,19 @@ h2{font-size:32px;line-height:1.2;letter-spacing:-.02em}h3{font-size:28px;line-h
 
 
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script>
+// Only show a placeholder while an image is still loading.
+document.querySelectorAll('img[data-skeleton]').forEach(function (image) {
+  if (image.complete) return;
+  function finish() {
+    image.classList.remove('is-loading');
+    image.removeEventListener('load', finish);
+    image.removeEventListener('error', finish);
+  }
+  image.addEventListener('load', finish);
+  image.addEventListener('error', finish);
+  if (!image.complete) image.classList.add('is-loading');
+  else finish();
+});
+</script>
 </body></html>
