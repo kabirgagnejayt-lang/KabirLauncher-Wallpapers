@@ -64,6 +64,17 @@ footer{display:flex;justify-content:space-between;gap:24px;padding-block:32px;bo
 @media(max-width:700px){header,main,footer{padding-inline:24px}.nav-island{min-height:80px;gap:16px}.brand{font-size:18px;gap:8px}nav{gap:16px}nav a{font-size:13px}.nav-cta{display:none}.landing-page main{display:block}.hero-section{padding:48px 0 32px}.hero-copy{max-width:520px}h1{font-size:44px;line-height:1.1}.hero-sub{font-size:17px}.hero-meta{margin-bottom:20px}.preview-section{padding:8px 0 48px}.hero-stage{min-height:0;max-width:480px;margin:auto;gap:12px}.phone-3d-wrapper{flex-basis:46%}.preview-side{width:23%}.phone-chassis{border-radius:24px}.phone-screen{border-radius:16px}.preview-caption{font-size:11px;gap:16px}.features-section,.support-section{padding-block:48px}.section-head{display:block;margin-bottom:32px}.section-head p{margin-top:16px}h2{font-size:28px}.ui-showcase-grid{grid-template-columns:1fr;gap:32px}.ui-card-phone{height:360px;padding:24px}.ui-card-desc{padding-top:20px}.release-grid{gap:0}#faq .ui-card-desc{display:block}#faq .ui-card-desc p{margin-top:12px}.support-section{display:grid;grid-template-columns:1fr;gap:32px}.support-card{padding:24px}.legal{margin:40px auto 64px}.legal h1{font-size:36px}.legal h2{font-size:22px}.legal p:first-of-type{font-size:17px}footer{flex-direction:column;gap:16px;font-size:12px}.version-pill{display:none}}
 @media(max-width:380px){header,main,footer{padding-inline:20px}.brand-icon{width:28px;height:28px}nav{gap:12px}.hero-actions{align-items:flex-start;flex-direction:column}h1{font-size:40px}.preview-caption{flex-wrap:wrap;gap:4px 16px}}
 
+/* Image placeholders use the existing image size and shape. */
+img[data-skeleton].is-loading{
+  background-color:#232a26;
+  background-image:linear-gradient(100deg,transparent 35%,rgba(213,232,190,.08) 50%,transparent 65%);
+  background-size:250% 100%;
+  color:transparent;
+  animation:image-shimmer 1.8s ease-in-out infinite;
+}
+@keyframes image-shimmer{from{background-position:100% 0}to{background-position:-100% 0}}
+@media(prefers-reduced-motion:reduce){img[data-skeleton].is-loading{animation:none}}
+
 </style>
   <script type="application/ld+json">
 {
@@ -177,12 +188,12 @@ footer{display:flex;justify-content:space-between;gap:24px;padding-block:32px;bo
     <section class="preview-section" aria-label="A closer look at KabirUI">
       <!-- Launcher preview -->
       <div class="hero-stage">
-        <img class="preview-side preview-left" src="assets/launcher_live_drawer.png" alt="KabirUI app drawer" loading="lazy" width="1080" height="2340">
-        <img class="preview-side preview-right" src="assets/launcher_live_search.png" alt="KabirUI Quick Search" loading="lazy" width="1080" height="2340">
+        <img data-skeleton class="preview-side preview-left" src="assets/launcher_live_drawer.png" alt="KabirUI app drawer" loading="lazy" width="1080" height="2340">
+        <img data-skeleton class="preview-side preview-right" src="assets/launcher_live_search.png" alt="KabirUI Quick Search" loading="lazy" width="1080" height="2340">
         <div class="phone-3d-wrapper">
           <div class="phone-chassis">
             <div class="phone-screen">
-              <img src="assets/launcher_real_home.png" alt="KabirUI home screen with clock and battery widgets" width="1080" height="2340">
+              <img data-skeleton src="assets/launcher_real_home.png" alt="KabirUI home screen with clock and battery widgets" width="1080" height="2340">
               
             </div>
           </div>
@@ -202,7 +213,7 @@ footer{display:flex;justify-content:space-between;gap:24px;padding-block:32px;bo
         <!-- Card 1: Home & Widgets -->
         <article class="ui-card-3d">
           <div class="ui-card-phone">
-            <img src="assets/launcher_real_home.png" loading="lazy" alt="KabirUI Home Screen with Clock and Battery Widgets" width="1080" height="2340">
+            <img data-skeleton src="assets/launcher_real_home.png" loading="lazy" alt="KabirUI Home Screen with Clock and Battery Widgets" width="1080" height="2340">
           </div>
           <div class="ui-card-desc">
             <h3 id="wallpapers">Home &amp; widgets</h3>
@@ -213,7 +224,7 @@ footer{display:flex;justify-content:space-between;gap:24px;padding-block:32px;bo
         <!-- Card 2: Interactive App Drawer -->
         <article class="ui-card-3d">
           <div class="ui-card-phone">
-            <img src="assets/launcher_live_drawer.png" loading="lazy" alt="KabirUI app drawer" width="1080" height="2340">
+            <img data-skeleton src="assets/launcher_live_drawer.png" loading="lazy" alt="KabirUI app drawer" width="1080" height="2340">
           </div>
           <div class="ui-card-desc">
             <h3>Flexible layouts</h3>
@@ -224,7 +235,7 @@ footer{display:flex;justify-content:space-between;gap:24px;padding-block:32px;bo
         <!-- Card 3: Quick Search & Privacy -->
         <article class="ui-card-3d">
           <div class="ui-card-phone">
-            <img src="assets/launcher_live_search.png" loading="lazy" alt="KabirUI Quick Search" width="1080" height="2340">
+            <img data-skeleton src="assets/launcher_live_search.png" loading="lazy" alt="KabirUI Quick Search" width="1080" height="2340">
           </div>
           <div class="ui-card-desc">
             <h3>Search</h3>
@@ -344,5 +355,20 @@ footer{display:flex;justify-content:space-between;gap:24px;padding-block:32px;bo
       <a href="https://kabirinvents.com" target="_blank" rel="noopener noreferrer">kabirinvents.com</a>
     </div>
   </footer>
+<script>
+// Only show a placeholder while an image is still loading.
+document.querySelectorAll('img[data-skeleton]').forEach(function (image) {
+  if (image.complete) return;
+  function finish() {
+    image.classList.remove('is-loading');
+    image.removeEventListener('load', finish);
+    image.removeEventListener('error', finish);
+  }
+  image.addEventListener('load', finish);
+  image.addEventListener('error', finish);
+  if (!image.complete) image.classList.add('is-loading');
+  else finish();
+});
+</script>
 </body>
 </html>
