@@ -1,16 +1,32 @@
 {
-  "versionName": "5.1.0",
-  "versionCode": 21,
+  "versionName": "5.2.0",
+  "versionCode": 22,
   "channel": "stable",
-  "publishedAtMillis": 1794031080000,
+  "publishedAtMillis": 1794901701000,
   "importance": "normal",
   "popupAfterDays": 14,
   "popupReminderDays": 7,
-  "releaseNotes": "KabirUI 5.1.0: web search by default.",
+  "releaseNotes": "KabirUI 5.2.0: easier search and app browsing, bigger wallpaper previews, and a new logo.",
   "changes": [
     {
-      "title": "Web search by default",
-      "detail": "Search now defaults to the web, with Google search and web suggestions before apps. You can switch back to apps-first in Settings."
+      "title": "Cleaner Quick Search",
+      "detail": "Search shows results only on a match, with no big no-apps card."
+    },
+    {
+      "title": "Drawer puts installed apps first",
+      "detail": "Your apps come first, KabirUI shortcuts sit behind a compact group."
+    },
+    {
+      "title": "Bigger wallpaper previews",
+      "detail": "Set wallpaper lives inside the preview, and KabirUI Market is now Settings - Features."
+    },
+    {
+      "title": "25 language choices and a new logo",
+      "detail": "Pick a language in setup or Settings, with the new glass KabirUI logo."
+    },
+    {
+      "title": "Widget fixes on One UI 9",
+      "detail": "Fixes for third-party widgets that showed Couldn't add widget."
     }
   ],
   "updateUrl": "https://play.google.com/store/apps/details?id=com.kabirinvents.kabirlauncher"
