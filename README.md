@@ -4,6 +4,8 @@ Launcher landing page and wallpaper API on one Vercel site.
 
 Website: https://kabirui.kabirinvents.com
 
+[Get it on Google Play](https://play.google.com/store/apps/details?id=com.kabirinvents.kabirlauncher)
+
 GET /api/wallpapers returns the complete catalog, categories, available resolutions, dimensions, exact bytes, MB and download URLs. GET /api/categories returns categories. Dusk is the only built-in app wallpaper; the market fetches the catalog and downloads selected images.
 
 The current catalog contains 93 scenes: Dusk is built in and the other 92 are downloadable from the market. Ten new AMOLED space scenes are also bundled in KabirUI 4.1.0 for offline previews and applying. Each catalog scene has 720p, 1080p, 2K and 4K WebP variants. KabirUI now includes 58 clock and 58 battery widget designs; keep the Android wallpaper test fixture synchronized with `wallpapers.json` when changing this catalog.
