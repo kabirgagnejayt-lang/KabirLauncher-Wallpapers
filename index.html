@@ -62,7 +62,7 @@ h1{font-size:clamp(56px,9vw,88px);line-height:1.02;letter-spacing:-.04em}
 .hero-line{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.06em;margin-bottom:-.06em}
 .hero-line .letter{display:inline-block;animation:hero-letter-in 3s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--i,0)*.15s)}
 @keyframes hero-letter-in{from{opacity:0;transform:translateY(.6em);filter:blur(8px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
-/* Hero headline dotted fill: black outline, white dots that drift. Only in browsers
+/* Hero headline dotted fill: black outline, white dots that drift and pulse. Only in browsers
    that support background-clip:text; others keep the solid white fill above. */
 @supports ((background-clip:text) or (-webkit-background-clip:text)){
   .hero-line .letter{
@@ -70,15 +70,16 @@ h1{font-size:clamp(56px,9vw,88px);line-height:1.02;letter-spacing:-.04em}
     -webkit-text-fill-color:transparent;
     -webkit-text-stroke:2px #000;
     paint-order:stroke fill;
-    background-image:radial-gradient(circle,#fff 1.4px,transparent 1.6px);
-    background-size:11px 11px;
-    background-position:0 0;
+    background-image:radial-gradient(circle,#fff 0.9px,transparent 1.1px),radial-gradient(circle,rgba(255,255,255,.8) 0.8px,transparent 1px),radial-gradient(circle,rgba(255,255,255,.6) 1px,transparent 1.2px);
+    background-size:6px 6px,5px 5px,7px 7px;
+    background-position:0 0,2px 3px,4px 1px;
     -webkit-background-clip:text;
     background-clip:text;
-    animation:hero-letter-in 3s cubic-bezier(.16,1,.3,1) both,hero-dots-drift 6s linear infinite;
-    animation-delay:calc(var(--i,0)*.15s),calc(var(--i,0)*.15s + 3s);
+    animation:hero-letter-in 3s cubic-bezier(.16,1,.3,1) both,hero-dots-drift 5s linear infinite,hero-dots-pulse 2.7s ease-in-out infinite;
+    animation-delay:calc(var(--i,0)*.15s),calc(var(--i,0)*.15s + 3s),calc(var(--i,0)*.15s + 3s);
   }
-  @keyframes hero-dots-drift{from{background-position:0 0}to{background-position:11px 11px}}
+  @keyframes hero-dots-drift{from{background-position:0 0,2px 3px,4px 1px}to{background-position:6px -6px,-3px 8px,-3px -6px}}
+  @keyframes hero-dots-pulse{0%,100%{opacity:1}50%{opacity:.65}}
 }
 .hero-sub{font-size:18px;line-height:1.65;color:var(--secondary);max-width:440px;margin:24px auto 0;animation:fade-up 600ms cubic-bezier(.16,1,.3,1) 160ms both}
 @keyframes fade-up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
@@ -88,6 +89,7 @@ h1{font-size:clamp(56px,9vw,88px);line-height:1.02;letter-spacing:-.04em}
 .btn-primary{background:#FFF8E7;color:#172115;border-color:transparent}.btn-primary:hover{background:#F5EAD3}.support-card-button{background:#ededed;border-color:transparent}.support-card-button:hover{background:#dcdcdc}.btn-glass{background:rgba(255,255,255,.08);backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4);color:var(--ink);border-color:var(--line)}.btn-glass:hover{background:rgba(255,255,255,.14)}.hero-explore{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;min-height:48px;border-radius:999px;font-size:14px;color:var(--secondary);text-decoration:none;border:1px solid var(--line);background:rgba(255,255,255,.08)}.hero-explore:hover{color:var(--ink);background:rgba(255,255,255,.14)}
 .preview-section{padding-block:8px 48px;min-width:0;animation:fade-up 600ms cubic-bezier(.16,1,.3,1) 320ms both}.hero-stage{display:flex;align-items:center;justify-content:center;gap:16px;min-height:500px}.phone-3d-wrapper{order:0;width:232px;flex:0 0 46%}.phone-chassis{border:4px solid #1c1c1e;background:#000000;border-radius:28px;padding:4px}.phone-screen{border-radius:20px;overflow:hidden}.phone-screen img{width:100%;height:auto}.preview-side{width:22%;height:auto;border-radius:12px;border:1px solid var(--line)}.preview-left{order:-1}.preview-right{order:1}.preview-caption{display:flex;justify-content:center;gap:20px;margin-top:20px;color:var(--secondary);font-size:12px;font-family:'JetBrains Mono',monospace;font-weight:600;font-variant-numeric:tabular-nums}
 .features-section{padding:72px 48px;margin-block:24px;border-radius:28px;background:var(--surface)}
+.home-screen-line{color:#fff;font-size:48px;line-height:1.1;letter-spacing:-.02em;font-weight:500;text-align:center;margin:0 0 32px}
 #whats-new{background:var(--raised)}
 #faq{background:transparent;padding-inline:0}
 .support-section{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;padding:72px 48px;margin-block:24px;border-radius:28px;background:var(--surface)}
@@ -199,8 +201,7 @@ img[data-skeleton].is-loading{
       <div class="hero-aurora" aria-hidden="true"></div>
       <div class="hero-panel glass">
         <div class="hero-copy">
-          <p class="hero-meta">Introducing KabirUI 5</p>
-          <h1 id="hero-title" aria-label="Your Android home screen"><span class="hero-line"><span class="letter" style="--i:0" aria-hidden="true">Y</span><span class="letter" style="--i:1" aria-hidden="true">o</span><span class="letter" style="--i:2" aria-hidden="true">u</span><span class="letter" style="--i:3" aria-hidden="true">r</span> <span class="letter" style="--i:4" aria-hidden="true">A</span><span class="letter" style="--i:5" aria-hidden="true">n</span><span class="letter" style="--i:6" aria-hidden="true">d</span><span class="letter" style="--i:7" aria-hidden="true">r</span><span class="letter" style="--i:8" aria-hidden="true">o</span><span class="letter" style="--i:9" aria-hidden="true">i</span><span class="letter" style="--i:10" aria-hidden="true">d</span></span><br><span class="hero-line"><span class="letter" style="--i:11" aria-hidden="true">h</span><span class="letter" style="--i:12" aria-hidden="true">o</span><span class="letter" style="--i:13" aria-hidden="true">m</span><span class="letter" style="--i:14" aria-hidden="true">e</span> <span class="letter" style="--i:15" aria-hidden="true">s</span><span class="letter" style="--i:16" aria-hidden="true">c</span><span class="letter" style="--i:17" aria-hidden="true">r</span><span class="letter" style="--i:18" aria-hidden="true">e</span><span class="letter" style="--i:19" aria-hidden="true">e</span><span class="letter" style="--i:20" aria-hidden="true">n</span></span></h1>
+          <h1 id="hero-title" aria-label="Introducing KabirUI 5"><span class="hero-line"><span class="letter" style="--i:0" aria-hidden="true">I</span><span class="letter" style="--i:1" aria-hidden="true">n</span><span class="letter" style="--i:2" aria-hidden="true">t</span><span class="letter" style="--i:3" aria-hidden="true">r</span><span class="letter" style="--i:4" aria-hidden="true">o</span><span class="letter" style="--i:5" aria-hidden="true">d</span><span class="letter" style="--i:6" aria-hidden="true">u</span><span class="letter" style="--i:7" aria-hidden="true">c</span><span class="letter" style="--i:8" aria-hidden="true">i</span><span class="letter" style="--i:9" aria-hidden="true">n</span><span class="letter" style="--i:10" aria-hidden="true">g</span></span><br><span class="hero-line"><span class="letter" style="--i:11" aria-hidden="true">K</span><span class="letter" style="--i:12" aria-hidden="true">a</span><span class="letter" style="--i:13" aria-hidden="true">b</span><span class="letter" style="--i:14" aria-hidden="true">i</span><span class="letter" style="--i:15" aria-hidden="true">r</span><span class="letter" style="--i:16" aria-hidden="true">U</span><span class="letter" style="--i:17" aria-hidden="true">I</span> <span class="letter" style="--i:18" aria-hidden="true">5</span></span></h1>
           <p class="hero-sub">
             Set up your wallpapers, widgets and layout with KabirUI. No ads or trackers.
           </p>
@@ -233,6 +234,7 @@ img[data-skeleton].is-loading{
     </section>
 
     <!-- Feature showcase -->
+    <p class="home-screen-line">Your Android home screen</p>
     <section class="features-section" id="features">
       <div class="section-head">
         <h2>Features</h2>
