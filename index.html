@@ -62,6 +62,24 @@ h1{font-size:clamp(56px,9vw,88px);line-height:1.02;letter-spacing:-.04em}
 .hero-line{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.06em;margin-bottom:-.06em}
 .hero-line .letter{display:inline-block;animation:hero-letter-in 3s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--i,0)*.15s)}
 @keyframes hero-letter-in{from{opacity:0;transform:translateY(.6em);filter:blur(8px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+/* Hero headline dotted fill: black outline, white dots that drift. Only in browsers
+   that support background-clip:text; others keep the solid white fill above. */
+@supports ((background-clip:text) or (-webkit-background-clip:text)){
+  .hero-line .letter{
+    color:transparent;
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke:2px #000;
+    paint-order:stroke fill;
+    background-image:radial-gradient(circle,#fff 1.4px,transparent 1.6px);
+    background-size:11px 11px;
+    background-position:0 0;
+    -webkit-background-clip:text;
+    background-clip:text;
+    animation:hero-letter-in 3s cubic-bezier(.16,1,.3,1) both,hero-dots-drift 6s linear infinite;
+    animation-delay:calc(var(--i,0)*.15s),calc(var(--i,0)*.15s + 3s);
+  }
+  @keyframes hero-dots-drift{from{background-position:0 0}to{background-position:11px 11px}}
+}
 .hero-sub{font-size:18px;line-height:1.65;color:var(--secondary);max-width:440px;margin:24px auto 0;animation:fade-up 600ms cubic-bezier(.16,1,.3,1) 160ms both}
 @keyframes fade-up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
 .hero-actions{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:16px 24px;margin-top:32px;animation:fade-up 600ms cubic-bezier(.16,1,.3,1) 240ms both}
