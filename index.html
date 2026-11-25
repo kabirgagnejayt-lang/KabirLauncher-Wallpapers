@@ -113,6 +113,23 @@ img[data-skeleton].is-loading{
   color:transparent;
 }
 @media(prefers-reduced-motion:reduce){img[data-skeleton].is-loading{animation:none}}
+/* Newsletter section and popup. */
+.newsletter-section{padding:72px 48px;margin-block:24px;border-radius:28px;background:var(--surface);text-align:center}
+.newsletter-section h2{margin-bottom:16px}
+.newsletter-section p{color:var(--secondary);max-width:520px;margin:0 auto 24px}
+.newsletter-form{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;max-width:520px;margin:0 auto}
+.newsletter-form input[type="email"]{flex:1;min-width:240px;min-height:48px;padding:12px 20px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.08);color:var(--ink);font:400 15px/1.5 Inter,system-ui,sans-serif}
+.newsletter-form input[type="email"]::placeholder{color:var(--muted)}
+.newsletter-form input[type="email"]:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.newsletter-note{font-size:13px;color:var(--muted);margin-top:16px}
+.newsletter-popup{position:fixed;inset:0;z-index:30;display:none;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.7)}
+.newsletter-popup.open{display:flex}
+.newsletter-popup-card{position:relative;width:100%;max-width:440px;padding:40px 32px 32px;border-radius:28px;background:var(--surface);border:1px solid var(--line);text-align:center}
+.newsletter-popup-card h2{font-size:26px;margin-bottom:12px}
+.newsletter-popup-card p{color:var(--secondary);margin-bottom:24px}
+.newsletter-popup-close{position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--secondary);font-size:18px;cursor:pointer}
+.newsletter-popup-close:hover{color:var(--ink);background:rgba(255,255,255,.08)}
+@media(max-width:700px){.newsletter-section{padding:48px 24px}.newsletter-form{flex-direction:column}.newsletter-form input[type="email"]{width:100%}}
 
 </style>
   <script type="application/ld+json">
@@ -385,6 +402,17 @@ img[data-skeleton].is-loading{
         <span class="support-card-note">Opens Ko-fi in a new tab</span>
       </div>
     </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section" id="newsletter" aria-labelledby="newsletter-title">
+      <h2 id="newsletter-title">KabirUI newsletter</h2>
+      <p>Get KabirUI updates in your email. New versions, new features, nothing else.</p>
+      <form class="newsletter-form" action="https://kabirui.substack.com/api/v1/free" method="post" target="_blank">
+        <input type="email" name="email" placeholder="Your email address" aria-label="Email address" required>
+        <button class="btn-primary" type="submit">Subscribe</button>
+      </form>
+      <p class="newsletter-note">Free, on Substack. Unsubscribe anytime.</p>
+    </section>
   </main>
 
   <footer>
@@ -394,8 +422,20 @@ img[data-skeleton].is-loading{
       <a href="delete.html">Delete your data</a><a href="terms.html">Terms of use</a>
       <a href="https://kabirinvents.com" target="_blank" rel="noopener noreferrer">kabirinvents.com</a>
       <a href="mailto:kabirinvents@kabirinvents.com">kabirinvents@kabirinvents.com</a>
+      <a href="https://kabirui.substack.com/" target="_blank" rel="noopener noreferrer">Newsletter</a>
     </div>
   </footer>
+<div class="newsletter-popup" id="newsletter-popup" role="dialog" aria-modal="true" aria-labelledby="newsletter-popup-title" hidden>
+  <div class="newsletter-popup-card">
+    <button class="newsletter-popup-close" id="newsletter-popup-close" type="button" aria-label="Close">×</button>
+    <h2 id="newsletter-popup-title">KabirUI newsletter</h2>
+    <p>Get KabirUI updates in your email. New versions, new features, nothing else.</p>
+    <form class="newsletter-form" action="https://kabirui.substack.com/api/v1/free" method="post" target="_blank">
+      <input type="email" name="email" placeholder="Your email address" aria-label="Email address" required>
+      <button class="btn-primary" type="submit">Subscribe</button>
+    </form>
+  </div>
+</div>
 <script>
 // Only show a placeholder while an image is still loading.
 document.querySelectorAll('img[data-skeleton]').forEach(function (image) {
@@ -410,6 +450,32 @@ document.querySelectorAll('img[data-skeleton]').forEach(function (image) {
   if (!image.complete) image.classList.add('is-loading');
   else finish();
 });
+
+// Newsletter popup: show once, 10 seconds after the page loads.
+(function () {
+  var popup = document.getElementById('newsletter-popup');
+  var closeBtn = document.getElementById('newsletter-popup-close');
+  if (!popup || !closeBtn) return;
+  function closePopup() {
+    popup.classList.remove('open');
+    popup.hidden = true;
+    try { localStorage.setItem('kabirui-newsletter-popup-seen', '1'); } catch (e) {}
+  }
+  try {
+    if (localStorage.getItem('kabirui-newsletter-popup-seen')) return;
+  } catch (e) {}
+  setTimeout(function () {
+    popup.hidden = false;
+    popup.classList.add('open');
+  }, 10000);
+  closeBtn.addEventListener('click', closePopup);
+  popup.addEventListener('click', function (event) {
+    if (event.target === popup) closePopup();
+  });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape' && popup.classList.contains('open')) closePopup();
+  });
+})();
 </script>
 </body>
 </html>
