@@ -1,0 +1,1 @@
+import{d as e,f as t,p as n,u as r}from"./Chrome-BnpgGvc-.js";import{t as i}from"./Legal-XuTkvPpg.js";var a=n(t(),1),o=e(),s=r();(0,o.createRoot)(document.getElementById(`root`)).render((0,s.jsx)(a.StrictMode,{children:(0,s.jsx)(i,{page:`privacy`})}));
