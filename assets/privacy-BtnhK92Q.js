@@ -1,0 +1,1 @@
+import{_ as e,g as t,h as n,m as r,p as i}from"./Newsletter-DkRpw1hl.js";import{t as a}from"./Legal-BfGm5Yw_.js";var o=e(t(),1),s=n(),c=i();(0,s.createRoot)(document.getElementById(`root`)).render((0,c.jsx)(o.StrictMode,{children:(0,c.jsx)(a,{page:`privacy`})})),r();
