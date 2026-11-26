@@ -1,0 +1,1 @@
+import{d as e,f as t,u as n}from"./Chrome-ZXL6Pkvg.js";import{t as r}from"./Legal-DqOUitQR.js";var i=t(),a=e(),o=n();(0,a.createRoot)(document.getElementById(`root`)).render((0,o.jsx)(i.StrictMode,{children:(0,o.jsx)(r,{page:`delete`})}));
