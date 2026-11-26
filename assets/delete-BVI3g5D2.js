@@ -1,0 +1,1 @@
+import{d as e,g as t,p as n,u as r}from"./Chrome-CBQ1-X6E.js";import{t as i}from"./Legal-BnKrWYde.js";var a=t(n(),1),o=e(),s=r();(0,o.createRoot)(document.getElementById(`root`)).render((0,s.jsx)(a.StrictMode,{children:(0,s.jsx)(i,{page:`delete`})}));

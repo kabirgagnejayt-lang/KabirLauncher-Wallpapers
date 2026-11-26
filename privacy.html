@@ -14,60 +14,11 @@
   <meta name="twitter:description" content="How KabirUI handles your information, permissions, local data, and online services.">
   <meta name="twitter:image" content="https://kabirui.kabirinvents.com/assets/og-image.png">
 <link rel="icon" href="assets/kabirui-icon.png" type="image/png">
-  
   <link rel="apple-touch-icon" href="assets/kabirui-icon.png">
-  <style>
-
-*,:before,:after{box-sizing:border-box}
-html{scroll-padding-top:24px;scroll-behavior:smooth}body{margin:0;-webkit-font-smoothing:antialiased}
-img{max-width:100%;display:block}.link-icon{flex-shrink:0;vertical-align:middle}a{color:inherit;text-underline-offset:4px}
-h1,h2,h3,p{margin:0}h1,h2,h3,strong{font-weight:500}
-a,button,summary{touch-action:manipulation}
-a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
-.skip-link{position:fixed;left:16px;top:16px;z-index:20;padding:12px 16px;background:var(--ink);color:var(--bg);transform:translateY(-200%);border-radius:999px}.skip-link:focus{transform:none}
-.kofi-banner{background:#111113;color:var(--secondary);text-align:center;padding:12px 16px;font:500 14px/20px system-ui,sans-serif;border-bottom:1px solid var(--line)}.kofi-banner a{font-weight:600;text-decoration:none;color:#172115;background:var(--accent);padding:2px 10px;border-radius:999px}
-a{transition:color 160ms cubic-bezier(.22,1,.36,1),background-color 160ms cubic-bezier(.22,1,.36,1),border-color 160ms cubic-bezier(.22,1,.36,1)}
-@keyframes fade-up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
-
-@font-face{font-family:Inter;src:url('assets/fonts/inter-latin.woff2') format('woff2');font-style:normal;font-weight:400 800;font-display:swap}
-@font-face{font-family:'JetBrains Mono';src:url('assets/fonts/jetbrains-mono-latin.woff2') format('woff2');font-style:normal;font-weight:600 700;font-display:swap}
-:root{color-scheme:dark;--bg:#000000;--surface:#111113;--raised:#1a1a1a;--ink:#f5f5f7;--secondary:#a1a1a6;--muted:#8e8e93;--line:#2a2a2e;--accent:#d5e8be}
-body{background:linear-gradient(180deg,#000000 0%,#111113 100%);color:var(--ink);font:400 16px/1.65 Inter,system-ui,sans-serif;min-height:100vh}
-header,main,footer{padding-inline:32px}
-.nav-island{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line)}
-.brand{display:inline-flex;gap:12px;align-items:center;text-decoration:none;font-size:20px;font-weight:500}.brand-icon{width:32px;height:32px;border-radius:8px}.version-pill{font-size:12px;color:var(--muted);font-weight:400;font-variant-numeric:tabular-nums}
-nav{display:flex;gap:24px;align-items:center}nav a{font-size:14px;text-decoration:none;color:var(--secondary);padding-block:12px}nav a:hover{color:var(--ink)}
-.nav-cta{border:1px solid var(--line);padding:8px 16px;border-radius:999px;color:var(--ink)}.nav-cta:hover{background:var(--raised)}
-footer{display:flex;justify-content:space-between;gap:24px;padding-block:32px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}footer>div{display:flex;flex-wrap:wrap;gap:20px}footer a{text-decoration:none}footer a:hover{color:var(--ink)}
-.legal{max-width:800px;margin:64px auto 96px;padding:48px 56px;border-radius:24px;background:linear-gradient(135deg,rgba(255,255,255,0.07) 0%,rgba(0,0,0,0.65) 45%,rgba(0,0,0,0.55) 100%);-webkit-backdrop-filter:blur(16px) saturate(1.4);backdrop-filter:blur(16px) saturate(1.4);border:1px solid rgba(255,255,255,0.14);box-shadow:0 0 0 1px rgba(255,255,255,0.06),0 16px 40px rgba(0,0,0,0.6);animation:fade-up 600ms cubic-bezier(.22,1,.36,1) both}
-.legal-updated,.legal .tag{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}.legal h1{font-size:48px;margin-top:16px;margin-bottom:32px}.legal h2{font-size:24px;margin-top:40px;margin-bottom:16px;line-height:1.3}.legal p{color:var(--secondary);margin-top:16px;line-height:1.85;overflow-wrap:anywhere}.legal p:first-of-type{font-size:18px;color:var(--ink)}.legal a{color:var(--accent)}
-@media(max-width:700px){header,main,footer{padding-inline:24px}.nav-island{min-height:80px;gap:16px}.brand{font-size:18px;gap:8px}nav{gap:16px}nav a{font-size:13px}.legal{margin:40px auto 64px;padding:32px 24px}.legal h1{font-size:36px}.legal h2{font-size:22px}.legal p:first-of-type{font-size:17px}footer{flex-direction:column;gap:16px;font-size:12px}.version-pill{display:none}}
-@media(max-width:380px){header,main,footer{padding-inline:20px}.brand-icon{width:28px;height:28px}nav{gap:12px}.legal{padding:24px 20px}.legal h1{font-size:40px}}
-
-</style></head><body class="legal-page"><a class="skip-link" href="#main-content">Skip to content</a>
-<div class="kofi-banner">Support me on these projects via <a href="https://ko-fi.com/kabirinvents" target="_blank" rel="noopener noreferrer">Ko-fi</a></div><header>
-  <div class="nav-island">
-    <a class="brand" href="index.html"><img class="brand-icon" src="assets/kabirui-icon.png" alt="" width="512" height="512"><span>KabirUI</span></a>
-    <nav aria-label="Primary navigation">
-      <a href="index.html#features">Features</a>
-      <a href="index.html#wallpapers">Wallpapers</a>
-      <a href="https://ko-fi.com/kabirinvents" target="_blank" rel="noopener noreferrer">Support</a>
-
-    </nav>
-  </div>
-</header><main id="main-content"><article class="legal"><span class="legal-updated">Last updated 17 November 2026</span><h1>Privacy policy</h1><p>Here’s what happens to your information when you use KabirUI. We don’t sell it, and the app has no advertising trackers or analytics SDKs.</p>
-<h2>What stays on your phone</h2>
-<p>Your home layout and preferences are stored or processed locally. The current app has no account system or analytics SDK. We don’t receive a copy of your installed-app list, contacts, notification contents, selected files or usage history.</p>
-<p>On Android 9 and newer, KabirUI’s optional Android cloud backup keeps launcher settings but excludes wallpaper image files to stay within Android’s backup size limit. Direct device-to-device transfers still include them. Use KabirUI’s manual backup file when you want to carry wallpaper images and custom icons yourself. On Android 7 and 8, system backup follows Android’s standard rules and size limit.</p>
-<h2>Permissions are for features</h2>
-<p>If you pick a contact in search, Android’s contact picker gives KabirUI only that contact’s number to call or message. KabirUI doesn’t read or store your contact list. Local search stays on your phone. You can revoke access in Android settings. Uninstalling KabirUI removes its app-private settings, cached images, and downloads. Android may keep the wallpaper image already applied to the system wallpaper store.</p>
-<h2>Online features</h2>
-<p>Web suggestions are on by default and send search text to Google. You can turn them off in Settings. Opening a web search shares your query with the search provider. Network providers can receive ordinary connection information, such as your IP address, and follow their own policies.</p>
-<p><a href="https://open-meteo.com/en/terms">Open-Meteo terms and privacy</a> · <a href="https://policies.google.com/privacy">Google privacy policy</a></p>
-<h2>This website</h2>
-<p>Our own pages do not include analytics scripts or advertising trackers. Our pages use locally hosted Inter and JetBrains Mono, so font requests stay on this site and do not contact Google Fonts. Their <a href="assets/fonts/Inter-OFL.txt">Inter</a> and <a href="assets/fonts/JetBrains-Mono-OFL.txt">JetBrains Mono</a> licenses are available here. The support section links to Ko-fi but does not embed it. If you choose to visit Ko-fi or donate, Ko-fi receives your IP address and browser information and may use cookies under its own privacy policy. This site is hosted and delivered by Vercel. Vercel may process end-user IP addresses and system configuration information as described in its <a href="https://vercel.com/legal/privacy-notice">Privacy Notice</a>. Loading pages sends normal web requests to the hosting provider.</p>
-<h2>Donations and messages</h2>
-<p>Ko-fi handles donations under its own policies. We don’t receive your card details. If you contact us or donate, the information you choose to share through that service may be visible to us. You can reach Kabir Invents at <a href="mailto:kabirinvents@kabirinvents.com">kabirinvents@kabirinvents.com</a> or through <a href="https://ko-fi.com/kabirinvents">our Ko-fi page</a>.</p>
-<h2>Changes</h2>
-<p>If our data practices change, we’ll update this page and its date. This policy describes the current app and website.</p></article></main><footer><span>© 2026 Kabir Invents · KabirUI</span><div><a href="privacy.html">Privacy policy</a><a href="delete.html">Delete your data</a><a href="terms.html">Terms of use</a><a href="https://ko-fi.com/kabirinvents">Ko-fi</a><a href="mailto:kabirinvents@kabirinvents.com">kabirinvents@kabirinvents.com</a></div></footer></body></html>
+  <script type="module" crossorigin src="/assets/privacy-B60s-_JB.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/Chrome-CBQ1-X6E.js">
+  <link rel="modulepreload" crossorigin href="/assets/Legal-BnKrWYde.js">
+  <link rel="stylesheet" crossorigin href="/assets/Chrome-BtScXFI8.css">
+</head><body class="legal-page">
+  <div id="root"></div>
+</body></html>
