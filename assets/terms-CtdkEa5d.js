@@ -1,0 +1,1 @@
+import{d as e,f as t,m as n,p as r,u as i}from"./Chrome-BM75tu3w.js";import{t as a}from"./Legal-Da3SIS8T.js";var o=n(r(),1),s=t(),c=i();(0,s.createRoot)(document.getElementById(`root`)).render((0,c.jsx)(o.StrictMode,{children:(0,c.jsx)(a,{page:`terms`})})),e();
